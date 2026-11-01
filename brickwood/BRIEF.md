@@ -38,7 +38,7 @@ Each title tag is under 60 characters, so Google shows it in full. The H1 is the
 - Reader: a buyer with a coastal condo picked out, often from out of state, who heard the building "might not qualify".
 - Kind of page: news and rule explainer. Lead with what changed, when and for whom, then a before and after table.
 - Deciding fact: the text of Fannie Mae Lender Letter LL-2026-03 and the current Selling Guide B4-2 sections: Limited Review retired for applications dated on or after August 3, 2026; the waiver widened to projects of 10 units or fewer; the investor concentration limit; the reserve rule and its date.
-- Must answer: what changed and when; does it apply to my loan (primary, second home, investment); what makes a building fail now (critical repairs over $10,000 a unit, special assessments, reserves, commercial space over 35%, single-entity ownership, hotel operations); what FHA and VA require instead; what loan works when the building fails; how long a review takes; what the buyer does before the offer.
+- Must answer: what changed and when; does it apply to my loan (primary, second home, investment); what makes a building fail now (critical repairs over $10,000 a unit, special assessments, reserves, commercial space over 35%, single-entity ownership, hotel operations); what FHA requires instead; what loan works when the building fails; what the buyer does before the offer.
 - Offer: "Send us the building name. We check it against the new rules before you make an offer."
 - Links to: BrickWood loan programs, Myrtle Beach and North Myrtle Beach pages. Across to Chapter3's `/invest/non-warrantable-condos/` and `/invest/condotel-financing/` with the affiliate disclosure.
 
@@ -113,3 +113,7 @@ Chapter3 Realty is BrickWood's affiliate. Two sites on one subject compete for t
 - No "guaranteed", "pre-approved" as a claim to the reader, "lowest rate", "no closing costs" or "government loan" for a non-government program.
 - Reverse mortgage copy follows the HUD and CFPB rules on reverse mortgage advertising: the borrower still pays taxes, insurance and upkeep; the loan comes due; counseling is required. No "no payments ever".
 - The Chapter3 voice rules apply: short sentences, no em dashes, no metaphors, every fact from a verified row.
+
+## Owner questions from the review
+
+4. **How long does a condo building review usually take at BrickWood?** Readers ask it. No public source answers it. Proposed answer: leave it off the page until a loan officer gives a typical range.
