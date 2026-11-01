@@ -8,18 +8,45 @@
   "dek": "Buying near the water in South Carolina? Here's when your lender will require it, and how much.",
   "affiliate": false,
   "reverse": false,
-  "about": { "@type": "Thing", "name": "Flood insurance requirements for mortgages" },
+  "about": {
+    "@type": "Thing",
+    "name": "Flood insurance requirements for mortgages"
+  },
   "faqHeading": "Flood insurance questions",
   "faq": [
-    { "q": "Is flood insurance required for a mortgage in Zone AE?", "a": "Yes. Zone AE is a high-risk flood zone, so lenders require flood insurance on the home for conventional, FHA, VA and bank loans." },
-    { "q": "Is flood insurance required to be escrowed?", "a": "Usually. Federally regulated lenders must collect flood premiums through escrow, with a few exceptions, so the premium is paid along with your monthly mortgage payment." },
-    { "q": "Is there a waiting period for flood insurance when buying a house?", "a": "No. A federal flood policy bought with a new loan takes effect at closing. Without a loan, a new policy normally starts 30 days after you apply and pay." }
+    {
+      "q": "Is flood insurance required for a mortgage in Zone AE?",
+      "a": "Yes. Zone AE is a high-risk flood zone, so lenders require flood insurance on the home for conventional, FHA, VA and bank loans."
+    },
+    {
+      "q": "Is flood insurance required to be escrowed?",
+      "a": "Usually. Federally regulated lenders must collect flood premiums through escrow, with a few exceptions, so the premium is paid along with your monthly mortgage payment."
+    },
+    {
+      "q": "Is there a waiting period for flood insurance when buying a house?",
+      "a": "No. A federal flood policy bought with a new loan takes effect at closing, as long as you apply and pay by then. Without a loan, a new policy normally starts 30 days after you apply and pay."
+    }
   ],
   "sources": [
-    { "name": "12 CFR Part 339, Loans in Areas Having Special Flood Hazards", "url": "https://www.ecfr.gov/current/title-12/part-339" },
-    { "name": "Fannie Mae Selling Guide B7-3-06, Flood Insurance Requirements", "url": "https://selling-guide.fanniemae.com/sel/b7-3-06/flood-insurance-requirements-all-property-types" },
-    { "name": "44 CFR Part 61, NFIP coverage", "url": "https://www.ecfr.gov/current/title-44/part-61" },
-    { "name": "FloodSmart (FEMA), what affects your premium", "url": "https://www.floodsmart.gov/premiumcosts" },
-    { "name": "FEMA Flood Map Service Center", "url": "https://msc.fema.gov/portal/home" }
+    {
+      "name": "12 CFR Part 339, Loans in Areas Having Special Flood Hazards",
+      "url": "https://www.ecfr.gov/current/title-12/part-339"
+    },
+    {
+      "name": "Fannie Mae Selling Guide B7-3-06, Flood Insurance Requirements",
+      "url": "https://selling-guide.fanniemae.com/sel/b7-3-06/flood-insurance-requirements-all-property-types"
+    },
+    {
+      "name": "44 CFR Part 61, NFIP coverage",
+      "url": "https://www.ecfr.gov/current/title-44/part-61"
+    },
+    {
+      "name": "FloodSmart (FEMA), what affects your premium",
+      "url": "https://www.floodsmart.gov/premiumcosts"
+    },
+    {
+      "name": "FEMA Flood Map Service Center",
+      "url": "https://msc.fema.gov/portal/home"
+    }
   ]
 }

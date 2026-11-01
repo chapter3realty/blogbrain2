@@ -104,9 +104,9 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | A8 | Under B3-3.4-06, ordinary brokerage accounts, business sale proceeds, sale of real estate and inheritance are not eligible employment-related assets. | FNMA B3-3.4-06 (ineligible list; "employment-related" definition) | |
 | A9 | A retirement account can be used under B3-3.4-06 only if a distribution is not already set up or is not enough to qualify; an existing regular distribution can count as income under the retirement income rule. | FNMA B3-3.4-06; B3-3.4-03 | |
 | A10 | Non-agency (non-QM) asset-based programs count a wider range of assets and usually price above agency loans. | Secondary; broker practice, owner to confirm | |
-| F20 | When a building is in a Special Flood Hazard Area, the lender must give the borrower a written notice a reasonable time before the loan closes. | 12 CFR 339.9 | |
+| F20 | When a building is in a Special Flood Hazard Area, the lender must give the borrower a written notice a reasonable time before the loan closes. | 12 CFR 339.9 | VERIFIED (owner recheck, 12 CFR 339.9(c); FDIC-supervised scope) |
 | A11 | Freddie Mac's assets-as-a-basis-for-repayment rule (Guide 5307.1) can count depository accounts and securities, not only retirement accounts; its calculation differs from Fannie Mae's. | guide.freddiemac.com 5307.1 (JS app; text seen via homebuyer.com copy of the Guide table) | |
-| R18 | The principal limit uses the age of an eligible non-borrowing spouse when that spouse is younger than the borrower. | 24 CFR 206.3 / HUD ML 2014-07 | |
+| R18 | The principal limit uses the age of an eligible non-borrowing spouse when that spouse is younger than the borrower. | 24 CFR 206.3 / HUD ML 2014-07 | VERIFIED (owner recheck, 24 CFR 206.3) |
 
 ## Owner-supplied program terms (owner, 2026-11-01, from a lender's email; terms vary by lender)
 
@@ -117,5 +117,6 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | O3 | That lender's minimum eligible assets: the lower of $1,000,000 or 150% of the loan balance, waived when assets supplement other income. | Owner, 2026-11-01 | OWNER |
 | O4 | That lender requires assets seasoned 120 days in a U.S. bank account; the 4 most recent monthly statements, quarterly statements or a VOD; funds liquid and available with no penalty; all individuals on the accounts on the Note and Mortgage; the lowest representative score among borrowers as the qualifying score. | Owner, 2026-11-01 | OWNER |
 | O5 | BrickWood does no underwriting or property review (HOA papers, building review, flood zone) before a buyer makes an offer. The lender does these after application. | Owner, 2026-11-01 | OWNER |
-| F21 | Standard homeowners insurance does not cover flood damage; flood coverage requires a separate flood policy. | floodsmart.gov | |
-| F22 | Zone X marks moderate or minimal flood risk on FEMA maps. | FEMA / floodsmart.gov flood zones | |
+| F21 | Most homeowners insurance does not cover flood damage. | floodsmart.gov | CORRECTED (owner recheck) |
+| F22 | Zone X marks moderate or minimal flood risk on FEMA maps. | FEMA / floodsmart.gov flood zones | VERIFIED (owner recheck) |
+| O6 | BrickWood offers loans on non-warrantable condos and asset depletion loans through its lenders. | Owner, 2026-11-01 ("we do offer all those loan types") | OWNER |

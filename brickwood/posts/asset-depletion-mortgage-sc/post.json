@@ -8,15 +8,33 @@
   "dek": "Retired, between jobs or living off investments? Your savings can count as income.",
   "affiliate": false,
   "reverse": false,
-  "about": { "@type": "Thing", "name": "Asset depletion mortgage" },
+  "about": {
+    "@type": "Thing",
+    "name": "Asset depletion mortgage"
+  },
   "faqHeading": "Asset depletion loan questions",
   "faq": [
-    { "q": "What is an asset depletion loan?", "a": "An asset depletion loan is a mortgage where the lender turns your savings and investments into a monthly income figure, so you can qualify without a paycheck. It is often used by retirees and people who sold a business." },
-    { "q": "How is asset depletion income calculated?", "a": "The lender takes your eligible assets, subtracts the down payment, closing costs and required reserves, and divides the rest by a set number of months. Fannie Mae uses the months in the loan, 360 for a 30-year mortgage. Some lenders divide by as few as 60 months." },
-    { "q": "Can I get a mortgage with no income but assets?", "a": "Yes. With an asset depletion loan, your savings and investments can stand in for income. You'll need enough assets left after the purchase, and the money usually needs to have been in your account for a few months." },
-    { "q": "Do retirement accounts count for asset depletion?", "a": "Yes, usually at part of their value. One of our lenders counts 70% of a retirement account if you are 59½ or older and 60% if you are younger. Cash in checking or savings counts in full." }
+    {
+      "q": "What is an asset depletion loan?",
+      "a": "An asset depletion loan is a mortgage where the lender turns your savings and investments into a monthly income figure, so you can qualify without a paycheck. It suits retirees and people who sold a business."
+    },
+    {
+      "q": "How is asset depletion income calculated?",
+      "a": "The lender takes your eligible assets, subtracts the down payment, closing costs and required reserves, and divides the rest by a set number of months. Fannie Mae uses the months in the loan, 360 for a 30-year mortgage. Some lenders divide by fewer months; one we work with divides by 60."
+    },
+    {
+      "q": "Can I get a mortgage with no income but assets?",
+      "a": "Yes. With an asset depletion loan, your savings and investments can stand in for income. You'll need enough assets left after the purchase, and the money usually needs to have been in your account for a few months."
+    },
+    {
+      "q": "Do retirement accounts count for asset depletion?",
+      "a": "Yes, usually at part of their value. One of our lenders counts 70% of a retirement account if you are 59½ or older and 60% if you are younger. That lender counts cash in checking or savings in full."
+    }
   ],
   "sources": [
-    { "name": "Fannie Mae Selling Guide B3-3.4-06, Employment-Related Assets as Qualifying Income", "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-06/employment-related-assets-qualifying-income" }
+    {
+      "name": "Fannie Mae Selling Guide B3-3.4-06, Employment-Related Assets as Qualifying Income",
+      "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-06/employment-related-assets-qualifying-income"
+    }
   ]
 }
