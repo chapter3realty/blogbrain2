@@ -21,7 +21,7 @@ const LEGAL = {
   company: 'BrickWood Mortgage Inc. NMLS #189497. 1601 Glenns Bay Rd., Surfside Beach, SC 29575. (843) 314-4101.',
   ehl: 'Equal Housing Lender. We do business in accordance with the Fair Housing Act and the Equal Credit Opportunity Act.',
   affiliate: 'BrickWood Mortgage Inc. has a business relationship with Chapter3 Realty. You are not required to use Chapter3 Realty. There are frequently other providers available. You are free to shop around.',
-  reverse: 'A reverse mortgage is a loan. The borrower must live in the home as a principal residence, keep paying property taxes, homeowners insurance and any HOA dues, and keep the home in good repair. The loan becomes due when the last borrower sells the home, moves out permanently or dies, or does not meet these terms. Interest and fees are added to the loan balance over time. Counseling from a HUD-approved counselor is required before applying.'
+  reverse: 'A reverse mortgage is a loan. The borrower must live in the home as a principal residence, keep paying property taxes, homeowners insurance and any HOA dues, and keep the home in good repair. The loan becomes due when the last borrower sells the home, moves out permanently or dies, or does not meet these terms. Interest and fees are added to the loan balance over time. Counseling from a HUD-approved counselor is required.'
 };
 const AUTHOR = { name: 'Paul Hankins', title: 'Founder, CEO and Broker', nmls: '281393', url: SITE + '/loan-officers/paul-hankins/' };
 

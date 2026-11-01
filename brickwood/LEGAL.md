@@ -17,7 +17,7 @@
 | When | Wording |
 |---|---|
 | The post links to Chapter3 Realty (posts 1, 2, 3) | "BrickWood Mortgage Inc. has a business relationship with Chapter3 Realty. You are not required to use Chapter3 Realty. There are frequently other providers available. You are free to shop around." This mirrors the wording approved on chapter3realty.com. |
-| Reverse mortgage (post 4) | "A reverse mortgage is a loan. The borrower must live in the home as a principal residence, keep paying property taxes, homeowners insurance and any HOA dues, and keep the home in good repair. The loan becomes due when the last borrower sells the home, moves out permanently or dies, or does not meet these terms. Interest and fees are added to the loan balance over time. Counseling from a HUD-approved counselor is required before applying." |
+| Reverse mortgage (post 4) | "A reverse mortgage is a loan. The borrower must live in the home as a principal residence, keep paying property taxes, homeowners insurance and any HOA dues, and keep the home in good repair. The loan becomes due when the last borrower sells the home, moves out permanently or dies, or does not meet these terms. Interest and fees are added to the loan balance over time. Counseling from a HUD-approved counselor is required." |
 
 ## Never on a post
 

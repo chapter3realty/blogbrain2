@@ -18,11 +18,11 @@
     },
     {
       "q": "Did Fannie Mae get rid of Limited Review for condos?",
-      "a": "Yes. Fannie Mae retired Limited Review for loan applications dated on or after August 3, 2026. Units in established buildings of more than 10 units now need a Full Review, FHA project approval, or a Fannie Mae review."
+      "a": "Yes. Fannie Mae's Lender Letter LL-2026-03 retired Limited Review for all loan applications dated on or after August 3, 2026. Units in established buildings of more than 10 units now need a Full Review, FHA project approval, or a Fannie Mae review."
     },
     {
       "q": "Can I get a conventional loan on a condo I plan to rent out?",
-      "a": "Yes, if the building passes the review. Renting your own unit is allowed. The building fails if it requires a rental pool, shares rental profits with the HOA, or runs hotel services such as a front desk or daily cleaning."
+      "a": "Yes, if the building passes the review. Renting your own unit is allowed. The building fails if it requires a rental pool, requires owners to share rental profits, or offers hotel services such as registration services or daily cleaning."
     },
     {
       "q": "Does a special assessment stop a condo loan?",
@@ -30,11 +30,11 @@
     },
     {
       "q": "How much must a condo HOA keep in reserves?",
-      "a": "Under Fannie Mae's Full Review, the HOA budget must put at least 10% toward replacement reserves. A professional reserve study showing the building is adequately funded can be used instead."
+      "a": "Under Fannie Mae's Full Review, the HOA budget must put at least 10% of its assessment income toward replacement reserves. For loan applications dated on or after January 4, 2027, the minimum rises to 15%. A professional reserve study showing adequate funding can be used instead."
     },
     {
       "q": "Do small condo buildings need a review?",
-      "a": "Usually not. Fannie Mae waives the building review, apart from a few basic requirements, for detached condos, buildings of two to ten units, and attached units in five- to ten-unit buildings that are not part of a larger development."
+      "a": "Often not. Fannie Mae waives the building review, apart from a few basic requirements, for detached condos, buildings of two to four units, and five- to ten-unit buildings that are not part of a larger development or master association."
     }
   ],
   "sources": [
@@ -43,12 +43,20 @@
       "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards"
     },
     {
+      "name": "Fannie Mae Selling Guide B4-2.1-02, Waiver of Project Review",
+      "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-02/waiver-project-review"
+    },
+    {
       "name": "Fannie Mae Selling Guide B4-2.1-03, Ineligible Projects",
       "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-03/ineligible-projects"
     },
     {
-      "name": "Fannie Mae Selling Guide B4-2.2-02, Full Review Process",
+      "name": "Fannie Mae Selling Guide B4-2.2-01, Full Review: Established Condo Projects",
       "url": "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process"
+    },
+    {
+      "name": "Fannie Mae Lender Letter LL-2026-03, condo project policy updates",
+      "url": "https://singlefamily.fanniemae.com/media/44986/display"
     },
     {
       "name": "24 CFR 203.43b, FHA eligibility of condominium units",
