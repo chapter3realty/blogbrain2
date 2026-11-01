@@ -18,7 +18,7 @@
 .bw-answer{background:var(--bw-wash);border-left:5px solid var(--bw-brick);border-radius:14px;padding:18px 20px;margin:0 0 1.2em}
 .bw-answer p:last-child{margin-bottom:0}
 .bw-answer .bw-label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bw-brick);margin-bottom:.3em}
-.bw-post .bw-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:1.2em 0 1.6em;padding:0;list-style:none}
+.bw-post .bw-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:1.2em 0 1.6em;padding:0;list-style:none}
 .bw-facts li{margin:0;background:var(--bw-card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--bw-line);border-radius:16px;padding:14px 16px;box-shadow:0 6px 20px rgba(0,0,0,.05);font-size:1rem;line-height:1.4}
 .bw-facts b{display:block;font-family:Merriweather,Georgia,serif;font-size:1.15rem;color:var(--bw-ink);margin-bottom:.2em}
 .bw-toc{border:1px solid var(--bw-line);border-radius:14px;padding:14px 18px;margin:1.4em 0;background:#fff}
@@ -54,4 +54,5 @@
 .bw-legal strong{color:var(--bw-ink)}
 .bw-ehl{display:flex;gap:12px;align-items:center}
 .bw-ehl img{width:44px;height:44px;flex:0 0 44px}
+@media (max-width:700px){.bw-post .bw-facts{grid-template-columns:repeat(2,1fr);gap:10px}.bw-facts li{padding:12px;font-size:.92rem}.bw-facts b{font-size:1.02rem}}
 @media (max-width:480px){.bw-post{font-size:18px}.bw-btn-ghost{margin:10px 0 0}}

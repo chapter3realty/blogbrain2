@@ -19,11 +19,11 @@
     },
     {
       "q": "Can the seller pay closing costs on a HECM for Purchase?",
-      "a": "Only in part. HUD limits seller payments to fees a seller must pay by law, fees sellers customarily pay locally, a home warranty, and anything else HUD allows by notice. A seller credit toward your share of the price is not allowed."
+      "a": "Only in part. HUD limits seller payments to fees a seller must pay by law, fees sellers customarily pay locally, a home warranty, and anything else HUD allows by notice. The rest of your share comes from you or the loan."
     },
     {
       "q": "How soon must I move in after a HECM for Purchase?",
-      "a": "Every borrower must make the home their principal residence within 60 days of closing."
+      "a": "Within 60 days of closing, every borrower must live there as their main home."
     },
     {
       "q": "Can I use a HECM for Purchase to buy a condo?",
@@ -31,11 +31,11 @@
     },
     {
       "q": "Do I make monthly payments on a reverse mortgage used to buy a home?",
-      "a": "No monthly mortgage payment is required. You must still pay property taxes, homeowners insurance, any flood insurance and HOA dues, and keep the home repaired. You may make payments on the loan if you choose."
+      "a": "No. You still pay property taxes, homeowners insurance, any flood insurance and HOA dues, and you keep the home repaired. Paying down the loan is allowed but optional. If you fall behind on taxes, insurance or dues, the loan can come due."
     },
     {
       "q": "What is the HECM limit for 2026?",
-      "a": "For FHA case numbers assigned in 2026, the HECM maximum claim amount is $1,249,125 in every area. A home can cost more, but the loan is figured on value up to that limit."
+      "a": "For loans started in 2026, the HECM limit on home value is $1,249,125 in every area. A home can cost more, but the loan is figured on value up to that limit."
     }
   ],
   "sources": [

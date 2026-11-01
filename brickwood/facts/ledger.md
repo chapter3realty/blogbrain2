@@ -104,3 +104,6 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | A8 | Under B3-3.4-06, ordinary brokerage accounts, business sale proceeds, sale of real estate and inheritance are not eligible employment-related assets. | FNMA B3-3.4-06 (ineligible list; "employment-related" definition) | |
 | A9 | A retirement account can be used under B3-3.4-06 only if a distribution is not already set up or is not enough to qualify; an existing regular distribution can count as income under the retirement income rule. | FNMA B3-3.4-06; B3-3.4-03 | |
 | A10 | Non-agency (non-QM) asset-based programs count a wider range of assets and usually price above agency loans. | Secondary; broker practice, owner to confirm | |
+| F20 | When a building is in a Special Flood Hazard Area, the lender must give the borrower a written notice a reasonable time before the loan closes. | 12 CFR 339.9 | |
+| A11 | Freddie Mac's assets-as-a-basis-for-repayment rule (Guide 5307.1) can count depository accounts and securities, not only retirement accounts; its calculation differs from Fannie Mae's. | guide.freddiemac.com 5307.1 (JS app; text seen via homebuyer.com copy of the Guide table) | |
+| R18 | The principal limit uses the age of an eligible non-borrowing spouse when that spouse is younger than the borrower. | 24 CFR 206.3 / HUD ML 2014-07 | |

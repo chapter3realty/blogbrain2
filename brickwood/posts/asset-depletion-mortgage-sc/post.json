@@ -1,7 +1,7 @@
 {
   "slug": "/asset-depletion-mortgage-sc/",
-  "title": "Asset Depletion Mortgage in SC: Qualify on Your Savings",
-  "description": "How an asset depletion mortgage turns retirement savings into qualifying income: Fannie Mae's formula with an example, which assets count, and other SC options.",
+  "title": "Asset Depletion Mortgage in SC: Qualify on Your Retirement",
+  "description": "How an asset depletion mortgage turns retirement savings into qualifying income, which accounts count under Fannie Mae and Freddie Mac, and other SC options.",
   "focusKeyphrase": "asset depletion mortgage",
   "h1": "Can You Get a Mortgage Using Your Assets Instead of Income?",
   "affiliate": false,
@@ -14,11 +14,11 @@
   "faq": [
     {
       "q": "How is asset depletion income calculated?",
-      "a": "Under Fannie Mae's rule, the lender adds your eligible assets, subtracts any early withdrawal penalty and the cash used for the down payment, closing costs and reserves, and divides the rest by the loan term in months. On a 30-year loan, $350,000 of net assets gives $972.22 a month of qualifying income."
+      "a": "Under Fannie Mae's rule, the lender adds your eligible retirement assets, subtracts any withdrawal penalty and the cash used to buy, and divides the rest by the number of months in the loan. On a 30-year loan, $350,000 left over gives $972.22 a month of qualifying income."
     },
     {
       "q": "Can retirees get a mortgage with no income?",
-      "a": "Yes. Retirement savings can be turned into qualifying income with an asset depletion calculation, with no job or work history required. Social Security and pension income can be added to it."
+      "a": "Often, yes. A lender can turn retirement savings into qualifying income with an asset depletion calculation, with no job required. Social Security and pension income are added to it."
     },
     {
       "q": "Which assets count for an asset depletion mortgage?",
@@ -45,6 +45,10 @@
     {
       "name": "Fannie Mae Selling Guide B3-3.4-03, Annuity, Pension, or Retirement Income",
       "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-03/annuity-pension-or-retirement-income"
+    },
+    {
+      "name": "Freddie Mac Seller/Servicer Guide 5307.1, Assets as a basis for repayment of obligations",
+      "url": "https://guide.freddiemac.com/app/guide/section/5307.1"
     }
   ]
 }
