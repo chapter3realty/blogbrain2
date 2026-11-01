@@ -70,9 +70,10 @@ function schema(p) {
 }
 
 function article(p, body) {
-  const byline = `<p class="bw-byline"><span>By <a href="${AUTHOR.url}"><strong>${AUTHOR.name}</strong></a>, ${AUTHOR.title}, NMLS #${AUTHOR.nmls}</span><span>BrickWood Mortgage, Surfside Beach, SC</span></p>`;
+  const byline = `<p class="bw-byline">By <a href="${AUTHOR.url}">${AUTHOR.name}</a>, ${AUTHOR.title}, NMLS #${AUTHOR.nmls}</p>`;
   const h1 = p.h1InTheme ? '' : `<h1>${esc(p.h1)}</h1>`;
-  return `<article class="bw-post">${h1}${byline}${body}${faqBlock(p)}${sourcesBlock(p)}${legalBlock(p)}</article>`;
+  const dek = p.dek ? `<p class="bw-dek">${esc(p.dek)}</p>` : '';
+  return `<article class="bw-post">${h1}${dek}${byline}${body}${faqBlock(p)}${sourcesBlock(p)}${legalBlock(p)}</article>`;
 }
 
 function wpFragment(p, body) {
@@ -85,10 +86,11 @@ function preview(p, body) {
 <link rel="canonical" href="${SITE}${p.slug}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<style>body{margin:0;background:#fff}.pv-top{background:#111;color:#fff;font:600 14px Merriweather,serif;padding:10px 16px;text-align:right}.pv-head{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:1px solid #eee}.pv-head img{height:64px}.pv-head a{background:#0400fb;color:#fff;text-decoration:none;font:500 14px Roboto,sans-serif;padding:10px 16px;border-radius:3px}.pv-foot{background:#111;color:#bbb;font:14px Roboto,sans-serif;padding:24px 16px;text-align:center}
+<style>body{margin:0;background:#fff}.pv-top{background:#111;color:#fff;font:600 14px Merriweather,serif;padding:10px 16px;text-align:right}.pv-head{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:1px solid #eee}.pv-head img{height:64px}.pv-head a{background:#0400fb;color:#fff;text-decoration:none;font:500 14px Roboto,sans-serif;padding:10px 16px;border-radius:3px}.pv-hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),#5a5550;color:#fff;text-align:center;padding:56px 16px}.pv-hero h1{font:900 clamp(1.7rem,4.5vw,2.5rem)/1.25 Merriweather,serif;margin:0 auto;max-width:900px}.pv-note{font:12px Roboto,sans-serif;color:#ddd;margin-top:10px}.pv-foot{background:#111;color:#bbb;font:14px Roboto,sans-serif;padding:24px 16px;text-align:center}
 ${css}</style></head><body>
 <div class="pv-top">Reviews &nbsp; Contact &nbsp; Loan Officers</div>
 <div class="pv-head"><img src="${SITE}/wp-content/uploads/2021/09/BrickWood-Mortgage-logo.png" alt="BrickWood Mortgage Inc."><a href="${SITE}/pre-qualify-your-loan/">PRE-QUALIFY</a></div>
+${p.h1InTheme ? `<div class="pv-hero"><h1>${esc(p.h1)}</h1><div class="pv-note">The live post shows its featured photo behind this title</div></div>` : ''}
 ${article(p, body)}
 <div class="pv-foot">Preview only. The live page uses the site's own header and footer. © 2007-2026 Brickwood Mortgage Inc. NMLS #189497</div>
 ${schema(p)}

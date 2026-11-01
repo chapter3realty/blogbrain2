@@ -1,58 +1,25 @@
 {
   "slug": "/flood-insurance-mortgage-myrtle-beach/",
-  "title": "Flood Insurance and Your Mortgage in Myrtle Beach, SC",
-  "description": "When a lender requires flood insurance in Myrtle Beach, how much coverage you need, how the premium affects approval, and how a house leaves the flood zone.",
-  "focusKeyphrase": "flood insurance required for mortgage",
-  "h1": "Do You Need Flood Insurance to Get a Mortgage in Myrtle Beach?",
-  "affiliate": true,
+  "title": "Is Flood Insurance Required for a Mortgage? SC Buyer Guide",
+  "description": "When flood insurance is required for a mortgage, what Zone X and AE mean, how much coverage your lender needs, and how the premium affects what you can afford.",
+  "focusKeyphrase": "is flood insurance required for a mortgage",
+  "h1": "Is Flood Insurance Required for a Mortgage?",
+  "h1InTheme": true,
+  "dek": "Buying near the water in South Carolina? Here's when your lender will require it, and how much.",
+  "affiliate": false,
   "reverse": false,
-  "about": {
-    "@type": "Thing",
-    "name": "Mandatory flood insurance purchase requirement"
-  },
+  "about": { "@type": "Thing", "name": "Flood insurance requirements for mortgages" },
   "faqHeading": "Flood insurance questions",
   "faq": [
-    {
-      "q": "Is flood insurance required for a mortgage in Zone X?",
-      "a": "No. A lender requires flood insurance only when the house is in a Special Flood Hazard Area, a FEMA zone starting with A or V, or in a Coastal Barrier Resources System area. In Zone X you may still buy flood insurance by choice."
-    },
-    {
-      "q": "How much flood insurance does my lender require?",
-      "a": "Fannie Mae requires the lowest of three amounts: the cost to rebuild the house, the NFIP maximum of $250,000 for a single-family building, or the loan amount."
-    },
-    {
-      "q": "Can I use private flood insurance instead of FEMA's NFIP?",
-      "a": "Yes. Regulated lenders must accept a private policy that meets the federal definition of private flood insurance, and Fannie Mae accepts a private policy with coverage and terms at least equal to an NFIP policy."
-    },
-    {
-      "q": "Is there a waiting period for flood insurance when I buy a house?",
-      "a": "No. An NFIP policy bought in connection with a new loan takes effect at closing if the application and premium are submitted by then. Other new NFIP policies normally wait 30 days."
-    },
-    {
-      "q": "Does flood insurance have to be paid through escrow?",
-      "a": "Usually. Federally regulated lenders must escrow flood insurance premiums on home loans, with limited exceptions. The premium is then paid from your monthly mortgage payment."
-    },
-    {
-      "q": "How do I get a house removed from a flood zone?",
-      "a": "The owner applies to FEMA for a Letter of Map Amendment, with elevation data such as a surveyor's or engineer's certification. If FEMA issues the letter, the lender no longer requires flood insurance on that house under Fannie Mae's rule."
-    }
+    { "q": "Is flood insurance required for a mortgage in Zone AE?", "a": "Yes. Zone AE is a high-risk flood zone, so lenders require flood insurance on the home for conventional, FHA, VA and bank loans." },
+    { "q": "Is flood insurance required to be escrowed?", "a": "Usually. Federally regulated lenders must collect flood premiums through escrow, with a few exceptions, so the premium is paid along with your monthly mortgage payment." },
+    { "q": "Is there a waiting period for flood insurance when buying a house?", "a": "No. A federal flood policy bought with a new loan takes effect at closing. Without a loan, a new policy normally starts 30 days after you apply and pay." }
   ],
   "sources": [
-    {
-      "name": "12 CFR Part 339, Loans in Areas Having Special Flood Hazards (FDIC)",
-      "url": "https://www.ecfr.gov/current/title-12/part-339"
-    },
-    {
-      "name": "Fannie Mae Selling Guide B7-3-06, Flood Insurance Requirements",
-      "url": "https://selling-guide.fanniemae.com/sel/b7-3-06/flood-insurance-requirements-all-property-types"
-    },
-    {
-      "name": "44 CFR Part 61, NFIP insurance coverage and rates",
-      "url": "https://www.ecfr.gov/current/title-44/part-61"
-    },
-    {
-      "name": "FEMA Flood Map Service Center",
-      "url": "https://msc.fema.gov/portal/home"
-    }
+    { "name": "12 CFR Part 339, Loans in Areas Having Special Flood Hazards", "url": "https://www.ecfr.gov/current/title-12/part-339" },
+    { "name": "Fannie Mae Selling Guide B7-3-06, Flood Insurance Requirements", "url": "https://selling-guide.fanniemae.com/sel/b7-3-06/flood-insurance-requirements-all-property-types" },
+    { "name": "44 CFR Part 61, NFIP coverage", "url": "https://www.ecfr.gov/current/title-44/part-61" },
+    { "name": "FloodSmart (FEMA), what affects your premium", "url": "https://www.floodsmart.gov/premiumcosts" },
+    { "name": "FEMA Flood Map Service Center", "url": "https://msc.fema.gov/portal/home" }
   ]
 }

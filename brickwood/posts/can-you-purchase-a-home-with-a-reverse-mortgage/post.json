@@ -1,55 +1,25 @@
 {
   "slug": "/can-you-purchase-a-home-with-a-reverse-mortgage/",
   "upgradeOf": "https://brickwoodmortgage.com/can-you-purchase-a-home-with-a-reverse-mortgage/",
-  "title": "Reverse Mortgage for Purchase in SC: Buy a Home With HECM",
-  "description": "Yes, at 62 or older you can buy a home with a reverse mortgage. How a HECM for Purchase works in SC, what you bring to closing, and what you still pay.",
-  "focusKeyphrase": "reverse mortgage for purchase",
-  "h1": "Can You Buy a Home in South Carolina With a Reverse Mortgage?",
+  "title": "HECM for Purchase: Buy a House With a Reverse Mortgage",
+  "description": "Yes, you can buy a house with a reverse mortgage at 62 or older. How a HECM for Purchase works, how much you bring, the requirements, and what you still pay.",
+  "focusKeyphrase": "HECM for purchase",
+  "h1": "HECM for Purchase: How to Buy a House With a Reverse Mortgage",
+  "h1InTheme": true,
+  "dek": "Buy your next home at 62 or older, with no monthly mortgage payment.",
   "affiliate": false,
   "reverse": true,
-  "about": {
-    "@type": "Thing",
-    "name": "HECM for Purchase"
-  },
-  "faqHeading": "HECM for Purchase questions",
+  "about": { "@type": "Thing", "name": "HECM for Purchase" },
+  "faqHeading": "Reverse mortgage purchase questions",
   "faq": [
-    {
-      "q": "How much down payment do you need for a reverse mortgage purchase?",
-      "a": "You pay the difference between the price and the amount the HECM can lend, plus any loan costs you do not finance. The amount the HECM can lend rises with the age of the youngest borrower and changes with interest rates, so it is figured for each buyer."
-    },
-    {
-      "q": "Can the seller pay closing costs on a HECM for Purchase?",
-      "a": "Only in part. HUD limits seller payments to fees a seller must pay by law, fees sellers customarily pay locally, a home warranty, and anything else HUD allows by notice. The rest of your share comes from you or the loan."
-    },
-    {
-      "q": "How soon must I move in after a HECM for Purchase?",
-      "a": "Within 60 days of closing, every borrower must live there as their main home."
-    },
-    {
-      "q": "Can I use a HECM for Purchase to buy a condo?",
-      "a": "Yes, if the condo building is acceptable to HUD under FHA's condo rules. We check the building's status before you make an offer."
-    },
-    {
-      "q": "Do I make monthly payments on a reverse mortgage used to buy a home?",
-      "a": "No. You still pay property taxes, homeowners insurance, any flood insurance and HOA dues, and you keep the home repaired. Paying down the loan is allowed but optional. If you fall behind on taxes, insurance or dues, the loan can come due."
-    },
-    {
-      "q": "What is the HECM limit for 2026?",
-      "a": "For loans started in 2026, the HECM limit on home value is $1,249,125 in every area. A home can cost more, but the loan is figured on value up to that limit."
-    }
+    { "q": "Can you buy a house with a reverse mortgage?", "a": "Yes. A HECM for Purchase lets a buyer 62 or older buy a home with one closing. The buyer pays part of the price, the reverse mortgage pays the rest, and no monthly mortgage payment is required. Taxes, insurance and upkeep still have to be paid." },
+    { "q": "How much down payment is needed for a reverse mortgage purchase?", "a": "It depends mostly on the age of the youngest borrower, plus interest rates and the home's value. The older you are, the more the reverse mortgage covers and the less you bring. A reverse mortgage calculator or a loan officer can give you your number." },
+    { "q": "Can you buy a condo with a reverse mortgage?", "a": "Yes, if the condo is in an FHA-approved building. The home must also be finished and ready to live in." },
+    { "q": "How soon do you have to move in?", "a": "Within 60 days of closing. The home has to be your main home." }
   ],
   "sources": [
-    {
-      "name": "24 CFR Part 206, Home Equity Conversion Mortgage Insurance",
-      "url": "https://www.ecfr.gov/current/title-24/part-206"
-    },
-    {
-      "name": "HUD, 2026 Nationwide HECM Limits (Mortgagee Letter 2025-22)",
-      "url": "https://www.hud.gov/hud-partners/single-family-lender"
-    },
-    {
-      "name": "HUD, find a HECM counselor",
-      "url": "https://www.hud.gov/counseling"
-    }
+    { "name": "24 CFR Part 206, Home Equity Conversion Mortgage Insurance", "url": "https://www.ecfr.gov/current/title-24/part-206" },
+    { "name": "HUD, 2026 Nationwide HECM Limits (Mortgagee Letter 2025-22)", "url": "https://www.hud.gov/hud-partners/single-family-lender" },
+    { "name": "HUD, talk to a housing counselor", "url": "https://www.hud.gov/counseling" }
   ]
 }

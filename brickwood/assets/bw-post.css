@@ -1,58 +1,45 @@
-/* BrickWood Mortgage blog post styles. Scoped to .bw-post so the WordPress theme is untouched.
-   Brand taken from brickwoodmortgage.com on 2026-11-01: Merriweather 900 headings, Roboto text,
-   logo brick red #8B090D, logo black, site button blue #0400FB. */
-.bw-post{--bw-ink:#1d1d1f;--bw-text:#2b2b2e;--bw-muted:#55575c;--bw-brick:#8b090d;--bw-brick-soft:#f7ecec;--bw-blue:#0400fb;--bw-blue-dark:#0300b8;--bw-line:#e4e1dd;--bw-card:rgba(255,255,255,.72);--bw-wash:#f6f4f1;
-  font-family:Roboto,"Helvetica Neue",Arial,sans-serif;font-size:18px;line-height:1.65;color:var(--bw-text);max-width:760px;margin:0 auto;padding:0 16px 48px}
+/* BrickWood Mortgage blog post styles, scoped to .bw-post so the WordPress theme is untouched.
+   Brand from brickwoodmortgage.com (2026-11-01): Merriweather headings, Roboto text, logo brick red #8B090D,
+   site button blue #0400FB. Plain editorial look: no label boxes, no stat cards, no gradients (VOICE.md 4). */
+.bw-post{--ink:#1f1f22;--text:#333338;--muted:#5f6168;--brick:#8b090d;--blue:#0400fb;--blue-dark:#0300b8;--line:#e6e2dd;--wash:#f7f5f2;
+  font-family:Roboto,"Helvetica Neue",Arial,sans-serif;font-size:19px;line-height:1.7;color:var(--text);max-width:720px;margin:0 auto;padding:0 16px 48px}
 .bw-post *{box-sizing:border-box}
-.bw-post h1,.bw-post h2,.bw-post h3{font-family:Merriweather,Georgia,serif;color:var(--bw-ink);line-height:1.25;letter-spacing:-.01em}
-.bw-post h1{font-weight:900;font-size:clamp(1.75rem,4.5vw,2.5rem);margin:.6em 0 .35em}
-.bw-post h2{font-weight:900;font-size:clamp(1.35rem,3.2vw,1.75rem);margin:2.2em 0 .6em;padding-top:.2em;border-top:3px solid var(--bw-brick);display:inline-block}
-.bw-post h3{font-weight:700;font-size:1.15rem;margin:1.6em 0 .4em}
-.bw-post p{margin:0 0 1em}
-.bw-post a{color:var(--bw-brick);text-decoration:underline;text-underline-offset:2px}
-.bw-post a:hover{color:var(--bw-ink)}
-.bw-post ul,.bw-post ol{padding-left:1.3em;margin:0 0 1.1em}
-.bw-post li{margin:.35em 0}
-.bw-byline{display:flex;flex-wrap:wrap;gap:.4em .9em;align-items:center;font-size:.95rem;color:var(--bw-muted);margin:0 0 1.2em}
-.bw-byline strong{color:var(--bw-ink)}
-.bw-answer{background:var(--bw-wash);border-left:5px solid var(--bw-brick);border-radius:14px;padding:18px 20px;margin:0 0 1.2em}
-.bw-answer p:last-child{margin-bottom:0}
-.bw-answer .bw-label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bw-brick);margin-bottom:.3em}
-.bw-post .bw-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:1.2em 0 1.6em;padding:0;list-style:none}
-.bw-facts li{margin:0;background:var(--bw-card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--bw-line);border-radius:16px;padding:14px 16px;box-shadow:0 6px 20px rgba(0,0,0,.05);font-size:1rem;line-height:1.4}
-.bw-facts b{display:block;font-family:Merriweather,Georgia,serif;font-size:1.15rem;color:var(--bw-ink);margin-bottom:.2em}
-.bw-toc{border:1px solid var(--bw-line);border-radius:14px;padding:14px 18px;margin:1.4em 0;background:#fff}
-.bw-toc strong{display:block;margin-bottom:.3em;color:var(--bw-ink)}
-.bw-post .bw-toc ol{margin:0;padding-left:1.2em}
-.bw-toc li{margin:.2em 0}
-.bw-cta{background:linear-gradient(135deg,#1d1d1f 0%,#3a0a0c 100%);color:#fff;border-radius:18px;padding:22px 22px 24px;margin:1.6em 0;box-shadow:0 12px 32px rgba(0,0,0,.18)}
-.bw-cta h2,.bw-cta h3{color:#fff;border:0;margin:0 0 .35em;display:block;font-size:1.35rem}
-.bw-cta p{color:#f1eeee;margin:0 0 1em}
-.bw-cta.bw-cta-slim{padding:16px 18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
-.bw-cta.bw-cta-slim p{margin:0;font-weight:500;flex:1 1 260px}
-.bw-btn{display:inline-block;background:var(--bw-blue);color:#fff!important;text-decoration:none!important;font-weight:700;padding:14px 22px;border-radius:6px;font-size:1rem;line-height:1.2;min-height:48px}
-.bw-btn:hover{background:var(--bw-blue-dark)}
-.bw-btn-ghost{background:transparent;border:2px solid #fff;margin-left:8px}
-.bw-table-wrap{overflow-x:auto;margin:1em 0 1.4em;border:1px solid var(--bw-line);border-radius:14px}
-.bw-post table{border-collapse:collapse;width:100%;font-size:1rem;background:#fff}
-.bw-post th,.bw-post td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--bw-line)}
-.bw-post th{background:var(--bw-wash);color:var(--bw-ink);font-weight:700}
-.bw-post tr:last-child td{border-bottom:0}
-.bw-post .bw-steps{list-style:none;counter-reset:s;padding:0}
-.bw-steps li{counter-increment:s;position:relative;padding:0 0 0 52px;margin:0 0 1.1em}
-.bw-steps li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;background:var(--bw-brick);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:Merriweather,Georgia,serif}
-.bw-callout{border:1px solid var(--bw-line);background:var(--bw-brick-soft);border-radius:14px;padding:16px 18px;margin:1.2em 0}
-.bw-callout p:last-child{margin:0}
-.bw-example{border:1px dashed #b9b4ae;border-radius:14px;padding:16px 18px;margin:1.2em 0;background:#fff}
-.bw-example .bw-label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bw-muted);margin-bottom:.3em}
-.bw-faq h3{margin-top:1.4em}
-.bw-sources{font-size:.95rem;color:var(--bw-muted)}
+.bw-post h1,.bw-post h2,.bw-post h3{font-family:Merriweather,Georgia,serif;color:var(--ink);line-height:1.3}
+.bw-post h1{font-weight:900;font-size:clamp(1.8rem,4.6vw,2.6rem);margin:.5em 0 .3em}
+.bw-post h2{font-weight:900;font-size:clamp(1.3rem,3vw,1.6rem);margin:1.9em 0 .5em}
+.bw-post h3{font-weight:700;font-size:1.12rem;margin:1.5em 0 .35em}
+.bw-post p{margin:0 0 1.05em}
+.bw-post a{color:var(--brick);text-decoration:underline;text-underline-offset:2px}
+.bw-post a:hover{color:var(--ink)}
+.bw-post ul,.bw-post ol{padding-left:1.25em;margin:0 0 1.1em}
+.bw-post li{margin:.4em 0}
+.bw-post strong{color:var(--ink)}
+.bw-dek{font-size:1.15rem;color:var(--muted);margin:0 0 .8em}
+.bw-byline{font-size:.92rem;color:var(--muted);margin:0 0 1.6em;padding-bottom:1em;border-bottom:1px solid var(--line)}
+.bw-byline a{color:var(--ink);font-weight:700;text-decoration:none}
+.bw-lead{font-size:1.12rem}
+.bw-table-wrap{overflow-x:auto;margin:1.1em 0 1.4em}
+.bw-post table{border-collapse:collapse;width:100%;font-size:1rem}
+.bw-post th,.bw-post td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line)}
+.bw-post thead th{border-bottom:2px solid var(--ink);color:var(--ink)}
+.bw-example{background:var(--wash);border-radius:10px;padding:18px 20px;margin:1.3em 0}
+.bw-example p:last-child{margin:0}
+.bw-figure{margin:1.4em 0}
+.bw-figure svg{display:block;width:100%;height:auto}
+.bw-figure figcaption{font-size:.9rem;color:var(--muted);margin-top:.5em}
+.bw-cta{border:1px solid var(--line);border-left:4px solid var(--brick);border-radius:10px;padding:18px 20px;margin:1.8em 0;background:#fff}
+.bw-cta p{margin:0 0 .9em}
+.bw-cta p.bw-cta-head{font-family:Merriweather,Georgia,serif;font-weight:700;font-size:1.15rem;color:var(--ink);margin-bottom:.35em}
+.bw-btn{display:inline-block;background:var(--blue);color:#fff!important;text-decoration:none!important;font-weight:500;padding:13px 22px;border-radius:3px;font-size:1rem;line-height:1.2}
+.bw-btn:hover{background:var(--blue-dark)}
+.bw-call{margin-left:14px;font-weight:700;white-space:nowrap}
+.bw-faq h3{margin-top:1.3em}
+.bw-sources{font-size:.92rem;color:var(--muted)}
+.bw-sources h2{font-size:1.1rem}
 .bw-sources li{margin:.25em 0}
-.bw-legal{margin-top:2.4em;padding:18px 20px;border-radius:14px;background:var(--bw-wash);font-size:.92rem;line-height:1.55;color:var(--bw-muted)}
+.bw-legal{margin-top:2.2em;padding-top:1.2em;border-top:1px solid var(--line);font-size:.86rem;line-height:1.55;color:var(--muted)}
 .bw-legal p{margin:0 0 .6em}
-.bw-legal p:last-child{margin:0}
-.bw-legal strong{color:var(--bw-ink)}
+.bw-legal strong{color:var(--muted)}
 .bw-ehl{display:flex;gap:12px;align-items:center}
-.bw-ehl img{width:44px;height:44px;flex:0 0 44px}
-@media (max-width:700px){.bw-post .bw-facts{grid-template-columns:repeat(2,1fr);gap:10px}.bw-facts li{padding:12px;font-size:.92rem}.bw-facts b{font-size:1.02rem}}
-@media (max-width:480px){.bw-post{font-size:18px}.bw-btn-ghost{margin:10px 0 0}}
+.bw-ehl img{width:40px;height:40px;flex:0 0 40px}
+@media (max-width:480px){.bw-post{font-size:18px}.bw-call{display:block;margin:12px 0 0}}

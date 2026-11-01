@@ -1,118 +1,95 @@
 <!-- BrickWood post: /flood-insurance-mortgage-myrtle-beach/ | Paste into one Custom HTML block. SEO title and meta description go in Yoast. -->
-<style>/* BrickWood Mortgage blog post styles. Scoped to .bw-post so the WordPress theme is untouched.
-   Brand taken from brickwoodmortgage.com on 2026-11-01: Merriweather 900 headings, Roboto text,
-   logo brick red #8B090D, logo black, site button blue #0400FB. */
-.bw-post{--bw-ink:#1d1d1f;--bw-text:#2b2b2e;--bw-muted:#55575c;--bw-brick:#8b090d;--bw-brick-soft:#f7ecec;--bw-blue:#0400fb;--bw-blue-dark:#0300b8;--bw-line:#e4e1dd;--bw-card:rgba(255,255,255,.72);--bw-wash:#f6f4f1;
-  font-family:Roboto,"Helvetica Neue",Arial,sans-serif;font-size:18px;line-height:1.65;color:var(--bw-text);max-width:760px;margin:0 auto;padding:0 16px 48px}
+<style>/* BrickWood Mortgage blog post styles, scoped to .bw-post so the WordPress theme is untouched.
+   Brand from brickwoodmortgage.com (2026-11-01): Merriweather headings, Roboto text, logo brick red #8B090D,
+   site button blue #0400FB. Plain editorial look: no label boxes, no stat cards, no gradients (VOICE.md 4). */
+.bw-post{--ink:#1f1f22;--text:#333338;--muted:#5f6168;--brick:#8b090d;--blue:#0400fb;--blue-dark:#0300b8;--line:#e6e2dd;--wash:#f7f5f2;
+  font-family:Roboto,"Helvetica Neue",Arial,sans-serif;font-size:19px;line-height:1.7;color:var(--text);max-width:720px;margin:0 auto;padding:0 16px 48px}
 .bw-post *{box-sizing:border-box}
-.bw-post h1,.bw-post h2,.bw-post h3{font-family:Merriweather,Georgia,serif;color:var(--bw-ink);line-height:1.25;letter-spacing:-.01em}
-.bw-post h1{font-weight:900;font-size:clamp(1.75rem,4.5vw,2.5rem);margin:.6em 0 .35em}
-.bw-post h2{font-weight:900;font-size:clamp(1.35rem,3.2vw,1.75rem);margin:2.2em 0 .6em;padding-top:.2em;border-top:3px solid var(--bw-brick);display:inline-block}
-.bw-post h3{font-weight:700;font-size:1.15rem;margin:1.6em 0 .4em}
-.bw-post p{margin:0 0 1em}
-.bw-post a{color:var(--bw-brick);text-decoration:underline;text-underline-offset:2px}
-.bw-post a:hover{color:var(--bw-ink)}
-.bw-post ul,.bw-post ol{padding-left:1.3em;margin:0 0 1.1em}
-.bw-post li{margin:.35em 0}
-.bw-byline{display:flex;flex-wrap:wrap;gap:.4em .9em;align-items:center;font-size:.95rem;color:var(--bw-muted);margin:0 0 1.2em}
-.bw-byline strong{color:var(--bw-ink)}
-.bw-answer{background:var(--bw-wash);border-left:5px solid var(--bw-brick);border-radius:14px;padding:18px 20px;margin:0 0 1.2em}
-.bw-answer p:last-child{margin-bottom:0}
-.bw-answer .bw-label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bw-brick);margin-bottom:.3em}
-.bw-post .bw-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:1.2em 0 1.6em;padding:0;list-style:none}
-.bw-facts li{margin:0;background:var(--bw-card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--bw-line);border-radius:16px;padding:14px 16px;box-shadow:0 6px 20px rgba(0,0,0,.05);font-size:1rem;line-height:1.4}
-.bw-facts b{display:block;font-family:Merriweather,Georgia,serif;font-size:1.15rem;color:var(--bw-ink);margin-bottom:.2em}
-.bw-toc{border:1px solid var(--bw-line);border-radius:14px;padding:14px 18px;margin:1.4em 0;background:#fff}
-.bw-toc strong{display:block;margin-bottom:.3em;color:var(--bw-ink)}
-.bw-post .bw-toc ol{margin:0;padding-left:1.2em}
-.bw-toc li{margin:.2em 0}
-.bw-cta{background:linear-gradient(135deg,#1d1d1f 0%,#3a0a0c 100%);color:#fff;border-radius:18px;padding:22px 22px 24px;margin:1.6em 0;box-shadow:0 12px 32px rgba(0,0,0,.18)}
-.bw-cta h2,.bw-cta h3{color:#fff;border:0;margin:0 0 .35em;display:block;font-size:1.35rem}
-.bw-cta p{color:#f1eeee;margin:0 0 1em}
-.bw-cta.bw-cta-slim{padding:16px 18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
-.bw-cta.bw-cta-slim p{margin:0;font-weight:500;flex:1 1 260px}
-.bw-btn{display:inline-block;background:var(--bw-blue);color:#fff!important;text-decoration:none!important;font-weight:700;padding:14px 22px;border-radius:6px;font-size:1rem;line-height:1.2;min-height:48px}
-.bw-btn:hover{background:var(--bw-blue-dark)}
-.bw-btn-ghost{background:transparent;border:2px solid #fff;margin-left:8px}
-.bw-table-wrap{overflow-x:auto;margin:1em 0 1.4em;border:1px solid var(--bw-line);border-radius:14px}
-.bw-post table{border-collapse:collapse;width:100%;font-size:1rem;background:#fff}
-.bw-post th,.bw-post td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--bw-line)}
-.bw-post th{background:var(--bw-wash);color:var(--bw-ink);font-weight:700}
-.bw-post tr:last-child td{border-bottom:0}
-.bw-post .bw-steps{list-style:none;counter-reset:s;padding:0}
-.bw-steps li{counter-increment:s;position:relative;padding:0 0 0 52px;margin:0 0 1.1em}
-.bw-steps li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;background:var(--bw-brick);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:Merriweather,Georgia,serif}
-.bw-callout{border:1px solid var(--bw-line);background:var(--bw-brick-soft);border-radius:14px;padding:16px 18px;margin:1.2em 0}
-.bw-callout p:last-child{margin:0}
-.bw-example{border:1px dashed #b9b4ae;border-radius:14px;padding:16px 18px;margin:1.2em 0;background:#fff}
-.bw-example .bw-label{display:block;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bw-muted);margin-bottom:.3em}
-.bw-faq h3{margin-top:1.4em}
-.bw-sources{font-size:.95rem;color:var(--bw-muted)}
+.bw-post h1,.bw-post h2,.bw-post h3{font-family:Merriweather,Georgia,serif;color:var(--ink);line-height:1.3}
+.bw-post h1{font-weight:900;font-size:clamp(1.8rem,4.6vw,2.6rem);margin:.5em 0 .3em}
+.bw-post h2{font-weight:900;font-size:clamp(1.3rem,3vw,1.6rem);margin:1.9em 0 .5em}
+.bw-post h3{font-weight:700;font-size:1.12rem;margin:1.5em 0 .35em}
+.bw-post p{margin:0 0 1.05em}
+.bw-post a{color:var(--brick);text-decoration:underline;text-underline-offset:2px}
+.bw-post a:hover{color:var(--ink)}
+.bw-post ul,.bw-post ol{padding-left:1.25em;margin:0 0 1.1em}
+.bw-post li{margin:.4em 0}
+.bw-post strong{color:var(--ink)}
+.bw-dek{font-size:1.15rem;color:var(--muted);margin:0 0 .8em}
+.bw-byline{font-size:.92rem;color:var(--muted);margin:0 0 1.6em;padding-bottom:1em;border-bottom:1px solid var(--line)}
+.bw-byline a{color:var(--ink);font-weight:700;text-decoration:none}
+.bw-lead{font-size:1.12rem}
+.bw-table-wrap{overflow-x:auto;margin:1.1em 0 1.4em}
+.bw-post table{border-collapse:collapse;width:100%;font-size:1rem}
+.bw-post th,.bw-post td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line)}
+.bw-post thead th{border-bottom:2px solid var(--ink);color:var(--ink)}
+.bw-example{background:var(--wash);border-radius:10px;padding:18px 20px;margin:1.3em 0}
+.bw-example p:last-child{margin:0}
+.bw-figure{margin:1.4em 0}
+.bw-figure svg{display:block;width:100%;height:auto}
+.bw-figure figcaption{font-size:.9rem;color:var(--muted);margin-top:.5em}
+.bw-cta{border:1px solid var(--line);border-left:4px solid var(--brick);border-radius:10px;padding:18px 20px;margin:1.8em 0;background:#fff}
+.bw-cta p{margin:0 0 .9em}
+.bw-cta p.bw-cta-head{font-family:Merriweather,Georgia,serif;font-weight:700;font-size:1.15rem;color:var(--ink);margin-bottom:.35em}
+.bw-btn{display:inline-block;background:var(--blue);color:#fff!important;text-decoration:none!important;font-weight:500;padding:13px 22px;border-radius:3px;font-size:1rem;line-height:1.2}
+.bw-btn:hover{background:var(--blue-dark)}
+.bw-call{margin-left:14px;font-weight:700;white-space:nowrap}
+.bw-faq h3{margin-top:1.3em}
+.bw-sources{font-size:.92rem;color:var(--muted)}
+.bw-sources h2{font-size:1.1rem}
 .bw-sources li{margin:.25em 0}
-.bw-legal{margin-top:2.4em;padding:18px 20px;border-radius:14px;background:var(--bw-wash);font-size:.92rem;line-height:1.55;color:var(--bw-muted)}
+.bw-legal{margin-top:2.2em;padding-top:1.2em;border-top:1px solid var(--line);font-size:.86rem;line-height:1.55;color:var(--muted)}
 .bw-legal p{margin:0 0 .6em}
-.bw-legal p:last-child{margin:0}
-.bw-legal strong{color:var(--bw-ink)}
+.bw-legal strong{color:var(--muted)}
 .bw-ehl{display:flex;gap:12px;align-items:center}
-.bw-ehl img{width:44px;height:44px;flex:0 0 44px}
-@media (max-width:700px){.bw-post .bw-facts{grid-template-columns:repeat(2,1fr);gap:10px}.bw-facts li{padding:12px;font-size:.92rem}.bw-facts b{font-size:1.02rem}}
-@media (max-width:480px){.bw-post{font-size:18px}.bw-btn-ghost{margin:10px 0 0}}
+.bw-ehl img{width:40px;height:40px;flex:0 0 40px}
+@media (max-width:480px){.bw-post{font-size:18px}.bw-call{display:block;margin:12px 0 0}}
 </style>
-<article class="bw-post"><h1>Do You Need Flood Insurance to Get a Mortgage in Myrtle Beach?</h1><p class="bw-byline"><span>By <a href="https://brickwoodmortgage.com/loan-officers/paul-hankins/"><strong>Paul Hankins</strong></a>, Founder, CEO and Broker, NMLS #281393</span><span>BrickWood Mortgage, Surfside Beach, SC</span></p><div class="bw-answer"><span class="bw-label">The short answer</span>
-<p>Yes, if the house is in a high-risk flood zone. When any part of the house sits in a FEMA zone that starts with A or V, your lender must require flood insurance. That covers loans from regulated banks, loans sold to Fannie Mae, and FHA and VA loans. We check the zone on every loan. Outside those zones, flood insurance is your choice.</p></div>
+<article class="bw-post"><p class="bw-dek">Buying near the water in South Carolina? Here's when your lender will require it, and how much.</p><p class="bw-byline">By <a href="https://brickwoodmortgage.com/loan-officers/paul-hankins/">Paul Hankins</a>, Founder, CEO and Broker, NMLS #281393</p><p class="bw-lead">Flood insurance is required for a mortgage when the home is in a high-risk flood zone, which is any FEMA flood zone that starts with A or V. The rule covers almost every home loan: conventional, FHA, VA and bank loans. If the home is outside those zones, flood insurance is your choice.</p>
 
-<ul class="bw-facts">
-<li><b>In a high-risk flood zone</b>Your lender requires flood insurance</li>
-<li><b>Outside the flood zone</b>Your choice. The house can still flood.</li>
-<li><b>$250,000</b>The most a standard NFIP policy covers on a home's building</li>
-<li><b>At closing</b>You usually pay the first year's premium, and coverage starts that day</li>
+<h2>How do you know if a house is in a flood zone?</h2>
+<p>Anyone can look up an address on <a href="https://msc.fema.gov/portal/home">FEMA's flood map</a>. Once you apply for a loan, the lender orders an official flood zone check on the home. If it is in a high-risk zone, you'll get a written notice before closing, and flood insurance becomes part of the loan.</p>
+<p>Here is what the letters on the map mean:</p>
+<div class="bw-table-wrap"><table>
+<thead><tr><th>Zone</th><th>What it means</th><th>Required for your loan?</th></tr></thead>
+<tbody>
+<tr><td>Starts with A (like AE)</td><td>High risk. Common near marshes, rivers and low ground.</td><td>Yes</td></tr>
+<tr><td>Starts with V (like VE)</td><td>High risk on the oceanfront, where waves add to the flooding.</td><td>Yes</td></tr>
+<tr><td>X</td><td>Moderate or low risk.</td><td>No, but you can still buy it</td></tr>
+</tbody></table></div>
+<p>A home is in the zone if any part of the house is in it. A shed or detached garage in the zone doesn't trigger the rule when the house itself is outside it.</p>
+
+<h2>Is flood insurance required in Zone X?</h2>
+<p>No. Your lender won't require it in Zone X. But Zone X isn't "no risk", and homes there do flood. Homeowners insurance doesn't cover flooding, so a flood policy is the only way to be covered.</p>
+
+<h2>How much flood insurance does the lender require?</h2>
+<p>The lender needs coverage on the building equal to the lowest of these three amounts:</p>
+<ul>
+<li>what it would cost to rebuild the house;</li>
+<li>$250,000, the most a standard federal flood policy covers on a house;</li>
+<li>your loan amount.</li>
+</ul>
+<p>Coverage for your furniture and belongings is optional. Flood insurance never covers the land itself.</p>
+
+<h2>How flood insurance affects what you can afford</h2>
+<p>The flood premium becomes part of your monthly housing cost, just like property taxes and homeowners insurance. Lenders compare that total with your income. So a high flood premium can lower the price you qualify for.</p>
+<div class="bw-example"><p><strong>An example.</strong> Two houses have the same price. One is in Zone X. The other sits in an AE zone near the marsh. The AE house needs a flood policy, and that premium is added to the monthly cost. With the same income, the buyer qualifies for a little less on the AE house.</p></div>
+<p>A few things to know:</p>
+<ul>
+<li><strong>Get a quote early.</strong> Premiums are priced home by home, based on things like how high the house sits, how close it is to water and what it would cost to rebuild. Two houses on the same street can have very different bills.</li>
+<li><strong>It's usually paid through escrow.</strong> Regulated lenders generally collect the premium with your monthly payment.</li>
+<li><strong>No waiting period when you buy.</strong> A federal flood policy bought with your new loan starts at closing. Without a loan, a new policy normally waits 30 days.</li>
 </ul>
 
-<div class="bw-cta bw-cta-slim"><p>Looking at a house near the water? Send us the address. We tell you the flood zone and what it does to your approval before you offer.</p><a class="bw-btn" href="https://brickwoodmortgage.com/contact/">Check an address</a></div>
+<h2>Can you use private flood insurance?</h2>
+<p>Yes. Lenders accept private flood policies that give at least the same coverage as a federal policy. Your insurance agent can quote both.</p>
 
-<nav class="bw-toc" aria-label="On this page"><strong>On this page</strong><ol>
-<li><a href="#when">When flood insurance is required</a></li>
-<li><a href="#how-much">How much coverage the lender requires</a></li>
-<li><a href="#cost">How the premium affects your approval</a></li>
-<li><a href="#out">Getting a house out of the flood zone</a></li>
-<li><a href="#private">NFIP or a private policy</a></li>
-<li><a href="#condo">Condos and the master policy</a></li>
-<li><a href="#faq">Questions</a></li>
-</ol></nav>
+<h2>Can a house be taken out of a flood zone?</h2>
+<p>Sometimes. If a house sits higher than the flood level shown on the map, the owner can ask FEMA for a Letter of Map Amendment, called a LOMA. They send FEMA elevation data, such as a surveyor's certificate. If FEMA agrees, the lender no longer requires flood insurance on that house. If the home you're buying already has a LOMA, ask the seller for a copy.</p>
 
-<h2 id="when">When a lender requires flood insurance</h2>
-<p>Flood insurance is required on your loan when the house sits in a Special Flood Hazard Area, FEMA's name for a high-risk flood zone. Every zone that starts with the letter A or V is one. Along the Grand Strand you will see AE zones near marshes and rivers and VE zones on the oceanfront, where waves add to the risk.</p>
-<p>We order the flood zone check, a FEMA Standard Flood Hazard Determination, when you apply. If the house is in a flood zone, you get a written notice before closing. A house is in the zone if any part of the main house is in it. A shed or detached garage that is not a home does not need flood insurance when the house itself is outside the zone.</p>
-<p>The rule covers conventional loans sold to Fannie Mae, loans from federally regulated banks, and FHA and VA loans. It also applies in a protected coastal barrier area, land that Congress set aside along the coast, even outside an A or V zone.</p>
-<p>One more rule matters in a few places. If the town or county does not take part in the National Flood Insurance Program and the house is in a flood zone, Fannie Mae will not buy the loan. Horry County and the beach towns we lend in take part, but we check every address.</p>
+<h2>Buying a condo in a flood zone?</h2>
+<p>In a condo building in a high-risk zone, the HOA carries a master flood policy on the building. The lender checks it as part of the loan. If the HOA's coverage for your unit falls short of what your loan needs, you buy a small policy of your own to fill the gap. For more on condo loans, see <a href="https://brickwoodmortgage.com/condo-mortgage-requirements-south-carolina/">condo loan requirements</a>.</p>
 
-<h2 id="how-much">How much flood coverage the lender requires</h2>
-<p>The federal minimum is the lower of your loan balance or the most the National Flood Insurance Program (NFIP) offers for that kind of building. Fannie Mae adds a third measure. You need the lowest of these three:</p>
-<div class="bw-table-wrap"><table>
-<thead><tr><th>Measure</th><th>For a typical house</th></tr></thead>
-<tbody>
-<tr><td>The cost to rebuild the house</td><td>From the insurance company's estimate</td></tr>
-<tr><td>The NFIP maximum</td><td>$250,000 for a single-family building</td></tr>
-<tr><td>Your loan amount</td><td>From your loan</td></tr>
-</tbody></table></div>
-<p>The required coverage is on the building. Flood insurance never covers the land. Coverage for your belongings is a separate policy choice.</p>
-
-<h2 id="cost">How the flood premium affects your approval</h2>
-<p>The yearly flood premium becomes part of your monthly housing cost, the same as property tax and homeowners insurance. Lenders compare that monthly total with your income. A high premium can lower the price you qualify for.</p>
-<p>Federally regulated lenders must collect the flood premium in your escrow account with each monthly payment, with a few exceptions. The first year's premium is usually paid at closing.</p>
-<p>There is no waiting period when you buy flood insurance for a new loan. An NFIP policy bought with a mortgage takes effect at closing, as long as the application and premium are in by then. Without a loan, a new NFIP policy normally waits 30 days.</p>
-<p>Before you offer, send us the address. We order the flood zone check, and once you have an insurance quote, we show you how the premium changes the price you qualify for. Premiums vary from house to house, based on each home's own flood risk, how high it sits and what it would cost to rebuild. That is why two houses on the same street can have very different bills. For the cost side of coastal insurance, see our affiliate Chapter3 Realty's <a href="https://chapter3realty.com/buyers/coastal-insurance/">Myrtle Beach home insurance guide</a>.</p>
-
-<h2 id="out">Getting a house out of the flood zone</h2>
-<p>Under Fannie Mae's rule, flood insurance is not required once the lender has a letter from FEMA saying its map has been amended and the house is no longer in a Special Flood Hazard Area. This is a Letter of Map Amendment, or LOMA. The owner sends FEMA elevation data, such as a surveyor's or engineer's certification that the ground next to the house is above the flood level. If the house you want already has a LOMA, we get a copy through the seller's agent and include it with your loan.</p>
-<p>A house outside the zone can still flood. You may buy flood insurance even when the lender does not require it. Our affiliate explains how to check <a href="https://chapter3realty.com/buyers/undisclosed-flooding/">whether a house has flooded before</a>.</p>
-
-<h2 id="private">NFIP policy or a private flood policy</h2>
-<p>You can use either. Federal rules require regulated lenders to accept a private flood policy that meets the federal definition of private flood insurance. Fannie Mae accepts a private policy whose coverage and terms are at least equal to an NFIP policy, from an insurer with an acceptable rating. Send us the full policy, not only a quote, and we confirm it meets the rules before closing.</p>
-
-<h2 id="condo">Condos and the HOA's master flood policy</h2>
-<p>For an attached condo in a flood zone, the HOA must carry a master flood policy on your unit's building. Fannie Mae requires coverage of at least the lower of 80% of the cost to rebuild the building or the NFIP maximum per unit. If the master policy's share for your unit falls short of what your loan needs, you buy a separate policy for the difference. We read the HOA's policy as part of the building review. Condo buildings face other 2026 rules too, covered in our guide to <a href="https://brickwoodmortgage.com/condo-mortgage-requirements-south-carolina/">condo mortgage requirements</a>.</p>
-
-<div class="bw-cta"><h2>Know the flood zone before you offer</h2><p>Send us the address. We tell you the flood zone, whether the loan requires flood insurance, and how the premium changes the price you qualify for.</p><a class="bw-btn" href="https://brickwoodmortgage.com/contact/">Check an address</a> <a class="bw-btn bw-btn-ghost" href="tel:+18433144101">Call (843) 314-4101</a></div>
-<section class="bw-faq" id="faq"><h2>Flood insurance questions</h2><h3>Is flood insurance required for a mortgage in Zone X?</h3><p>No. A lender requires flood insurance only when the house is in a Special Flood Hazard Area, a FEMA zone starting with A or V, or in a Coastal Barrier Resources System area. In Zone X you may still buy flood insurance by choice.</p><h3>How much flood insurance does my lender require?</h3><p>Fannie Mae requires the lowest of three amounts: the cost to rebuild the house, the NFIP maximum of $250,000 for a single-family building, or the loan amount.</p><h3>Can I use private flood insurance instead of FEMA's NFIP?</h3><p>Yes. Regulated lenders must accept a private policy that meets the federal definition of private flood insurance, and Fannie Mae accepts a private policy with coverage and terms at least equal to an NFIP policy.</p><h3>Is there a waiting period for flood insurance when I buy a house?</h3><p>No. An NFIP policy bought in connection with a new loan takes effect at closing if the application and premium are submitted by then. Other new NFIP policies normally wait 30 days.</p><h3>Does flood insurance have to be paid through escrow?</h3><p>Usually. Federally regulated lenders must escrow flood insurance premiums on home loans, with limited exceptions. The premium is then paid from your monthly mortgage payment.</p><h3>How do I get a house removed from a flood zone?</h3><p>The owner applies to FEMA for a Letter of Map Amendment, with elevation data such as a surveyor's or engineer's certification. If FEMA issues the letter, the lender no longer requires flood insurance on that house under Fannie Mae's rule.</p></section><section class="bw-sources"><h2>Sources</h2><ul><li><a href="https://www.ecfr.gov/current/title-12/part-339" rel="nofollow">12 CFR Part 339, Loans in Areas Having Special Flood Hazards (FDIC)</a></li><li><a href="https://selling-guide.fanniemae.com/sel/b7-3-06/flood-insurance-requirements-all-property-types" rel="nofollow">Fannie Mae Selling Guide B7-3-06, Flood Insurance Requirements</a></li><li><a href="https://www.ecfr.gov/current/title-44/part-61" rel="nofollow">44 CFR Part 61, NFIP insurance coverage and rates</a></li><li><a href="https://msc.fema.gov/portal/home" rel="nofollow">FEMA Flood Map Service Center</a></li></ul></section><aside class="bw-legal" aria-label="Licensing and disclosures"><p><strong>Disclaimer.</strong> This article is provided for general educational purposes only and is not an offer or commitment to lend. Not all loan programs mentioned, including down payment assistance and third-party or government programs, are offered by BrickWood Mortgage Inc. Program availability, terms and eligibility vary by lender and location and are subject to change. Please contact a licensed loan officer to find out which programs we currently offer.</p><p>This material is not provided by, endorsed by, or approved by HUD, FHA, VA, or any government agency.</p><p>BrickWood Mortgage Inc. has a business relationship with Chapter3 Realty. You are not required to use Chapter3 Realty. There are frequently other providers available. You are free to shop around.</p><p class="bw-ehl"><img src="https://brickwoodmortgage.com/wp-content/uploads/2026/06/Equal-Housing-Lender-150x150.png" alt="Equal Housing Lender logo" width="44" height="44" loading="lazy"><span>Equal Housing Lender. We do business in accordance with the Fair Housing Act and the Equal Credit Opportunity Act.</span></p><p>BrickWood Mortgage Inc. <a href="https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/189497" rel="nofollow">NMLS #189497</a>. 1601 Glenns Bay Rd., Surfside Beach, SC 29575. (843) 314-4101.</p></aside></article>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"Do You Need Flood Insurance to Get a Mortgage in Myrtle Beach?","description":"When a lender requires flood insurance in Myrtle Beach, how much coverage you need, how the premium affects approval, and how a house leaves the flood zone.","mainEntityOfPage":"https://brickwoodmortgage.com/flood-insurance-mortgage-myrtle-beach/","url":"https://brickwoodmortgage.com/flood-insurance-mortgage-myrtle-beach/","author":{"@type":"Person","name":"Paul Hankins","jobTitle":"Founder, CEO and Broker","url":"https://brickwoodmortgage.com/loan-officers/paul-hankins/","identifier":"NMLS 281393"},"publisher":{"@type":"Organization","name":"BrickWood Mortgage Inc.","url":"https://brickwoodmortgage.com/","logo":{"@type":"ImageObject","url":"https://brickwoodmortgage.com/wp-content/uploads/2021/09/BrickWood-Mortgage-logo.png"},"identifier":"NMLS 189497"},"about":{"@type":"Thing","name":"Mandatory flood insurance purchase requirement"},"inLanguage":"en-US"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is flood insurance required for a mortgage in Zone X?","acceptedAnswer":{"@type":"Answer","text":"No. A lender requires flood insurance only when the house is in a Special Flood Hazard Area, a FEMA zone starting with A or V, or in a Coastal Barrier Resources System area. In Zone X you may still buy flood insurance by choice."}},{"@type":"Question","name":"How much flood insurance does my lender require?","acceptedAnswer":{"@type":"Answer","text":"Fannie Mae requires the lowest of three amounts: the cost to rebuild the house, the NFIP maximum of $250,000 for a single-family building, or the loan amount."}},{"@type":"Question","name":"Can I use private flood insurance instead of FEMA's NFIP?","acceptedAnswer":{"@type":"Answer","text":"Yes. Regulated lenders must accept a private policy that meets the federal definition of private flood insurance, and Fannie Mae accepts a private policy with coverage and terms at least equal to an NFIP policy."}},{"@type":"Question","name":"Is there a waiting period for flood insurance when I buy a house?","acceptedAnswer":{"@type":"Answer","text":"No. An NFIP policy bought in connection with a new loan takes effect at closing if the application and premium are submitted by then. Other new NFIP policies normally wait 30 days."}},{"@type":"Question","name":"Does flood insurance have to be paid through escrow?","acceptedAnswer":{"@type":"Answer","text":"Usually. Federally regulated lenders must escrow flood insurance premiums on home loans, with limited exceptions. The premium is then paid from your monthly mortgage payment."}},{"@type":"Question","name":"How do I get a house removed from a flood zone?","acceptedAnswer":{"@type":"Answer","text":"The owner applies to FEMA for a Letter of Map Amendment, with elevation data such as a surveyor's or engineer's certification. If FEMA issues the letter, the lender no longer requires flood insurance on that house under Fannie Mae's rule."}}]}]}</script>
+<div class="bw-cta"><p class="bw-cta-head">Buying near the water?</p><p>Talk with a BrickWood loan officer about how flood insurance fits into your budget, and get pre-qualified before you shop.</p><a class="bw-btn" href="https://brickwoodmortgage.com/pre-qualify-your-loan/">Pre-qualify</a><a class="bw-call" href="tel:+18433144101">Call (843) 314-4101</a></div>
+<section class="bw-faq" id="faq"><h2>Flood insurance questions</h2><h3>Is flood insurance required for a mortgage in Zone AE?</h3><p>Yes. Zone AE is a high-risk flood zone, so lenders require flood insurance on the home for conventional, FHA, VA and bank loans.</p><h3>Is flood insurance required to be escrowed?</h3><p>Usually. Federally regulated lenders must collect flood premiums through escrow, with a few exceptions, so the premium is paid along with your monthly mortgage payment.</p><h3>Is there a waiting period for flood insurance when buying a house?</h3><p>No. A federal flood policy bought with a new loan takes effect at closing. Without a loan, a new policy normally starts 30 days after you apply and pay.</p></section><section class="bw-sources"><h2>Sources</h2><ul><li><a href="https://www.ecfr.gov/current/title-12/part-339" rel="nofollow">12 CFR Part 339, Loans in Areas Having Special Flood Hazards</a></li><li><a href="https://selling-guide.fanniemae.com/sel/b7-3-06/flood-insurance-requirements-all-property-types" rel="nofollow">Fannie Mae Selling Guide B7-3-06, Flood Insurance Requirements</a></li><li><a href="https://www.ecfr.gov/current/title-44/part-61" rel="nofollow">44 CFR Part 61, NFIP coverage</a></li><li><a href="https://www.floodsmart.gov/premiumcosts" rel="nofollow">FloodSmart (FEMA), what affects your premium</a></li><li><a href="https://msc.fema.gov/portal/home" rel="nofollow">FEMA Flood Map Service Center</a></li></ul></section><aside class="bw-legal" aria-label="Licensing and disclosures"><p><strong>Disclaimer.</strong> This article is provided for general educational purposes only and is not an offer or commitment to lend. Not all loan programs mentioned, including down payment assistance and third-party or government programs, are offered by BrickWood Mortgage Inc. Program availability, terms and eligibility vary by lender and location and are subject to change. Please contact a licensed loan officer to find out which programs we currently offer.</p><p>This material is not provided by, endorsed by, or approved by HUD, FHA, VA, or any government agency.</p><p class="bw-ehl"><img src="https://brickwoodmortgage.com/wp-content/uploads/2026/06/Equal-Housing-Lender-150x150.png" alt="Equal Housing Lender logo" width="44" height="44" loading="lazy"><span>Equal Housing Lender. We do business in accordance with the Fair Housing Act and the Equal Credit Opportunity Act.</span></p><p>BrickWood Mortgage Inc. <a href="https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/189497" rel="nofollow">NMLS #189497</a>. 1601 Glenns Bay Rd., Surfside Beach, SC 29575. (843) 314-4101.</p></aside></article>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"Is Flood Insurance Required for a Mortgage?","description":"When flood insurance is required for a mortgage, what Zone X and AE mean, how much coverage your lender needs, and how the premium affects what you can afford.","mainEntityOfPage":"https://brickwoodmortgage.com/flood-insurance-mortgage-myrtle-beach/","url":"https://brickwoodmortgage.com/flood-insurance-mortgage-myrtle-beach/","author":{"@type":"Person","name":"Paul Hankins","jobTitle":"Founder, CEO and Broker","url":"https://brickwoodmortgage.com/loan-officers/paul-hankins/","identifier":"NMLS 281393"},"publisher":{"@type":"Organization","name":"BrickWood Mortgage Inc.","url":"https://brickwoodmortgage.com/","logo":{"@type":"ImageObject","url":"https://brickwoodmortgage.com/wp-content/uploads/2021/09/BrickWood-Mortgage-logo.png"},"identifier":"NMLS 189497"},"about":{"@type":"Thing","name":"Flood insurance requirements for mortgages"},"inLanguage":"en-US"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is flood insurance required for a mortgage in Zone AE?","acceptedAnswer":{"@type":"Answer","text":"Yes. Zone AE is a high-risk flood zone, so lenders require flood insurance on the home for conventional, FHA, VA and bank loans."}},{"@type":"Question","name":"Is flood insurance required to be escrowed?","acceptedAnswer":{"@type":"Answer","text":"Usually. Federally regulated lenders must collect flood premiums through escrow, with a few exceptions, so the premium is paid along with your monthly mortgage payment."}},{"@type":"Question","name":"Is there a waiting period for flood insurance when buying a house?","acceptedAnswer":{"@type":"Answer","text":"No. A federal flood policy bought with a new loan takes effect at closing. Without a loan, a new policy normally starts 30 days after you apply and pay."}}]}]}</script>

@@ -1,54 +1,22 @@
 {
   "slug": "/asset-depletion-mortgage-sc/",
-  "title": "Asset Depletion Mortgage in SC: Qualify on Your Retirement",
-  "description": "How an asset depletion mortgage turns retirement savings into qualifying income: which accounts count, Fannie Mae's formula with an example, and other options.",
-  "focusKeyphrase": "asset depletion mortgage",
-  "h1": "Can You Get a Mortgage Using Your Assets Instead of Income?",
+  "title": "Asset Depletion Loan Requirements: Mortgage With No Income",
+  "description": "How an asset depletion loan turns your savings into income for a mortgage, what counts, typical requirements, and why some lenders divide by 60 months, not 360.",
+  "focusKeyphrase": "asset depletion loan",
+  "h1": "Asset Depletion Loans: How to Get a Mortgage With No Income",
+  "h1InTheme": true,
+  "dek": "Retired, between jobs or living off investments? Your savings can count as income.",
   "affiliate": false,
   "reverse": false,
-  "about": {
-    "@type": "Thing",
-    "name": "Asset depletion mortgage qualifying income"
-  },
-  "faqHeading": "Asset depletion questions",
+  "about": { "@type": "Thing", "name": "Asset depletion mortgage" },
+  "faqHeading": "Asset depletion loan questions",
   "faq": [
-    {
-      "q": "How is asset depletion income calculated?",
-      "a": "Under Fannie Mae's rule, the lender adds your eligible retirement assets, subtracts any withdrawal penalty and the cash used to buy, and divides the rest by the number of months in the loan. On a 30-year loan, $350,000 left over gives $972.22 a month of qualifying income."
-    },
-    {
-      "q": "Can retirees get a mortgage with no income?",
-      "a": "Often, yes. A lender can turn retirement savings into qualifying income with an asset depletion calculation, with no job required. Social Security and pension income are added to it."
-    },
-    {
-      "q": "Which assets count for an asset depletion mortgage?",
-      "a": "Under Fannie Mae's rule: 401(k), IRA, SEP and Keogh accounts you can withdraw from freely, and lump-sum retirement or severance payouts. Inheritance, real estate sale proceeds, stock options, lawsuit or lottery money and cryptocurrency do not count."
-    },
-    {
-      "q": "Can I use asset depletion to buy an investment property?",
-      "a": "Not under Fannie Mae's rule, which allows only a home you live in or a second home. For a rental, a DSCR loan qualifies you on the property's rent instead."
-    },
-    {
-      "q": "Does my age matter for an asset depletion loan?",
-      "a": "Yes. Fannie Mae allows a larger loan when the owner of the assets is 62 or older at closing. No minimum age is required to use the rule."
-    },
-    {
-      "q": "Do I have to withdraw the money to qualify?",
-      "a": "No. The lender only has to see that you have the right to withdraw it. The calculation treats the money as income spread over the loan term."
-    }
+    { "q": "What is an asset depletion loan?", "a": "An asset depletion loan is a mortgage where the lender turns your savings and investments into a monthly income figure, so you can qualify without a paycheck. It is often used by retirees and people who sold a business." },
+    { "q": "How is asset depletion income calculated?", "a": "The lender takes your eligible assets, subtracts the down payment, closing costs and required reserves, and divides the rest by a set number of months. Fannie Mae uses the months in the loan, 360 for a 30-year mortgage. Some lenders divide by as few as 60 months." },
+    { "q": "Can I get a mortgage with no income but assets?", "a": "Yes. With an asset depletion loan, your savings and investments can stand in for income. You'll need enough assets left after the purchase, and the money usually needs to have been in your account for a few months." },
+    { "q": "Do retirement accounts count for asset depletion?", "a": "Yes, usually at part of their value. One of our lenders counts 70% of a retirement account if you are 59½ or older and 60% if you are younger. Cash in checking or savings counts in full." }
   ],
   "sources": [
-    {
-      "name": "Fannie Mae Selling Guide B3-3.4-06, Employment-Related Assets as Qualifying Income",
-      "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-06/employment-related-assets-qualifying-income"
-    },
-    {
-      "name": "Fannie Mae Selling Guide B3-3.4-03, Annuity, Pension, or Retirement Income",
-      "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-03/annuity-pension-or-retirement-income"
-    },
-    {
-      "name": "Freddie Mac Seller/Servicer Guide 5307.1, Assets as a basis for repayment of obligations",
-      "url": "https://guide.freddiemac.com/app/guide/section/5307.1"
-    }
+    { "name": "Fannie Mae Selling Guide B3-3.4-06, Employment-Related Assets as Qualifying Income", "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-06/employment-related-assets-qualifying-income" }
   ]
 }

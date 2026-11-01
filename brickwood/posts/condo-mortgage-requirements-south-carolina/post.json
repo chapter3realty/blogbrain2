@@ -1,66 +1,25 @@
 {
   "slug": "/condo-mortgage-requirements-south-carolina/",
-  "title": "Condo Mortgage Requirements in SC: The 2026 Rule Changes",
-  "description": "Fannie Mae ended Limited Review for condos in August 2026. What a building must pass now: repairs, reserves, rentals, condotels, and what to do if it fails.",
-  "focusKeyphrase": "condo mortgage requirements",
-  "h1": "Did the 2026 Condo Loan Changes Make Your Building Harder to Finance?",
-  "affiliate": true,
+  "title": "Condo Loan Requirements in 2026: What Changed for Buyers",
+  "description": "Fannie Mae changed its condo loan rules in 2026. What changed, why some condos can't get a regular mortgage, condotels, and your options if a building fails.",
+  "focusKeyphrase": "condo loan requirements",
+  "h1": "Condo Loan Requirements: What Changed in 2026",
+  "h1InTheme": true,
+  "dek": "Fannie Mae changed its condo rules this year. Here's what it means if you're buying a condo.",
+  "affiliate": false,
   "reverse": false,
-  "about": {
-    "@type": "Thing",
-    "name": "Condominium mortgage eligibility"
-  },
+  "about": { "@type": "Thing", "name": "Condo loan requirements" },
   "faqHeading": "Condo loan questions",
   "faq": [
-    {
-      "q": "What is a non-warrantable condo?",
-      "a": "A non-warrantable condo is a unit in a building that does not meet Fannie Mae's building rules, so a conventional loan on it cannot be sold to Fannie Mae. Common reasons are hotel-style operations, unfunded critical repairs, one owner holding too many units, or too much commercial space. You can still finance it with a portfolio or non-QM loan."
-    },
-    {
-      "q": "Did Fannie Mae get rid of Limited Review for condos?",
-      "a": "Yes. Fannie Mae's Lender Letter LL-2026-03 retired Limited Review for all loan applications dated on or after August 3, 2026. Units in established buildings of more than 10 units now need a Full Review, FHA project approval, or a review by Fannie Mae itself."
-    },
-    {
-      "q": "Can I get a conventional loan on a condo I plan to rent out?",
-      "a": "Yes, if the building passes the review. Renting your own unit is allowed. The building fails if it requires a rental pool, requires owners to share rental profits, or offers hotel services such as registration services or daily cleaning."
-    },
-    {
-      "q": "Does a special assessment stop a condo loan?",
-      "a": "Not always. Your lender reviews each special assessment. If it pays for a critical repair that is not yet fixed, the building is ineligible. A special assessment for routine work does not stop the loan by itself."
-    },
-    {
-      "q": "How much must a condo HOA keep in reserves?",
-      "a": "Under Fannie Mae's Full Review, at least 10% of the HOA's assessment income must go to replacement reserves, rising to 15% for loan applications dated on or after January 4, 2027. A professional reserve study showing adequate funding can be used instead."
-    },
-    {
-      "q": "Do small condo buildings need a review?",
-      "a": "Often not. Detached condos, buildings of two to four units, and five- to ten-unit buildings outside a larger development or master association skip the full building review. A few basic requirements still apply."
-    }
+    { "q": "What is a non-warrantable condo?", "a": "A non-warrantable condo is a unit in a building that doesn't meet Fannie Mae's rules, so it can't get a regular conventional loan sold to Fannie Mae. Common reasons are hotel-style operations, big unfunded repairs, one owner with too many units, or too much commercial space. It can still be financed with other loans." },
+    { "q": "Did Fannie Mae get rid of Limited Review for condos?", "a": "Yes. Fannie Mae retired Limited Review for loan applications dated on or after August 3, 2026. Established buildings with more than 10 units now need a full review or FHA approval." },
+    { "q": "Can I get a regular mortgage on a condo I rent out?", "a": "Yes, if the building qualifies. Renting your own unit is fine. The building fails if it runs like a hotel, with a front desk, daily cleaning or a required rental program." }
   ],
   "sources": [
-    {
-      "name": "Fannie Mae Selling Guide B4-2.1-01, General Information on Project Standards",
-      "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards"
-    },
-    {
-      "name": "Fannie Mae Selling Guide B4-2.1-02, Waiver of Project Review",
-      "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-02/waiver-project-review"
-    },
-    {
-      "name": "Fannie Mae Selling Guide B4-2.1-03, Ineligible Projects",
-      "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-03/ineligible-projects"
-    },
-    {
-      "name": "Fannie Mae Selling Guide B4-2.2-01, Full Review: Established Condo Projects",
-      "url": "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process"
-    },
-    {
-      "name": "Fannie Mae Lender Letter LL-2026-03, condo project policy updates",
-      "url": "https://singlefamily.fanniemae.com/media/44986/display"
-    },
-    {
-      "name": "24 CFR 203.43b, FHA eligibility of condominium units",
-      "url": "https://www.ecfr.gov/current/title-24/section-203.43b"
-    }
+    { "name": "Fannie Mae Selling Guide B4-2.1-01, General Information on Project Standards", "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards" },
+    { "name": "Fannie Mae Selling Guide B4-2.1-03, Ineligible Projects", "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-03/ineligible-projects" },
+    { "name": "Fannie Mae Selling Guide, Full Review requirements", "url": "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process" },
+    { "name": "Fannie Mae Lender Letter LL-2026-03", "url": "https://singlefamily.fanniemae.com/media/44986/display" },
+    { "name": "24 CFR 203.43b, FHA condominium eligibility", "url": "https://www.ecfr.gov/current/title-24/section-203.43b" }
   ]
 }

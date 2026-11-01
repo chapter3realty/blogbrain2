@@ -107,3 +107,15 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | F20 | When a building is in a Special Flood Hazard Area, the lender must give the borrower a written notice a reasonable time before the loan closes. | 12 CFR 339.9 | |
 | A11 | Freddie Mac's assets-as-a-basis-for-repayment rule (Guide 5307.1) can count depository accounts and securities, not only retirement accounts; its calculation differs from Fannie Mae's. | guide.freddiemac.com 5307.1 (JS app; text seen via homebuyer.com copy of the Guide table) | |
 | R18 | The principal limit uses the age of an eligible non-borrowing spouse when that spouse is younger than the borrower. | 24 CFR 206.3 / HUD ML 2014-07 | |
+
+## Owner-supplied program terms (owner, 2026-11-01, from a lender's email; terms vary by lender)
+
+| ID | Fact | Source | Status |
+|---|---|---|---|
+| O1 | One of BrickWood's lenders computes asset depletion income as (total eligible assets − down payment − out-of-pocket closing costs − required reserves) ÷ 60. | Owner, 2026-11-01 (lender email) | OWNER |
+| O2 | That lender counts checking, savings and money market at 100%; proceeds from sale of borrower-owned real estate at 100% with no seasoning; stocks, bonds and mutual funds at 70%; retirement accounts at 70% if the borrower is 59½ or older and 60% if under. | Owner, 2026-11-01 | OWNER |
+| O3 | That lender's minimum eligible assets: the lower of $1,000,000 or 150% of the loan balance, waived when assets supplement other income. | Owner, 2026-11-01 | OWNER |
+| O4 | That lender requires assets seasoned 120 days in a U.S. bank account; the 4 most recent monthly statements, quarterly statements or a VOD; funds liquid and available with no penalty; all individuals on the accounts on the Note and Mortgage; the lowest representative score among borrowers as the qualifying score. | Owner, 2026-11-01 | OWNER |
+| O5 | BrickWood does no underwriting or property review (HOA papers, building review, flood zone) before a buyer makes an offer. The lender does these after application. | Owner, 2026-11-01 | OWNER |
+| F21 | Standard homeowners insurance does not cover flood damage; flood coverage requires a separate flood policy. | floodsmart.gov | |
+| F22 | Zone X marks moderate or minimal flood risk on FEMA maps. | FEMA / floodsmart.gov flood zones | |
