@@ -1,0 +1,55 @@
+{
+  "slug": "/can-you-purchase-a-home-with-a-reverse-mortgage/",
+  "upgradeOf": "https://brickwoodmortgage.com/can-you-purchase-a-home-with-a-reverse-mortgage/",
+  "title": "Reverse Mortgage for Purchase in SC: Buy a Home With HECM",
+  "description": "Yes, at 62 or older you can buy a home with a reverse mortgage. How a HECM for Purchase works in SC, what you bring to closing, and what you still pay.",
+  "focusKeyphrase": "reverse mortgage for purchase",
+  "h1": "Can You Buy a Home in South Carolina With a Reverse Mortgage?",
+  "affiliate": false,
+  "reverse": true,
+  "about": {
+    "@type": "Thing",
+    "name": "HECM for Purchase"
+  },
+  "faqHeading": "HECM for Purchase questions",
+  "faq": [
+    {
+      "q": "How much down payment do you need for a reverse mortgage purchase?",
+      "a": "You pay the difference between the price and the amount the HECM can lend, plus any loan costs you do not finance. The amount the HECM can lend rises with the age of the youngest borrower and changes with interest rates, so it is figured for each buyer."
+    },
+    {
+      "q": "Can the seller pay closing costs on a HECM for Purchase?",
+      "a": "Only in part. The seller may pay fees a seller must pay by law, fees sellers customarily pay locally, and a home warranty. Other loan costs and any credit toward the price must come from you or the loan."
+    },
+    {
+      "q": "How soon must I move in after a HECM for Purchase?",
+      "a": "Every borrower must make the home their principal residence within 60 days of closing."
+    },
+    {
+      "q": "Can I use a HECM for Purchase to buy a condo?",
+      "a": "Yes, if the condo building is acceptable to HUD under FHA's condo rules. We check the building's status before you make an offer."
+    },
+    {
+      "q": "Do I make monthly payments on a reverse mortgage used to buy a home?",
+      "a": "No monthly mortgage payment is required. You must still pay property taxes, homeowners insurance, any flood insurance and HOA dues, and keep the home repaired. You may make payments on the loan if you choose."
+    },
+    {
+      "q": "What is the HECM limit for 2026?",
+      "a": "For FHA case numbers assigned in 2026, the HECM maximum claim amount is $1,249,125 in every area. A home can cost more, but the loan is figured on value up to that limit."
+    }
+  ],
+  "sources": [
+    {
+      "name": "24 CFR Part 206, Home Equity Conversion Mortgage Insurance",
+      "url": "https://www.ecfr.gov/current/title-24/part-206"
+    },
+    {
+      "name": "HUD, 2026 Nationwide HECM Limits (Mortgagee Letter 2025-22)",
+      "url": "https://www.hud.gov/hud-partners/single-family-lender"
+    },
+    {
+      "name": "HUD, find a HECM counselor",
+      "url": "https://www.hud.gov/counseling"
+    }
+  ]
+}

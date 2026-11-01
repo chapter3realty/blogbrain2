@@ -6,12 +6,20 @@ The owner asked for five posts for brickwoodmortgage.com (2026-11-01). They foll
 
 | Step | State |
 |---|---|
-| Topics and titles | Approved by the owner, 2026-11-01. Post 1 was re-aimed after the overlap check below. |
-| Overlap check against chapter3realty.com | Done, 2026-11-01. See "Overlap with the affiliate site". |
-| Overlap check against brickwoodmortgage.com | Partial. The session cannot open the site yet. Done from search results only. |
-| Brand (colors, fonts, logo) | Waiting for access to brickwoodmortgage.com. |
-| Legal footer, exact wording | Waiting for access to brickwoodmortgage.com. |
-| Research from primary sources | Waiting for network access to Fannie Mae, Freddie Mac, HUD, FEMA, VA and the eCFR. |
+| Topics and titles | Approved by the owner, 2026-11-01. Post 1 re-aimed after the overlap check with chapter3realty.com. Post 4 changed to an upgrade (below). |
+| Overlap check against chapter3realty.com | Done, 2026-11-01. |
+| Overlap check against brickwoodmortgage.com | Done from the sitemap, 2026-11-01 (95 posts, 48 pages). |
+| Brand | Measured from the live site, 2026-11-01 (`README.md`). |
+| Legal block | Copied from the live site where it exists (`LEGAL.md`); three owner questions open. |
+| Research | From primary sources: Fannie Mae Selling Guide, eCFR, HUD, SC Code (`facts/ledger.md`). |
+
+## Overlap with brickwoodmortgage.com itself
+
+The sitemap has 95 posts. One of them, `/can-you-purchase-a-home-with-a-reverse-mortgage/`, answers the same search as planned post 4. A second page on that search would compete with it. So post 4 is an upgrade of that post at the same URL, not a new page. The old post also had wrong statements: "the lender pays you" and "you'll receive money using the equity bought" describe a HECM used on a home you own, not a HECM for Purchase.
+
+Other near matches, which the new posts link to instead of repeating: `/how-to-use-cash-out-refinance-to-buy-second-home/` (post 2), `/can-i-get-mortgage-without-a-job-and-no-income/` and `/bank-statement-mortgage-loans-south-carolina/` (post 5), `/reverse-mortgage-vs-home-equity-loan-which-is-right-for-you/` and `/who-is-responsible-for-reverse-mortgage-after-death/` (post 4). No existing post covers condo building rules, occupancy rules or flood insurance.
+
+Site problems seen while reading, for a later fix: `/no-social-security/` carries the Social Security Administration's title and description ("My Social Security Account | Manage Benefits Online"); the rate box shows a rate and APR on every page, dated October 9, 2026; post body text is light gray (#7a7a7a) at 16 px, hard to read on a phone.
 
 ## Who these pages are for
 
@@ -64,7 +72,7 @@ Each title tag is under 60 characters, so Google shows it in full. The H1 is the
 
 - Title tag: `Reverse Mortgage for Purchase in SC: Buy a Home With HECM` (57)
 - H1: Can You Buy a Home in South Carolina With a Reverse Mortgage?
-- URL: `/reverse-mortgage-for-purchase-sc/`
+- URL: `/can-you-purchase-a-home-with-a-reverse-mortgage/` (the existing post, upgraded in place)
 - Searches: HECM for purchase, reverse mortgage to buy a home, reverse mortgage purchase down payment, downsize with reverse mortgage
 - Reader: a homeowner 62 or older who is selling up north and moving to the coast, and wants no monthly mortgage payment.
 - Kind of page: how-to and process, with one worked example in words, no rate and no payment figure.

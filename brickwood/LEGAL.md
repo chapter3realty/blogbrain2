@@ -1,36 +1,33 @@
-# BrickWood Mortgage: the legal block on every page
+# BrickWood Mortgage: the legal block on every post
 
-Every BrickWood post carries the items below. The exact wording comes from BrickWood's own site footer and its compliance contact. Where this file has `[from site]`, the wording is copied once the session can open brickwoodmortgage.com. Nothing here is legal advice; BrickWood's compliance contact approves the block once, and then it is fixed.
+`build.js` writes this block at the end of every post from one place, so all posts carry the same words. The wording below was copied from brickwoodmortgage.com on 2026-11-01 where the site already had it. BrickWood's compliance contact approves the block once; after that it is fixed.
 
-## On every page
+## On every post
 
-| Item | Wording | Why |
+| Item | Wording | Where it came from |
 |---|---|---|
-| Company name and NMLS ID | BrickWood Mortgage, Inc. NMLS #189497 `[legal name from site]` | The SAFE Act and South Carolina law require the NMLS unique identifier on advertising. |
-| NMLS Consumer Access link | "NMLS #189497" links to `https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/189497` | Lets the reader check the license. |
-| South Carolina license | `[license type and number from site]` | South Carolina licenses mortgage brokers through the Department of Consumer Affairs and mortgage lenders through the Board of Financial Institutions. Which applies to BrickWood is copied from its footer, not guessed. |
-| Other states | `[from site, if any]` | Only the states BrickWood is licensed in. |
-| Office address and phone | `[from site]`; phone (843) 314-4101 seen in search results | Identifies the licensee. |
-| Equal Housing | Equal Housing Lender (or Opportunity) logo and statement `[from site]` | Fair housing advertising rules (HUD) and fair lending (ECOA, Regulation B). |
-| Not a commitment to lend | "This is not a commitment to lend. All loans are subject to credit approval, property eligibility and underwriting guidelines. Programs can change without notice." `[match the site's wording]` | Programs described on the page are agency rules, not an offer. |
-| Byline loan officer | Name and personal NMLS ID next to the name, if a loan officer is the author or reviewer | The SAFE Act ID rule applies to the person too. |
+| Disclaimer | "This article is provided for general educational purposes only and is not an offer or commitment to lend. Not all loan programs mentioned, including down payment assistance and third-party or government programs, are offered by BrickWood Mortgage Inc. Program availability, terms and eligibility vary by lender and location and are subject to change. Please contact a licensed loan officer to find out which programs we currently offer." | BrickWood's existing posts, word for word |
+| Agency statement | "This material is not provided by, endorsed by, or approved by HUD, FHA, VA, or any government agency." | BrickWood's site footer, word for word |
+| Equal Housing | Equal Housing Lender logo (the site's own file) and "Equal Housing Lender. We do business in accordance with the Fair Housing Act and the Equal Credit Opportunity Act." | Logo from the site; the sentence is new and needs approval |
+| Company and NMLS | "BrickWood Mortgage Inc. NMLS #189497. 1601 Glenns Bay Rd., Surfside Beach, SC 29575. (843) 314-4101." The NMLS number links to NMLS Consumer Access. | Site footer and contact page |
+| Author | "By Paul Hankins, Founder, CEO and Broker, NMLS #281393", linked to his loan officer page | BrickWood's About and loan officer pages |
 
-## On some pages
+## On some posts
 
-| When | Add |
+| When | Wording |
 |---|---|
-| The page refers the reader to Chapter3 Realty | "BrickWood Mortgage has a business relationship with Chapter3 Realty. You are not required to use Chapter3 Realty. There are frequently other providers available. You are free to shop around." (the RESPA affiliated business wording; match the wording already approved on chapter3realty.com) |
-| Reverse mortgage (post 4) | The borrower must live in the home as a principal residence, keep paying property taxes, insurance, HOA dues and upkeep, and the loan comes due when the last borrower leaves or does not meet these terms. HUD-approved counseling is required. BrickWood is not a government agency, and HUD and FHA do not endorse it. `[match the site's existing reverse mortgage disclaimer]` |
-| A form on the page | The consent text `[from site]`, naming BrickWood and what contact the reader agrees to. |
+| The post links to Chapter3 Realty (posts 1, 2, 3) | "BrickWood Mortgage Inc. has a business relationship with Chapter3 Realty. You are not required to use Chapter3 Realty. There are frequently other providers available. You are free to shop around." This mirrors the wording approved on chapter3realty.com. |
+| Reverse mortgage (post 4) | "A reverse mortgage is a loan. The borrower must live in the home as a principal residence, keep paying property taxes, homeowners insurance and any HOA dues, and keep the home in good repair. The loan becomes due when the last borrower sells the home, moves out permanently or dies, or does not meet these terms. Interest and fees are added to the loan balance over time. Counseling from a HUD-approved counselor is required before applying." |
 
-## Never on a page
+## Never on a post
 
-- An interest rate, APR, payment amount, number of payments or finance charge (Regulation Z trigger terms).
+- An interest rate, APR, payment amount, number of payments or finance charge (Regulation Z trigger terms, 12 CFR 1026.24).
 - A down payment percentage, until owner question 1 is answered.
 - "Guaranteed approval", "lowest rates", "no closing costs", "pre-approved" said to the reader.
 - Any wording that discourages a reader based on a protected class, or that describes who lives somewhere.
 
 ## Owner questions
 
-1. May a post state an agency minimum as a rule ("Fannie Mae allows as little as 10% down on a second home"), with its source and the Regulation Z disclosure, or should posts state no percentage? Proposed answer: no percentage until compliance approves the wording once.
-2. Who reviews the posts as the named loan officer, with personal NMLS ID? Proposed answer: the loan officer who handles these loans, named in the byline as reviewer.
+1. **Down payment percentages.** May a post state an agency limit as a rule, for example Fannie Mae's 70% (80% at 62 or older) loan cap on asset depletion loans? Proposed answer: not until compliance approves the wording once. The posts now say what changes the down payment and offer the reader their own figure.
+2. **South Carolina license number.** The site shows NMLS #189497 but no South Carolina license type or number. If BrickWood's license is required on advertising, send it and `build.js` adds it to every post. NMLS Consumer Access blocks automated lookups, so this repo could not read it.
+3. **The Equal Housing sentence.** Approve "We do business in accordance with the Fair Housing Act and the Equal Credit Opportunity Act", or keep the logo alone.

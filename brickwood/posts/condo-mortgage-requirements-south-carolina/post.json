@@ -1,0 +1,58 @@
+{
+  "slug": "/condo-mortgage-requirements-south-carolina/",
+  "title": "Condo Mortgage Requirements in SC: The 2026 Rule Changes",
+  "description": "Fannie Mae ended Limited Review for condos in August 2026. What a building must pass now: repairs, reserves, rentals, condotels, and what to do if it fails.",
+  "focusKeyphrase": "condo mortgage requirements",
+  "h1": "Did the 2026 Condo Loan Changes Make Your Building Harder to Finance?",
+  "affiliate": true,
+  "reverse": false,
+  "about": {
+    "@type": "Thing",
+    "name": "Condominium mortgage eligibility"
+  },
+  "faqHeading": "Condo loan questions",
+  "faq": [
+    {
+      "q": "What is a non-warrantable condo?",
+      "a": "A non-warrantable condo is a unit in a building that does not meet Fannie Mae's building rules, so a conventional loan on it cannot be sold to Fannie Mae. Common reasons are hotel-style operations, unfunded critical repairs, one owner holding too many units, or too much commercial space. You can still finance it with a portfolio or non-QM loan."
+    },
+    {
+      "q": "Did Fannie Mae get rid of Limited Review for condos?",
+      "a": "Yes. Fannie Mae retired Limited Review for loan applications dated on or after August 3, 2026. Units in established buildings of more than 10 units now need a Full Review, FHA project approval, or a Fannie Mae review."
+    },
+    {
+      "q": "Can I get a conventional loan on a condo I plan to rent out?",
+      "a": "Yes, if the building passes the review. Renting your own unit is allowed. The building fails if it requires a rental pool, shares rental profits with the HOA, or runs hotel services such as a front desk or daily cleaning."
+    },
+    {
+      "q": "Does a special assessment stop a condo loan?",
+      "a": "Not always. Your lender reviews each special assessment. If it pays for a critical repair that is not yet fixed, the building is ineligible. A special assessment for routine work does not stop the loan by itself."
+    },
+    {
+      "q": "How much must a condo HOA keep in reserves?",
+      "a": "Under Fannie Mae's Full Review, the HOA budget must put at least 10% toward replacement reserves. A professional reserve study showing the building is adequately funded can be used instead."
+    },
+    {
+      "q": "Do small condo buildings need a review?",
+      "a": "Usually not. Fannie Mae waives the building review, apart from a few basic requirements, for detached condos, buildings of two to ten units, and attached units in five- to ten-unit buildings that are not part of a larger development."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Fannie Mae Selling Guide B4-2.1-01, General Information on Project Standards",
+      "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards"
+    },
+    {
+      "name": "Fannie Mae Selling Guide B4-2.1-03, Ineligible Projects",
+      "url": "https://selling-guide.fanniemae.com/sel/b4-2.1-03/ineligible-projects"
+    },
+    {
+      "name": "Fannie Mae Selling Guide B4-2.2-02, Full Review Process",
+      "url": "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-process"
+    },
+    {
+      "name": "24 CFR 203.43b, FHA eligibility of condominium units",
+      "url": "https://www.ecfr.gov/current/title-24/section-203.43b"
+    }
+  ]
+}
