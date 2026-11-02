@@ -5,21 +5,47 @@
   "description": "Yes, you can buy a house with a reverse mortgage at 62 or older. How a HECM for Purchase works, how much you bring, the requirements, and what you still pay.",
   "focusKeyphrase": "HECM for purchase",
   "h1": "HECM for Purchase: How to Buy a House With a Reverse Mortgage",
-  "h1InTheme": true,
+  "h1InTheme": false,
   "dek": "Buy your next home at 62 or older, with no monthly mortgage payment.",
   "affiliate": false,
   "reverse": true,
-  "about": { "@type": "Thing", "name": "HECM for Purchase" },
+  "about": {
+    "@type": "Thing",
+    "name": "HECM for Purchase"
+  },
   "faqHeading": "Reverse mortgage purchase questions",
   "faq": [
-    { "q": "Can you buy a house with a reverse mortgage?", "a": "Yes. A HECM for Purchase lets a buyer 62 or older buy a home with one closing. The buyer pays part of the price, the reverse mortgage pays the rest, and no monthly mortgage payment is required. Taxes, insurance and upkeep still have to be paid." },
-    { "q": "How much down payment is needed for a reverse mortgage purchase?", "a": "It depends mostly on the age of the youngest borrower, plus interest rates and the home's value. The older you are, the more the reverse mortgage covers and the less you bring. A reverse mortgage calculator or a loan officer can give you your number." },
-    { "q": "Can you buy a condo with a reverse mortgage?", "a": "Yes, if the condo is in an FHA-approved building. The home must also be finished and ready to live in." },
-    { "q": "How soon do you have to move in?", "a": "Within 60 days of closing. The home has to be your main home." }
+    {
+      "q": "Can you buy a house with a reverse mortgage?",
+      "a": "Yes. A HECM for Purchase lets a buyer 62 or older buy a home with one closing. The buyer pays part of the price, the reverse mortgage pays the rest, and no monthly mortgage payment is required. Taxes, insurance and upkeep still have to be paid."
+    },
+    {
+      "q": "How much down payment is needed for a reverse mortgage purchase?",
+      "a": "It depends mostly on the age of the youngest borrower, plus interest rates and the home's value. The older you are, the more the reverse mortgage covers and the less you bring. A reverse mortgage calculator or a loan officer can give you your number."
+    },
+    {
+      "q": "Can you buy a condo with a reverse mortgage?",
+      "a": "Yes, if the condo is in an FHA-approved building. The home must also be finished and ready to live in."
+    },
+    {
+      "q": "How soon do you have to move in?",
+      "a": "Within 60 days of closing. The home has to be your main home."
+    }
   ],
   "sources": [
-    { "name": "24 CFR Part 206, Home Equity Conversion Mortgage Insurance", "url": "https://www.ecfr.gov/current/title-24/part-206" },
-    { "name": "HUD, 2026 Nationwide HECM Limits (Mortgagee Letter 2025-22)", "url": "https://www.hud.gov/hud-partners/single-family-lender" },
-    { "name": "HUD, talk to a housing counselor", "url": "https://www.hud.gov/counseling" }
-  ]
+    {
+      "name": "24 CFR Part 206, Home Equity Conversion Mortgage Insurance",
+      "url": "https://www.ecfr.gov/current/title-24/part-206"
+    },
+    {
+      "name": "HUD, 2026 Nationwide HECM Limits (Mortgagee Letter 2025-22)",
+      "url": "https://www.hud.gov/hud-partners/single-family-lender"
+    },
+    {
+      "name": "HUD, talk to a housing counselor",
+      "url": "https://www.hud.gov/counseling"
+    }
+  ],
+  "category": "Reverse mortgages",
+  "railHead": "Thinking about a HECM for Purchase?"
 }

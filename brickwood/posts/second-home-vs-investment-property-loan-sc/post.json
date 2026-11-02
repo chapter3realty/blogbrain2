@@ -4,20 +4,43 @@
   "description": "Second home vs investment property: how lenders decide, whether you can rent out a second home, and what the difference does to your down payment and taxes.",
   "focusKeyphrase": "second home vs investment property",
   "h1": "Second Home vs Investment Property: Which Mortgage Do You Need?",
-  "h1InTheme": true,
+  "h1InTheme": false,
   "dek": "Buying a beach place you'll use and rent out sometimes? Here's how lenders decide.",
   "affiliate": false,
   "reverse": false,
-  "about": { "@type": "Thing", "name": "Second home and investment property mortgages" },
+  "about": {
+    "@type": "Thing",
+    "name": "Second home and investment property mortgages"
+  },
   "faqHeading": "Second home loan questions",
   "faq": [
-    { "q": "How many days do you have to live in a second home?", "a": "Fannie Mae's second home rule doesn't set a number of days. You must live there for some part of the year, and the home must be livable year-round." },
-    { "q": "Can I use rental income to qualify for a second home?", "a": "No. If you need the rent to qualify, the loan is an investment property loan. A DSCR loan, which qualifies you on the rent, is one option." },
-    { "q": "Is a second home taxed more in South Carolina?", "a": "Yes. A legal residence is assessed at 4% of its value when the owner applies. A second home is assessed at 6%." }
+    {
+      "q": "How many days do you have to live in a second home?",
+      "a": "Fannie Mae's second home rule doesn't set a number of days. You must live there for some part of the year, and the home must be livable year-round."
+    },
+    {
+      "q": "Can I use rental income to qualify for a second home?",
+      "a": "No. If you need the rent to qualify, the loan is an investment property loan. A DSCR loan, which qualifies you on the rent, is one option."
+    },
+    {
+      "q": "Is a second home taxed more in South Carolina?",
+      "a": "Yes. A legal residence is assessed at 4% of its value when the owner applies. A second home is assessed at 6%."
+    }
   ],
   "sources": [
-    { "name": "Fannie Mae Selling Guide B2-1.1-01, Occupancy Types", "url": "https://selling-guide.fanniemae.com/sel/b2-1.1-01/occupancy-types" },
-    { "name": "South Carolina Code 12-43-220, property tax assessment ratios", "url": "https://www.scstatehouse.gov/code/t12c043.php" },
-    { "name": "18 U.S.C. 1014, false statements in loan applications", "url": "https://www.law.cornell.edu/uscode/text/18/1014" }
-  ]
+    {
+      "name": "Fannie Mae Selling Guide B2-1.1-01, Occupancy Types",
+      "url": "https://selling-guide.fanniemae.com/sel/b2-1.1-01/occupancy-types"
+    },
+    {
+      "name": "South Carolina Code 12-43-220, property tax assessment ratios",
+      "url": "https://www.scstatehouse.gov/code/t12c043.php"
+    },
+    {
+      "name": "18 U.S.C. 1014, false statements in loan applications",
+      "url": "https://www.law.cornell.edu/uscode/text/18/1014"
+    }
+  ],
+  "category": "Second homes",
+  "railHead": "Buying a beach place?"
 }

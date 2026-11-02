@@ -4,7 +4,7 @@
   "description": "When flood insurance is required for a mortgage, what Zone X and AE mean, how much coverage your lender needs, and how the premium affects what you can afford.",
   "focusKeyphrase": "is flood insurance required for a mortgage",
   "h1": "Is Flood Insurance Required for a Mortgage?",
-  "h1InTheme": true,
+  "h1InTheme": false,
   "dek": "Buying near the water in South Carolina? Here's when your lender will require it, and how much.",
   "affiliate": false,
   "reverse": false,
@@ -48,5 +48,7 @@
       "name": "FEMA Flood Map Service Center",
       "url": "https://msc.fema.gov/portal/home"
     }
-  ]
+  ],
+  "category": "Buying near the water",
+  "railHead": "Buying near the water?"
 }

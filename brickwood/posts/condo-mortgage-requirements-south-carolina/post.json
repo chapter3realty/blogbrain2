@@ -4,7 +4,7 @@
   "description": "Fannie Mae changed its condo loan rules in 2026. What changed, why some condos can't get a regular mortgage, condotels, and your options if a building fails.",
   "focusKeyphrase": "condo loan requirements",
   "h1": "Condo Loan Requirements: What Changed in 2026",
-  "h1InTheme": true,
+  "h1InTheme": false,
   "dek": "Fannie Mae changed its condo rules this year. Here's what it means if you're buying a condo.",
   "affiliate": false,
   "reverse": false,
@@ -48,5 +48,7 @@
       "name": "24 CFR 203.43b, FHA condominium eligibility",
       "url": "https://www.ecfr.gov/current/title-24/section-203.43b"
     }
-  ]
+  ],
+  "category": "Buying a condo",
+  "railHead": "Shopping for a condo?"
 }
