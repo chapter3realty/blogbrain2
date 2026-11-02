@@ -16,7 +16,7 @@
   "faq": [
     {
       "q": "Do I need flood insurance in Myrtle Beach?",
-      "a": "Only if the home is in a high-risk FEMA flood zone, one starting with A or V, or in a protected coastal barrier area. Then your lender requires it. In shaded or unshaded Zone X it's your choice, though homes there can still flood."
+      "a": "Only if the home is in a high-risk FEMA flood zone, one starting with A or V, or in a protected coastal barrier area. Then your lender requires it. In shaded or unshaded Zone X, outside those coastal barrier areas, it's usually your choice, though homes there can still flood."
     },
     {
       "q": "Is flood insurance cheaper in Myrtle Beach?",
@@ -32,7 +32,7 @@
     },
     {
       "q": "What is a flood certificate?",
-      "a": "A flood certificate, or flood cert, is the lender's official record of a home's FEMA flood zone. The lender orders it after you apply. If the home is in a high-risk zone, flood insurance becomes a requirement of the loan."
+      "a": "A flood certificate, or flood cert, is a standard FEMA form the lender uses to record a home's FEMA flood zone. The lender orders it after you apply. If the home is in a high-risk zone, flood insurance becomes a requirement of the loan."
     }
   ],
   "sources": [

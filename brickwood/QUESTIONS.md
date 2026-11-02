@@ -16,6 +16,7 @@ A source can't confirm these, only someone who does the work can (`CRAFT.md` 2, 
 | "Zone X isn't 'no risk', and homes there can flood, often from heavy rain and drainage problems." | Keep. FEMA says Zone C and X can have ponding and drainage problems. "Often" is our judgment. |
 | "Ask the seller early whether they have [an elevation certificate]. If not, your agent can tell you whether paying a surveyor for one is likely to help on that house." | Keep. Do Grand Strand sellers usually have one? |
 | "If the home you're buying already has [a LOMA], ask the seller for a copy." | Keep. |
+| (New) Do any of BrickWood's lenders require flood insurance on a Zone X home even though federal rules don't? | If yes, the post says "some lenders may still require it". |
 | The table of flood insurance discounts by town (FEMA data). | Keep. Do your clients' agents apply these discounts on quotes? |
 
 ## Myrtle Beach condo financing
