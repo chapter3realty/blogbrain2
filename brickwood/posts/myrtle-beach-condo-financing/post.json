@@ -1,11 +1,11 @@
 {
-  "slug": "/condo-mortgage-requirements-south-carolina/",
-  "title": "Condo Requirements for Conventional Loans: 2026 Changes",
-  "description": "Fannie Mae changed its condo loan rules in 2026. What changed, why some condos can't get a regular mortgage, condotels, and your options if a building fails.",
-  "focusKeyphrase": "condo loan requirements",
-  "h1": "Condo Loan Requirements: What Changed in 2026",
+  "slug": "/myrtle-beach-condo-financing/",
+  "title": "Myrtle Beach Condo Financing: 2026 Loan Rules Explained",
+  "description": "Buying a condo in Myrtle Beach? What the 2026 condo rules changed, condo-hotels and rental programs, renting your unit, and loans if a building fails.",
+  "focusKeyphrase": "myrtle beach condo financing",
+  "h1": "Myrtle Beach Condo Financing: What the 2026 Rules Mean for Buyers",
   "h1InTheme": false,
-  "dek": "Fannie Mae changed its condo rules this year. Here's what it means if you're buying a condo.",
+  "dek": "Oceanfront tower, resort building or a small complex off the beach? Here's how condo loans work on the Grand Strand now.",
   "affiliate": false,
   "reverse": false,
   "about": {
@@ -15,16 +15,20 @@
   "faqHeading": "Condo loan questions",
   "faq": [
     {
+      "q": "Can you finance a condo-hotel in Myrtle Beach?",
+      "a": "Not with a regular Fannie Mae loan, because Fannie Mae won't back a loan in a building that runs like a hotel. You can still finance one with a non-warrantable condo loan from a lender that lends outside Fannie Mae's rules."
+    },
+    {
       "q": "What is a non-warrantable condo?",
-      "a": "A non-warrantable condo is a unit in a building that doesn't meet Fannie Mae's rules, so it can't get a regular conventional loan sold to Fannie Mae. Common reasons are hotel-style operations, big unfunded repairs, one owner with too many units, or too much commercial space. It can still be financed with other loans."
+      "a": "A non-warrantable condo is a unit in a building that doesn't meet Fannie Mae's rules, so it can't get a regular conventional loan sold to Fannie Mae. Common reasons are hotel-style operations, big unfunded repairs, one owner with too many units, or too much commercial space."
     },
     {
       "q": "Did Fannie Mae get rid of Limited Review for condos?",
       "a": "Yes. Fannie Mae retired Limited Review for loan applications dated on or after August 3, 2026. Established buildings with more than 10 units now need a full review, FHA approval or a Fannie Mae review."
     },
     {
-      "q": "Can I get a regular mortgage on a condo I rent out?",
-      "a": "Yes, if the building qualifies. Renting your own unit is fine. The building fails if it runs like a hotel, with a front desk, daily cleaning or a required rental program."
+      "q": "Can I rent out my Myrtle Beach condo and still get a regular mortgage?",
+      "a": "Yes, if the building qualifies. Renting your own unit is fine. In the City of Myrtle Beach, short-term stays collect about 13% in lodging taxes, so build that into your plans."
     }
   ],
   "sources": [
@@ -50,5 +54,6 @@
     }
   ],
   "category": "Buying a condo",
-  "railHead": "Shopping for a condo?"
+  "railHead": "Shopping for a condo?",
+  "place": "Myrtle Beach, SC"
 }

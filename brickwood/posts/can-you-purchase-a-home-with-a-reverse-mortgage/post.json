@@ -1,12 +1,12 @@
 {
   "slug": "/can-you-purchase-a-home-with-a-reverse-mortgage/",
   "upgradeOf": "https://brickwoodmortgage.com/can-you-purchase-a-home-with-a-reverse-mortgage/",
-  "title": "HECM for Purchase: Buy a House With a Reverse Mortgage",
-  "description": "Yes, you can buy a house with a reverse mortgage at 62 or older. How a HECM for Purchase works, how much you bring, the requirements, and what you still pay.",
-  "focusKeyphrase": "HECM for purchase",
-  "h1": "HECM for Purchase: How to Buy a House With a Reverse Mortgage",
+  "title": "Reverse Mortgage in Myrtle Beach: HECM for Purchase Guide",
+  "description": "Buy a home in Myrtle Beach at 62 or older with a reverse mortgage. How HECM for Purchase works, what you bring, the rules, and SC tax breaks for retirees.",
+  "focusKeyphrase": "reverse mortgage myrtle beach",
+  "h1": "HECM for Purchase: Buying in Myrtle Beach With a Reverse Mortgage",
   "h1InTheme": false,
-  "dek": "Buy your next home at 62 or older, with no monthly mortgage payment.",
+  "dek": "Retiring to the Grand Strand? Buy your next home at 62 or older with no monthly mortgage payment.",
   "affiliate": false,
   "reverse": true,
   "about": {
@@ -30,6 +30,10 @@
     {
       "q": "How soon do you have to move in?",
       "a": "Within 60 days of closing. The home has to be your main home."
+    },
+    {
+      "q": "Does South Carolina have a homestead exemption for seniors?",
+      "a": "Yes. At 65 or older, after a year as a South Carolina resident, the first $50,000 of your home's value is exempt from property taxes. Apply to the county auditor before July 16."
     }
   ],
   "sources": [
@@ -44,8 +48,17 @@
     {
       "name": "HUD, talk to a housing counselor",
       "url": "https://www.hud.gov/counseling"
+    },
+    {
+      "name": "S.C. Code 12-37-250, homestead exemption at 65",
+      "url": "https://www.scstatehouse.gov/code/t12c037.php"
+    },
+    {
+      "name": "S.C. Code 12-6-1120, Social Security not included in SC income",
+      "url": "https://www.scstatehouse.gov/code/t12c006.php"
     }
   ],
   "category": "Reverse mortgages",
-  "railHead": "Thinking about a HECM for Purchase?"
+  "railHead": "Thinking about a HECM for Purchase?",
+  "place": "Myrtle Beach, SC"
 }

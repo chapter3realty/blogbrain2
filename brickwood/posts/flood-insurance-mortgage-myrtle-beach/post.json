@@ -1,11 +1,11 @@
 {
   "slug": "/flood-insurance-mortgage-myrtle-beach/",
-  "title": "Is Flood Insurance Required for a Mortgage? SC Buyer Guide",
-  "description": "When flood insurance is required for a mortgage, what Zone X and AE mean, how much coverage your lender needs, and how the premium affects what you can afford.",
-  "focusKeyphrase": "is flood insurance required for a mortgage",
-  "h1": "Is Flood Insurance Required for a Mortgage?",
+  "title": "Flood Insurance in Myrtle Beach: Zones, Maps and Your Loan",
+  "description": "When your lender requires flood insurance in Myrtle Beach, how to read the flood zone map, local discounts by town, and the coverage you need.",
+  "focusKeyphrase": "flood insurance myrtle beach",
+  "h1": "Flood Insurance in Myrtle Beach: When Your Mortgage Requires It",
   "h1InTheme": false,
-  "dek": "Buying near the water in South Carolina? Here's when your lender will require it, and how much.",
+  "dek": "Buying on the Grand Strand? Here's when your lender needs flood insurance, how to check the map, and the local discounts most buyers don't know about.",
   "affiliate": false,
   "reverse": false,
   "about": {
@@ -15,8 +15,12 @@
   "faqHeading": "Flood insurance questions",
   "faq": [
     {
-      "q": "Is flood insurance required for a mortgage in Zone AE?",
-      "a": "Yes. Zone AE is a high-risk flood zone, so lenders require flood insurance on the home for conventional, FHA, VA and bank loans."
+      "q": "Do I need flood insurance in Myrtle Beach?",
+      "a": "Only if the home is in a high-risk FEMA flood zone, one starting with A or V, or in a protected coastal barrier area. Then your lender requires it. In Zone X it's your choice, though homes there can still flood."
+    },
+    {
+      "q": "Is flood insurance cheaper in Myrtle Beach?",
+      "a": "Federal flood policies in the City of Myrtle Beach get a 25% discount in high-risk zones and 10% elsewhere, through FEMA's Community Rating System. North Myrtle Beach gets 20% and 10%, and Surfside Beach 15% and 5%."
     },
     {
       "q": "Is flood insurance required to be escrowed?",
@@ -28,6 +32,14 @@
     }
   ],
   "sources": [
+    {
+      "name": "FEMA OpenFEMA, NFIP Community Status Book (South Carolina)",
+      "url": "https://www.fema.gov/openfema-data-page/nfip-community-status-book-v1"
+    },
+    {
+      "name": "Horry County, FEMA Flood Maps",
+      "url": "https://www.horrycountysc.gov/Online-Services/FEMA-Flood-Maps"
+    },
     {
       "name": "12 CFR Part 339, Loans in Areas Having Special Flood Hazards",
       "url": "https://www.ecfr.gov/current/title-12/part-339"
@@ -47,8 +59,13 @@
     {
       "name": "FEMA Flood Map Service Center",
       "url": "https://msc.fema.gov/portal/home"
+    },
+    {
+      "name": "S.C. Code 38-75-310, coastal wind pool area",
+      "url": "https://www.scstatehouse.gov/code/t38c075.php"
     }
   ],
   "category": "Buying near the water",
-  "railHead": "Buying near the water?"
+  "railHead": "Buying near the water?",
+  "place": "Myrtle Beach, SC"
 }

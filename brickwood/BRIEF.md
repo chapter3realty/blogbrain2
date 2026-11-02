@@ -117,3 +117,9 @@ Chapter3 Realty is BrickWood's affiliate. Two sites on one subject compete for t
 ## Owner questions from the review
 
 4. **How long does a condo building review usually take at BrickWood?** Readers ask it. No public source answers it. Proposed answer: leave it off the page until a loan officer gives a typical range.
+
+## Local keyword pass (owner, 2026-11-02)
+
+> "better make them more hyper local we cant really beat national brands but we can win with more local keywords"
+
+Titles and H1s now lead with local phrases from Google's suggestions: "flood insurance myrtle beach", "flood zone map myrtle beach", "myrtle beach condo financing", "myrtle beach vacation home", "reverse mortgage myrtle beach". Two slugs changed while still unpublished: `/myrtle-beach-condo-financing/` and `/myrtle-beach-second-home-vs-investment-property/`. Each post carries local facts from rows L1 to L11 (FEMA flood discounts by town, map dates, Horry County tax gap, Myrtle Beach lodging taxes, North Myrtle Beach rental license, wind pool line, SC homestead exemption, Social Security) and links to BrickWood's city pages. The three posts link to each other, so publish them together.

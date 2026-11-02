@@ -1,11 +1,11 @@
 {
   "slug": "/asset-depletion-mortgage-sc/",
-  "title": "Asset Depletion Loan Requirements: Mortgage With No Income",
-  "description": "How an asset depletion loan turns your savings into income for a mortgage, what counts, typical requirements, and why some lenders divide by 60 months, not 360.",
+  "title": "Asset Depletion Loan in South Carolina: No Income Needed",
+  "description": "Buying in Myrtle Beach or anywhere in SC on savings, not a paycheck? How asset depletion loans work, what counts, and why some lenders divide by 60.",
   "focusKeyphrase": "asset depletion loan",
-  "h1": "Asset Depletion Loans: How to Get a Mortgage With No Income",
+  "h1": "Asset Depletion Loans in South Carolina: Buy on Savings, Not a Paycheck",
   "h1InTheme": false,
-  "dek": "Retired, between jobs or living off investments? Your savings can count as income.",
+  "dek": "Retiring to the coast, between jobs or living off investments? Your savings can count as income.",
   "affiliate": false,
   "reverse": false,
   "about": {
@@ -35,8 +35,17 @@
     {
       "name": "Fannie Mae Selling Guide B3-3.4-06, Employment-Related Assets as Qualifying Income",
       "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-06/employment-related-assets-qualifying-income"
+    },
+    {
+      "name": "S.C. Code 12-6-1120, Social Security not included in SC income",
+      "url": "https://www.scstatehouse.gov/code/t12c006.php"
+    },
+    {
+      "name": "S.C. Code 12-37-250, homestead exemption at 65",
+      "url": "https://www.scstatehouse.gov/code/t12c037.php"
     }
   ],
   "category": "Loan programs",
-  "railHead": "Living on savings?"
+  "railHead": "Living on savings?",
+  "place": "South Carolina"
 }

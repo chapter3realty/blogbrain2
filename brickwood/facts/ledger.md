@@ -120,3 +120,19 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | F21 | Most homeowners insurance does not cover flood damage. | floodsmart.gov | CORRECTED (owner recheck) |
 | F22 | Zone X marks moderate or minimal flood risk on FEMA maps. | FEMA / floodsmart.gov flood zones | VERIFIED (owner recheck) |
 | O6 | BrickWood offers loans on non-warrantable condos and asset depletion loans through its lenders. | Owner, 2026-11-01 ("we do offer all those loan types") | OWNER |
+
+## Local rows (2026-11-02)
+
+| ID | Fact | Source | Status |
+|---|---|---|---|
+| L1 | NFIP Community Rating System discounts (high-risk zone / other zones): City of Myrtle Beach class 5, 25% / 10%; unincorporated Horry County class 5, 25% / 10%; Town of Pawleys Island class 5, 25% / 10%; City of North Myrtle Beach class 6, 20% / 10%; Town of Surfside Beach class 7, 15% / 5%; Georgetown County (unincorporated) and City of Georgetown class 7, 15% / 5%; Conway, Loris, Aynor, Atlantic Beach and Briarcliffe Acres have no CRS class. All participate in the NFIP with no sanction. | FEMA OpenFEMA NfipCommunityStatusBook, refreshed 2026-08-25 | VERIFIED (primary data pulled 2026-11-02) |
+| L2 | Current effective flood maps: Horry County and its towns 12/16/2021 (Aynor has no high-risk zone); Georgetown County 06/18/2025; City of Georgetown and Pawleys Island 05/09/2023. | FEMA OpenFEMA NfipCommunityStatusBook | VERIFIED |
+| L3 | At 65 or older, after one year as a South Carolina resident, the first $50,000 of the fair market value of your home is exempt from county, municipal, school and special assessment property taxes. Apply to the county auditor before July 16 for that tax year. | S.C. Code 12-37-250(A) | VERIFIED (read 2026-11-02) |
+| L4 | South Carolina does not tax Social Security benefits (SC gross income is figured without IRC section 86). | S.C. Code 12-6-1120(4) | VERIFIED (read 2026-11-02) |
+| L5 | An owner-occupied legal residence receiving the 4% ratio is exempt from property taxes for school operating purposes. | S.C. Code 12-37-220(B)(47) | VERIFIED (read 2026-11-02) |
+| L6 | A rental's (non-legal-residence) property tax bill in Horry County is about 3.3 times (unincorporated) to 4.3 times (City of Myrtle Beach) an owner-occupant's, on 2025 and 2026 millage. | facts/registry.json rental-vs-residence-tax (verified in the Chapter3 line) | VERIFIED (registry) |
+| L7 | A short-term rental in the City of Myrtle Beach collects about 13% in total lodging taxes. SC treats a stay under 90 continuous days as transient. | facts/registry.json mb-lodging-tax, sc-transient-days | VERIFIED (registry) |
+| L8 | North Myrtle Beach requires a business license for a short-term rental, with no separate STR permit. | facts/registry.json nmb-str-permit (staleBy 2027-01-01) | VERIFIED (registry) |
+| L9 | In Horry County the coastal wind pool area is east of U.S. 17 or Bypass 17, whichever is farther west; in Myrtle Beach that is the Bypass. | facts/registry.json wind-pool-line | VERIFIED (registry) |
+| L10 | Horry County posts its FEMA flood insurance rate maps online (horrycountysc.gov, FEMA Flood Maps). | https://www.horrycountysc.gov/Online-Services/FEMA-Flood-Maps | VERIFIED |
+| L11 | Carolina Forest and Socastee are unincorporated communities (census-designated places) in Horry County. | U.S. Census Bureau place records | |

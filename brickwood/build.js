@@ -61,6 +61,7 @@ function schema(p) {
     author: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.title, url: AUTHOR.url, identifier: 'NMLS ' + AUTHOR.nmls },
     publisher: { '@type': 'Organization', name: 'BrickWood Mortgage Inc.', url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/wp-content/uploads/2021/09/BrickWood-Mortgage-logo.png' }, identifier: 'NMLS 189497' },
     about: p.about || undefined,
+    spatialCoverage: p.place ? { '@type': 'Place', name: p.place } : undefined,
     inLanguage: 'en-US'
   }];
   if (p.faq && p.faq.length) graph.push({
