@@ -84,6 +84,31 @@ The same stretch takes other forms. Batch 2026-10-b's verifiers found each of th
 
 **When one page comes out weaker, fix the input first.** A short or vague page usually had fewer verified facts or a weak picture source. Add rows, not words.
 
+### True in practice, not only on paper
+
+Learned from BrickWood Mortgage's owner, Paul, 2026-11-02 (`brickwood/VERDICTS.md`). Every fact on those pages had passed a source check, and he still sent back a sentence as "not true". The sentence was true. The state wind pool line was quoted correctly from the statute. But none of his clients use the wind pool, because it is expensive. A source can tell you what a rule says. Only someone who does the work can tell you how it plays out for the people you serve. Every check we ran asked "does a source say this?" and none asked "is this how it really works, and does the reader need it?"
+
+**Sort every claim by who can confirm it.**
+- **Rules:** what a law, an agency guide or a program says. A source confirms them, and the verifier checks them.
+- **Practice:** how things go in real life. That includes what clients actually do, what usually helps, what something costs, the terms lenders really offer, and what a buyer runs into. Only a practitioner can confirm these: the owner, a loan officer, an agent.
+- **Our own offers:** what the business does and doesn't do. Only the owner confirms these.
+
+A page that leans on rules alone reads like a manual and misses what matters most. List every practice claim in the batch's question sheet (`brickwood/QUESTIONS.md` is the model). Give each one with your proposed answer, and send the sheet to a practitioner before the owner reads the page. Also ask the practitioner the open question: "What do your clients get wrong about this, and what do you always tell them?" The answers are the page's best material. Paul's best notes were all practice: the elevation certificate that can lower a premium, the trade-off behind a short asset divisor, the word "flood cert" on the paperwork.
+
+**Purpose test for every fact.** Before a fact goes on the page, name what the reader will decide or do differently because of it. If you can't, leave it out, however true or local it is. An instruction like "make it local" asks for facts that serve a local reader, not for every local fact the research found.
+
+**Simplify the words, not the rule.** A plain rewrite may cut words. It may not cut a condition that changes the answer for some reader: an age deadline, a second way to qualify, a split inside a category. Keep the condition, and say it simply.
+- Wrong: "At 65 or older." Right: "If you turned 65 by December 31 of the year before."
+- Wrong: "The building has to be FHA-approved." Right: "An FHA-approved building, or FHA approval for that one unit."
+
+**Keep the reader's real words.** Use the word the reader will see on their paperwork, hear from their lender, or type into Google, and explain it once: "a flood certificate (often called a flood cert)". An invented plain phrase like "flood zone check" is easier to read but harder to find and to match with what the lender says.
+
+**Every best case comes with its cost.** A favorable number (the shortest divisor, the biggest discount, the lowest requirement) is shown with what it costs and the range between the extremes. Say "homes there can flood", not "do flood". Say "most loans, including...", not "almost every loan", unless a count backs it.
+
+**Review what the reader will get.** The owner reads a preview. It must behave like the live page: every link opens, the pictures load, nothing says "coming soon". Run the link check (`brickwood/linkcheck.js` is the model) before any page goes to the owner.
+
+Test question for the whole page: *Would the person who does this work every day read each sentence and nod, or say "that's not how it works"?*
+
 ## 3. Choose the shape
 
 **The reader's job chooses the shape.** There is no fixed list of sections. Name the job in one verb, find the main relation in the content, and pick the one shape that shows it. Full guidance for 13 kinds of page is in `reports/Page shapes by kind of page.md`. In short:

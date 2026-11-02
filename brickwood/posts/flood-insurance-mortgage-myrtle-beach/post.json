@@ -16,7 +16,7 @@
   "faq": [
     {
       "q": "Do I need flood insurance in Myrtle Beach?",
-      "a": "Only if the home is in a high-risk FEMA flood zone, one starting with A or V, or in a protected coastal barrier area. Then your lender requires it. In Zone X it's your choice, though homes there can still flood."
+      "a": "Only if the home is in a high-risk FEMA flood zone, one starting with A or V, or in a protected coastal barrier area. Then your lender requires it. In shaded or unshaded Zone X it's your choice, though homes there can still flood."
     },
     {
       "q": "Is flood insurance cheaper in Myrtle Beach?",
@@ -29,6 +29,10 @@
     {
       "q": "Is there a waiting period for flood insurance when buying a house?",
       "a": "No. A federal flood policy bought with a new loan takes effect at closing, as long as you apply and pay by then. Without a loan, a new policy normally starts 30 days after you apply and pay."
+    },
+    {
+      "q": "What is a flood certificate?",
+      "a": "A flood certificate, or flood cert, is the lender's official record of a home's FEMA flood zone. The lender orders it after you apply. If the home is in a high-risk zone, flood insurance becomes a requirement of the loan."
     }
   ],
   "sources": [
@@ -61,8 +65,12 @@
       "url": "https://msc.fema.gov/portal/home"
     },
     {
-      "name": "S.C. Code 38-75-310, coastal wind pool area",
-      "url": "https://www.scstatehouse.gov/code/t38c075.php"
+      "name": "FloodSmart (FEMA), what is my flood zone",
+      "url": "https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-zone"
+    },
+    {
+      "name": "FloodSmart for agents, Risk Rating 2.0 and elevation certificates",
+      "url": "https://agents.floodsmart.gov/articles/risk-rating-20-what-goes-rate"
     }
   ],
   "category": "Buying near the water",

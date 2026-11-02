@@ -136,3 +136,16 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | L9 | In Horry County the coastal wind pool area is east of U.S. 17 or Bypass 17, whichever is farther west; in Myrtle Beach that is the Bypass. | facts/registry.json wind-pool-line | VERIFIED (registry) |
 | L10 | Horry County posts its FEMA flood insurance rate maps online (horrycountysc.gov, FEMA Flood Maps). | https://www.horrycountysc.gov/Online-Services/FEMA-Flood-Maps | VERIFIED |
 | L11 | Carolina Forest, Socastee and Garden City are census-designated places in Horry County; Murrells Inlet CDP is in Georgetown County. | Census 2020 place-by-county file | VERIFIED (verify-local-2026-11-02) |
+
+## Rows from Paul's review (2026-11-02)
+
+| ID | Fact | Source | Status |
+|---|---|---|---|
+| O7 | The fewer months an asset depletion lender divides by, the tougher its other terms. BrickWood's lenders offer divisors from 360 down to 60 months, including options in between. | Owner, 2026-11-02 | OWNER |
+| O8 | BrickWood's clients don't use the SC wind pool; it is expensive. The wind pool line is not useful to a BrickWood reader. | Owner, 2026-11-02 | OWNER |
+| P1 | Zone B and shaded X: moderate flood hazard, usually between the 100-year and 500-year flood limits, or shallow flooding. Zone C and unshaded X: minimal flood hazard, usually above the 500-year level. FEMA recommends flood insurance in C and X. | floodsmart.gov/flood-zones-and-maps/what-is-my-flood-zone | |
+| P2 | Under Risk Rating 2.0, an elevation certificate is no longer required to buy NFIP coverage; FEMA determines first-floor height itself; an owner may give an EC to the agent to see if it lowers the cost. | agents.floodsmart.gov/articles/risk-rating-20-what-goes-rate | |
+| P3 | The lender's flood zone determination (FEMA Standard Flood Hazard Determination Form) is commonly called a flood certificate or flood cert. | FEMA SFHDF; industry usage | |
+| P4 | The SC homestead exemption requires turning 65 on or before December 31 preceding the tax year, and one year of SC residency. | S.C. Code 12-37-250(A)(1) | VERIFIED (statute text read) |
+| P5 | A HECM on a condo requires a HUD-approved project, or a Single-Unit Approval, under 24 CFR 203.43b(c). | 24 CFR 206.51; 203.43b(c) | VERIFIED (C12) |
+| P6 | IRS rule: a dwelling counts as the taxpayer's residence if personal use exceeds the greater of 14 days or 10% of the days rented (26 U.S.C. 280A(d)(1)). This is a tax rule, not a mortgage occupancy rule. | law.cornell.edu/uscode/text/26/280A | VERIFIED (statute text read) |

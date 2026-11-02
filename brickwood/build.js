@@ -89,6 +89,11 @@ function wpFragment(p, body) {
   return `<!-- BrickWood post: ${p.slug} | Paste into one Custom HTML block. SEO title and meta description go in Yoast. -->\n<style>${css}</style>\n${article(p, body)}\n${schema(p)}\n`;
 }
 
+function previewLinks(html) {
+  // In a preview, a link to another post in this batch opens that post's preview, so a reviewer never hits a page that is not live yet.
+  return html.replace(/https:\/\/brickwoodmortgage\.com\/([a-z0-9-]+)\//g, (m, slug) => BATCH.has(slug) ? `${slug}.html` : m);
+}
+
 function preview(p, body) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(p.title)}</title><meta name="description" content="${esc(p.description)}">
@@ -99,7 +104,7 @@ function preview(p, body) {
 ${css}</style></head><body>
 <div class="pv-top">Reviews &nbsp; Contact &nbsp; Loan Officers &nbsp; Loans For Veterans</div>
 <div class="pv-head"><img src="${SITE}/wp-content/uploads/2021/09/BrickWood-Mortgage-logo.png" alt="BrickWood Mortgage Inc."><nav class="pv-nav">Home &nbsp; Loan Programs &nbsp; Calculators &nbsp; About Us &nbsp; Resources</nav><a href="${SITE}/pre-qualify-your-loan/">PRE-QUALIFY</a></div>
-${article(p, body)}
+${previewLinks(article(p, body))}
 <div class="pv-foot">Preview only. The live page uses the site's own header and footer. © 2007-2026 Brickwood Mortgage Inc. NMLS #189497</div>
 ${schema(p)}
 </body></html>`;
@@ -109,6 +114,7 @@ const postsDir = path.join(ROOT, 'posts');
 const out = { wp: path.join(ROOT, 'dist/wp'), preview: path.join(ROOT, 'dist/preview') };
 Object.values(out).forEach(d => fs.mkdirSync(d, { recursive: true }));
 const only = process.argv[2];
+const BATCH = new Set(fs.readdirSync(postsDir).map(d => JSON.parse(fs.readFileSync(path.join(postsDir, d, 'post.json'), 'utf8')).slug.replace(/\//g, '')));
 for (const dir of fs.readdirSync(postsDir)) {
   if (only && dir !== only) continue;
   const p = JSON.parse(fs.readFileSync(path.join(postsDir, dir, 'post.json'), 'utf8'));

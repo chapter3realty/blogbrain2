@@ -20,7 +20,7 @@
     },
     {
       "q": "How many days do you have to live in a second home?",
-      "a": "Fannie Mae's second home rule doesn't set a number of days. You must live there for some part of the year, and the home must be livable year-round."
+      "a": "Fannie Mae's second home rule doesn't set a number of days. You must live there for some part of the year, and the home must be livable year-round. The two-week figure people often hear is an IRS tax rule about personal use of a rental, not a mortgage rule. Ask your tax advisor about that one."
     },
     {
       "q": "Can I use rental income to qualify for a second home?",
@@ -55,6 +55,10 @@
     {
       "name": "North Myrtle Beach, short-term rentals",
       "url": "https://www.nmb.us/833/Short-term-Rentals"
+    },
+    {
+      "name": "26 U.S.C. 280A, personal use of a dwelling unit (tax rule)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/280A"
     }
   ],
   "category": "Second homes",

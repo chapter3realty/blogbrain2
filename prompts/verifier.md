@@ -11,6 +11,17 @@ You are checking a fact ledger for a page on chapter3realty.com. Assume the rese
 - wrong geography
 - overstated claims
 
+## First, sort the rows (CRAFT 2, "True in practice, not only on paper")
+
+Mark each row as one of three kinds:
+- a **rule**: a law, agency guide or program;
+- a **practice** claim: what clients do, what usually helps, costs, the terms lenders really offer;
+- **our own offer**: what the business does.
+
+You can verify rules. You cannot verify practice claims or offers from a document, however good it is. Mark them `needs practitioner` and list them for the batch question sheet, with the wording you would propose. A practice claim that only a document supports is not verified, even if the document is official.
+
+Then, for each rule, compare the page's plain sentence with the source. Did the simplification drop a condition that changes the answer for some reader? Look for a deadline, an age or date test, a second way to qualify, or a split inside a category. If so, mark it `wrong` and give the short version that keeps the condition.
+
 ## For every row
 
 1. **Open the URL yourself.** Do not trust the pasted quote.

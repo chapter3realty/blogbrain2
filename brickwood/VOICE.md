@@ -41,6 +41,10 @@ BrickWood is a mortgage broker. It pre-qualifies borrowers, answers questions, t
 
 Fannie Mae and FHA rules are a floor, not the whole market. BrickWood's lenders often allow more. When the owner or a lender gives real program terms, the post shows them, and says terms vary by lender. Example: asset depletion lenders who divide by 60 months instead of 360 (owner, 2026-11-01).
 
+## 6. True in practice, not only on paper (Paul, 2026-11-02)
+
+A sentence can match its source and still be wrong for BrickWood's clients ("None of our clients use the pool its really expensive"). Before Paul reads a page, every practice claim goes to a loan officer in `QUESTIONS.md`. A practice claim covers what clients do, what helps, costs, and real lender terms. The full lesson is in `CRAFT.md` 2. Run `node brickwood/linkcheck.js` and open the preview yourself before sending it.
+
 ## Still true from before
 
 No interest rate, APR, payment amount or down payment percentage. Every fact from a verified row or from the owner. The legal block on every post (`LEGAL.md`).

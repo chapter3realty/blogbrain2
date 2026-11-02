@@ -25,7 +25,7 @@
     },
     {
       "q": "Can you buy a condo with a reverse mortgage?",
-      "a": "Yes, if the condo is in an FHA-approved building. The home must also be finished and ready to live in."
+      "a": "Yes, if the condo is in an FHA-approved building or the unit gets FHA approval on its own (a single-unit approval). The home must also be finished and ready to live in."
     },
     {
       "q": "How soon do you have to move in?",
@@ -33,7 +33,7 @@
     },
     {
       "q": "Does South Carolina have a homestead exemption for seniors?",
-      "a": "Yes. At 65 or older, after a year as a South Carolina resident, the first $50,000 of your main home's value is exempt from property taxes. Apply to the county auditor, and to the town or city if the home is inside one, before July 16."
+      "a": "Yes. If you turned 65 by December 31 of the year before the tax year, and have lived in South Carolina for at least a year, the first $50,000 of your main home's value is exempt from property taxes. Apply to the county auditor, and to the town or city if the home is inside one, before July 16. Check your county's timing."
     }
   ],
   "sources": [

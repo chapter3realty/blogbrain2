@@ -23,6 +23,13 @@ First, before any rule, judge the sale and the shape (owner, 2026-10-14, third r
 - Does this page give its own audience what that audience cares about, or the same fields every page has?
 - Does it look modern, or dated?
 
+Then read it as someone who does this work every day (CRAFT 2, "True in practice, not only on paper"; BrickWood owner, 2026-11-02):
+- Quote every sentence a practitioner might answer with "that's not how it works for our clients". Each is a high finding until a practitioner confirms it.
+- For each fact, name what the reader will do differently because of it. Quote any fact with no answer, however true or local. Each is a medium finding.
+- Quote every plain-language sentence that may have dropped a condition, a second way to qualify, or the word the reader will see on their paperwork or search for.
+- Quote every best-case number shown without its cost, and every "do", "always" or "almost every" that should be "can", "often" or "most".
+- Open the preview as the owner will, and click every link. A link that fails, or an unfinished part, is a high finding.
+
 Then answer, as him, in his words:
 - Read the page once only for repetition and filler (owner, 2026-10-14: "extremly repetitive writing ... youll get hung up on one thing"). Quote every heading or paragraph that repeats an earlier one, every sentence that would be true of any place, every obvious or reassuring sentence ("your own locks are still yours to choose"), and every place the page tells the reader to check something themselves instead of saying we check it. Each is at least a medium finding.
 - Run `node <blog-brain>/tools/repeat-check.js <page>` and read its report: the same sentence twice, sentence shapes in 3 or more sections, devices in more than 40% of the entries, thin entries. Confirm each finding against the page and quote the real ones; a rewrite that cures one repetition often grows the next (batch 2026-10-b).
