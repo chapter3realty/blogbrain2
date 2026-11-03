@@ -184,5 +184,18 @@
   "rows": [
    "O9"
   ]
+ },
+ {
+  "id": "va-condo-counts",
+  "posts": [
+   "va-loan-condo-myrtle-beach"
+  ],
+  "says": "A recent search for Horry County showed 229 condo projects, including 28 rejected and 11 pending.",
+  "changes": "VA's list changes as projects are reviewed.",
+  "checkBy": "2027-02-01",
+  "how": "VA Condo Report, Horry County, status counts.",
+  "rows": [
+   "B9"
+  ]
  }
 ]
