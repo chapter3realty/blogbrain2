@@ -52,3 +52,42 @@ A source can't confirm these, only someone who does the work can (`CRAFT.md` 2, 
 | "In general, the fewer months a lender divides by, the tougher its other terms get. The lenders we work with offer options anywhere from 360 months down to 60." | Keep (Paul, 2026-11-02). Can we name one or two of the other terms that change (for example, a higher minimum in assets), without stating a rate? |
 | The table of how one lender counts each type of account, and its requirements (from the lender's email). | Is that lender comfortable being described publicly as "one of our lenders"? |
 | "Money from selling a home you owned counts in full and doesn't have to sit in your account for 120 days first." | Keep (lender email: "no seasoning required"). |
+
+# Batch 2026-11-b: practice questions for posts 6 to 10
+
+## Horry County loan limits
+| Sentence | Proposed |
+|---|---|
+| "jumbo programs differ a lot from lender to lender" | Keep. |
+| "Two loans. A first mortgage at the conforming limit, plus a second loan for the rest." | Keep if BrickWood offers a first-and-second (piggyback) option. Does it? |
+| At what price do your clients usually cross into jumbo here? | Would make a good local line. |
+
+## Builder's preferred lender
+| Sentence | Proposed |
+|---|---|
+| "Often the incentive looks bigger than it is once you see the whole loan." | Keep (Paul's direction, 2026-11-03). Is "often" fair from your files? |
+| "Many [builders] tie the incentive to their lender." (FAQ) | Keep. |
+| The incentive types: closing cost credit, rate buydown, upgrades. | Keep. Which do Grand Strand builders offer most? |
+| "We can tell you whether the financing timeline works for your loan." | Keep: that's answering a question, not a check before the offer. OK? |
+
+## Buy before you sell
+| Sentence | Proposed |
+|---|---|
+| The program is described without its name. | Naming it (HomeLight Buy Before You Sell, through our wholesale lender) would help search. OK to name it? |
+| Second-lien bridge loan: "sits behind your current mortgage ... the sale pays it off" | Keep. How long can it run, and do you need to qualify with both payments? |
+| "A HELOC is easier to set up before your home is listed for sale." | Keep if true for your lenders. |
+| "When we priced HELOCs for one client recently, the maximum loan nearly doubled from one lender to another ... 70% ... 80%." | From your email, with no rates, fees, payments or client details. OK to publish? |
+
+## VA loan for a Myrtle Beach condo
+| Sentence | Proposed |
+|---|---|
+| "Try a short version of the name, because projects are often listed under their legal association name." | Keep if that matches your experience with the VA search. |
+| "The condo's documents can be sent to VA for review. It takes time, and the association has to cooperate." | Keep. Roughly how long does it take? |
+| "some of our lenders make condo loans outside those rules" (non-warrantable) | Keep (owner row O6). |
+
+## Seasonal income
+| Sentence | Proposed |
+|---|---|
+| "Ask your loan officer how the timing affects your numbers before you apply." | Keep. Is there a best time of year for seasonal workers to apply? |
+| Newer to seasonal work (less than two years). | We cut the examples. Do any of your lenders accept less than two years? |
+| Do your lenders count off-season unemployment for FHA and VA too? | Would add a line. |

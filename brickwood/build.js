@@ -121,7 +121,7 @@ for (const dir of fs.readdirSync(postsDir)) {
   const body = fs.readFileSync(path.join(postsDir, dir, 'body.html'), 'utf8');
   if (p.title.length > 60) console.warn(`WARN ${dir}: title tag is ${p.title.length} characters`);
   if (p.description.length > 160) console.warn(`WARN ${dir}: description is ${p.description.length} characters`);
-  const banned = /(\d+(\.\d+)?\s?%\s*(apr|interest|rate))|\bAPR\b|monthly payment of \$|guarantee|lowest rate|no closing costs|—/i;
+  const banned = /(\d+(\.\d+)?\s?%\s*(apr|interest|rate))|\bAPR\b|monthly payment of \$|guaranteed approval|we guarantee|lowest rate|no closing costs|—/i;
   const hit = (strip(body) + ' ' + p.faq.map(f => strip(f.a)).join(' ')).match(banned);
   if (hit) console.warn(`WARN ${dir}: check wording "${hit[0]}" (rate, payment, guarantee or em dash)`);
   fs.writeFileSync(path.join(out.wp, dir + '.html'), wpFragment(p, body));

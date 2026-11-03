@@ -1,0 +1,55 @@
+{
+  "slug": "/horry-county-loan-limits/",
+  "title": "Horry County Loan Limits 2026: FHA, Conforming and VA",
+  "description": "2026 loan limits in Horry County and Myrtle Beach: the conforming limit, the FHA limit, VA loans with full entitlement, and your options above the limit.",
+  "focusKeyphrase": "fha loan limit horry county",
+  "h1": "Horry County Loan Limits for 2026: FHA, Conforming, VA and Jumbo",
+  "h1InTheme": false,
+  "dek": "How much you can borrow with each loan type in Myrtle Beach and the Grand Strand, and what to do if your loan is over the limit.",
+  "affiliate": false,
+  "reverse": false,
+  "about": {
+    "@type": "Thing",
+    "name": "Mortgage loan limits"
+  },
+  "place": "Horry County, SC",
+  "category": "Loan programs",
+  "railHead": "Close to a loan limit?",
+  "faqHeading": "Loan limit questions",
+  "faq": [
+    {
+      "q": "What is the FHA loan limit in Horry County for 2026?",
+      "a": "The 2026 FHA limit for a one-unit home in Horry County is $541,287, the national minimum."
+    },
+    {
+      "q": "What is the conforming loan limit in Myrtle Beach?",
+      "a": "For 2026, it's $832,750 for a one-unit home in Horry County, including Myrtle Beach. Anything larger needs a jumbo loan."
+    },
+    {
+      "q": "Is there a VA loan limit in Horry County?",
+      "a": "VA sets none for borrowers with their full entitlement. With part of it tied up in another VA loan, the county's $832,750 conforming limit decides how much of a new loan VA will guarantee."
+    },
+    {
+      "q": "Can I buy a house above the FHA limit with an FHA loan?",
+      "a": "Yes. The limit applies to the loan, not the price, so a bigger down payment can keep the loan at or under $541,287."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FHFA, conforming loan limit values for 2026",
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-announces-conforming-loan-limit-values-for-2026"
+    },
+    {
+      "name": "HUD, 2026 FHA mortgage limits (Mortgagee Letter 2025-23)",
+      "url": "https://www.hud.gov/hud-partners/single-family-lender"
+    },
+    {
+      "name": "HUD, FHA mortgage limits lookup",
+      "url": "https://entp.hud.gov/idapp/html/hicostlook.cfm"
+    },
+    {
+      "name": "VA, home loan entitlement and limits",
+      "url": "https://www.va.gov/housing-assistance/home-loans/loan-limits/"
+    }
+  ]
+}

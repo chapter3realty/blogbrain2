@@ -1,0 +1,28 @@
+{
+  "slug": "/builder-preferred-lender-myrtle-beach/",
+  "title": "Builder's Preferred Lender in Myrtle Beach: Worth It?",
+  "description": "Should you use the builder's preferred lender on a new home in Myrtle Beach? What the law says, how builder incentives work, and how to compare the whole loan.",
+  "focusKeyphrase": "builder's preferred lender",
+  "h1": "Should You Use the Builder's Preferred Lender? New Construction on the Grand Strand",
+  "h1InTheme": false,
+  "dek": "Buying a new home in Myrtle Beach? The builder's incentive is only half the story. Here's how to compare the whole loan.",
+  "affiliate": false,
+  "reverse": false,
+  "about": { "@type": "Thing", "name": "Builder preferred lender incentives" },
+  "place": "Myrtle Beach, SC",
+  "category": "New construction",
+  "railHead": "Got a builder's offer?",
+  "faqHeading": "Builder lender questions",
+  "faq": [
+    { "q": "Can a builder make you use their lender?", "a": "No. Under federal law, a builder can't require you to use a lender it's affiliated with. It can offer an optional incentive for using that lender, and it must disclose an ownership stake in the lender." },
+    { "q": "Is the builder's preferred lender cheaper?", "a": "Sometimes, but an incentive is only one number. Compare the interest rate, the lender fees and the cash to close on full Loan Estimates from the builder's lender and at least one other lender." },
+    { "q": "Can I keep the builder incentive if I use my own lender?", "a": "It depends on the builder. Many tie the incentive to their lender. Read the incentive terms in the contract, then compare what you'd save with each lender." },
+    { "q": "How do I compare two mortgage offers?", "a": "Ask each lender for a Loan Estimate. Lenders must give you one within three business days of your application, and the standard form lets you compare the rate, fees and cash to close line by line." }
+  ],
+  "sources": [
+    { "name": "12 CFR 1024.2 and 1024.15, RESPA affiliated business arrangements and required use", "url": "https://www.ecfr.gov/current/title-12/part-1024" },
+    { "name": "12 CFR 1026.19(e), Loan Estimate timing", "url": "https://www.ecfr.gov/current/title-12/section-1026.19" },
+    { "name": "Fannie Mae Selling Guide B3-4.1-02, Interested Party Contributions", "url": "https://selling-guide.fanniemae.com/sel/b3-4.1-02/interested-party-contributions-ipcs" },
+    { "name": "CFPB, Loan Estimate explainer", "url": "https://www.consumerfinance.gov/owning-a-home/loan-estimate/" }
+  ]
+}

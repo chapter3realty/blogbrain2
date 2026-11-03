@@ -1,0 +1,47 @@
+{
+  "slug": "/seasonal-income-mortgage-myrtle-beach/",
+  "title": "Mortgage With a Seasonal Job in Myrtle Beach: How It Works",
+  "description": "Can you get a mortgage with a seasonal job on the Grand Strand? What lenders need, how winter unemployment can count, and options for seasonal businesses.",
+  "focusKeyphrase": "mortgage with a seasonal job",
+  "h1": "Can You Get a Mortgage With a Seasonal Job? A Grand Strand Guide",
+  "h1InTheme": false,
+  "dek": "Work the season in Myrtle Beach? Here's how lenders count your income, including winter unemployment.",
+  "affiliate": false,
+  "reverse": false,
+  "about": {
+    "@type": "Thing",
+    "name": "Seasonal income for mortgage qualification"
+  },
+  "place": "Myrtle Beach, SC",
+  "category": "Qualifying",
+  "railHead": "Work a seasonal job?",
+  "faqHeading": "Seasonal income questions",
+  "faq": [
+    {
+      "q": "Can you get a mortgage with a seasonal job?",
+      "a": "Yes. Lenders can count seasonal income when you have at least a two-year history of it. They average your income from this year and the previous two years."
+    },
+    {
+      "q": "Does unemployment count as income for a mortgage?",
+      "a": "Seasonal unemployment can count when it clearly comes from a seasonal layoff, is expected to recur, has been received for at least two years, and shows on your tax returns."
+    },
+    {
+      "q": "How do lenders calculate seasonal income?",
+      "a": "Under Fannie Mae's rule, the lender averages your year-to-date income with the previous two years of earnings, using your pay stub and W-2s or a verification from your employer."
+    },
+    {
+      "q": "I own a seasonal business. What loan works?",
+      "a": "A bank statement loan can use 12 to 24 months of business or personal deposits instead of tax returns, which captures both busy and slow months."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Fannie Mae Selling Guide B3-3.3-08, Seasonal Income",
+      "url": "https://selling-guide.fanniemae.com/sel/b3-3.3-08/seasonal-income"
+    },
+    {
+      "name": "Fannie Mae Selling Guide B3-3.4-17, Unemployment Benefits Income",
+      "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-17/unemployment-benefits-income"
+    }
+  ]
+}
