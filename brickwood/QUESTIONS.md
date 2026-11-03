@@ -91,3 +91,15 @@ A source can't confirm these, only someone who does the work can (`CRAFT.md` 2, 
 | "Ask your loan officer how the timing affects your numbers before you apply." | Keep. Is there a best time of year for seasonal workers to apply? |
 | Newer to seasonal work (less than two years). | We cut the examples. Do any of your lenders accept less than two years? |
 | Do your lenders count off-season unemployment for FHA and VA too? | Would add a line. |
+
+## Added after the batch b review (2026-11-03)
+
+| Question | Why it matters |
+|---|---|
+| Does BrickWood offer a first and second mortgage together (a piggyback) for loans just over the conforming limit? | If not, the loan limits post drops that option. |
+| Do Grand Strand builders make buyers pre-qualify with their lender even when financing elsewhere? | A fair line for the builder post. |
+| Does the builder's lender usually offer longer rate locks during a build? | The builder post now says it may; confirm. |
+| May a post show an example incentive amount ("a $10,000 closing cost credit")? | Compliance check; otherwise "a large closing cost credit". |
+| Which states does the buy-before-you-sell program cover? | The reader's old home is usually up north. |
+| Do your lenders count seasonal unemployment for FHA and VA loans too? | The seasonal post says "conventional" until you confirm. |
+| Is there a best time of year for a seasonal worker to apply? | Would make the seasonal post more useful (it's short at 520 words). |

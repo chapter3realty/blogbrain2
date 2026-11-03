@@ -170,3 +170,4 @@ FNMA = Fannie Mae Selling Guide, https://selling-guide.fanniemae.com/sel/<topic>
 | O12 | Paul's direction: the builder post argues for comparing with a broker instead of defaulting to the builder's preferred lender; never mention BrickWood's compensation. | Owner, 2026-11-03 | OWNER |
 | O13 | BrickWood's bank statement loans use 12 to 24 months of business or personal bank statements for self-employed borrowers. | brickwoodmortgage.com/bank-statement-mortgage-loans-south-carolina/ | OWNER (own site) |
 | B11 | VA loans have no monthly mortgage insurance. | va.gov VA-backed home loans; 38 U.S.C. 3729 (funding fee instead) | |
+| B12 | A VA loan requires the veteran to certify, at application and at closing, that they intend to occupy the property as their home. | 38 U.S.C. 3704(c)(1) | VERIFIED (statute text read) |

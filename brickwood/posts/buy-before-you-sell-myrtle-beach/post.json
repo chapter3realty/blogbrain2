@@ -8,16 +8,41 @@
   "dek": "Found your Grand Strand home before selling the one up north? Here's how to buy first and move once.",
   "affiliate": false,
   "reverse": false,
-  "about": { "@type": "Thing", "name": "Buy before you sell financing" },
+  "about": {
+    "@type": "Thing",
+    "name": "Buy before you sell financing"
+  },
   "place": "Myrtle Beach, SC",
   "category": "Moving to the coast",
   "railHead": "Buying before you sell?",
   "faqHeading": "Buy before you sell questions",
   "faq": [
-    { "q": "Can I buy a house before selling mine?", "a": "Yes. A buy-before-you-sell program, a bridge loan or a HELOC on your current home can provide the down payment, and some programs also keep your old mortgage from counting against what you can afford." },
-    { "q": "What is a bridge loan?", "a": "A bridge loan is a short-term loan against the home you're selling, often as a second lien behind your current mortgage. It provides the down payment on your next home and is paid off when the old home sells." },
-    { "q": "Bridge loan or HELOC: which is better?", "a": "It depends on your timing and equity. A HELOC is easier to set up before your home is listed, while a bridge loan or buy-before-you-sell program is built for the move itself. Lenders' terms vary widely, so compare them side by side." },
-    { "q": "What happens if my old house doesn't sell?", "a": "With the buy-before-you-sell program we offer, if your old home hasn't sold within 120 days after you buy, the program buys it. You still receive your net proceeds after the program fee and holding costs once it sells." }
+    {
+      "q": "Can I buy a house before selling mine?",
+      "a": "Yes. A buy-before-you-sell program, a bridge loan or a HELOC on your current home can provide the down payment, and some programs also keep your old mortgage from counting against what you can afford."
+    },
+    {
+      "q": "What is a bridge loan?",
+      "a": "A bridge loan is a short-term loan against the home you're selling, often as a second lien behind your current mortgage. It provides the down payment on your next home and is paid off when the old home sells."
+    },
+    {
+      "q": "Bridge loan or HELOC: which is better?",
+      "a": "It depends on your timing and equity. A HELOC is easier to set up before your home is listed, while a bridge loan or buy-before-you-sell program is built for the move itself. Lenders' terms vary widely, so compare them side by side."
+    },
+    {
+      "q": "What happens if my old house doesn't sell?",
+      "a": "With the buy-before-you-sell program we offer, if your old home hasn't sold within 120 days after you buy, the program buys it at its backup offer and then sells it. You receive the net profits from that sale, less the program fee and holding costs."
+    }
   ],
-  "sources": []
+  "sources": [
+    {
+      "name": "CFPB, What You Should Know About Home Equity Lines of Credit (booklet)",
+      "url": "https://files.consumerfinance.gov/f/documents/cfpb_heloc-booklet-web.pdf_202610.pdf"
+    },
+    {
+      "name": "12 CFR 1026.40, requirements for home equity plans",
+      "url": "https://www.ecfr.gov/current/title-12/section-1026.40"
+    }
+  ],
+  "batch": "2026-11-b"
 }

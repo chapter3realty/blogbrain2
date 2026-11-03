@@ -23,7 +23,7 @@
     },
     {
       "q": "Does unemployment count as income for a mortgage?",
-      "a": "Seasonal unemployment can count when it clearly comes from a seasonal layoff, is expected to recur, and shows on your last two years of signed federal tax returns."
+      "a": "With a conventional loan, seasonal unemployment can count when it clearly comes from a seasonal layoff, is expected to recur, and shows on your last two years of signed federal tax returns."
     },
     {
       "q": "How do lenders calculate seasonal income?",
@@ -43,5 +43,6 @@
       "name": "Fannie Mae Selling Guide B3-3.4-17, Unemployment Benefits Income",
       "url": "https://selling-guide.fanniemae.com/sel/b3-3.4-17/unemployment-benefits-income"
     }
-  ]
+  ],
+  "batch": "2026-11-b"
 }

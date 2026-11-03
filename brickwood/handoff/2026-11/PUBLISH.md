@@ -2,7 +2,7 @@
 
 For the web team. Each post is one HTML file in this folder. Paste the whole file into one Custom HTML block in WordPress. It holds the styles, the article, the FAQ, the author box, the sources, the legal block and the structured data.
 
-Publish all 5 posts together, in this order. They link to each other, so a post published alone would link to a page that isn't live yet.
+Publish all 5 posts together, in this order. They link to each other, so a post published alone would link to a page that isn't live yet. Links to earlier BrickWood posts assume those are already live.
 
 ## 1. Flood Insurance in Myrtle Beach: When Your Mortgage Requires It
 

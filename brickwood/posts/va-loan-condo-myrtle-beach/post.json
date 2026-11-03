@@ -1,9 +1,9 @@
 {
   "slug": "/va-loan-condo-myrtle-beach/",
-  "title": "VA Loan for a Myrtle Beach Condo: Is It VA-Approved?",
+  "title": "VA-Approved Condos in Myrtle Beach: How to Check",
   "description": "Using a VA loan on a Myrtle Beach condo? How to check if the building is VA-approved, what VA reviews, and your options if it isn't on the list.",
   "focusKeyphrase": "va approved condos myrtle beach",
-  "h1": "VA Loan for a Myrtle Beach Condo: How to Check If It's VA-Approved",
+  "h1": "VA-Approved Condos in Myrtle Beach: How to Check Before You Buy",
   "h1InTheme": false,
   "dek": "The building has to be approved before the unit can get a VA loan. Here's how to check, and what to do if it isn't.",
   "affiliate": false,
@@ -30,8 +30,8 @@
       "a": "The condo's documents can be sent to VA for review, which takes time and the association's help. Or you can compare an FHA loan, a conventional loan or a non-warrantable condo loan."
     },
     {
-      "q": "Is there a VA loan limit for condos in Horry County?",
-      "a": "VA sets none for borrowers with their full entitlement. Anyone with entitlement still tied up in another VA loan has the county's conforming limit applied, which decides how much of the new loan VA will guarantee."
+      "q": "Can I use a VA loan on a beach condo I'll rent out?",
+      "a": "No. A VA loan is for a home you intend to live in, and you certify that when you apply and at closing. A second home or rental needs a different loan."
     }
   ],
   "sources": [
@@ -46,6 +46,11 @@
     {
       "name": "VA, home loan entitlement and limits",
       "url": "https://www.va.gov/housing-assistance/home-loans/loan-limits/"
+    },
+    {
+      "name": "38 U.S.C. 3704(c), occupancy certification for VA loans",
+      "url": "https://www.law.cornell.edu/uscode/text/38/3704"
     }
-  ]
+  ],
+  "batch": "2026-11-b"
 }
