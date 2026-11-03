@@ -31,6 +31,17 @@ Posts for brickwoodmortgage.com, made with this repo's craft (`CRAFT.md`) in Bri
 6. Author: Paul Hankins.
 7. Post 4 (`can-you-purchase-a-home-with-a-reverse-mortgage`) replaces the body of the existing post at the same URL. Keep the URL.
 
+## Handing a batch to the web team
+
+1. `node brickwood/linkcheck.js`: no broken links.
+2. `node brickwood/package.js <batch>` builds `handoff/<batch>/` (the post files, `PUBLISH.md` with slugs, Yoast fields and the publish order, `UPDATE-CALENDAR.md`) and `handoff/brickwood-posts-<batch>.zip`.
+3. Put the zip in the shared Google Drive or OneDrive folder. Never paste the posts into an email: Outlook rewrites every link into a "safe link" (web team, 2026-11-03).
+4. Every post in the batch goes in the package, and the team publishes them together, in the order given, because they link to each other.
+
+## Keeping posts current
+
+`facts/dated.json` lists every fact in a published post that can change, with the date to check it. Run `node brickwood/stale.js` at the start of every batch, and at least once a month. When one changes, fix the post, rebuild, package only the changed post, and send it with one line on what changed. `node brickwood/stale.js --all` prints the whole calendar.
+
 ## What these posts never state
 
 No interest rate, APR, payment amount or down payment percentage (Regulation Z trigger terms; `LEGAL.md`). No promise of approval. Facts only from verified ledger rows.

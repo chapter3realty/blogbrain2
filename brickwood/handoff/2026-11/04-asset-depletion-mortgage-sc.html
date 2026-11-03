@@ -1,0 +1,206 @@
+<!-- BrickWood post: /asset-depletion-mortgage-sc/ | Paste into one Custom HTML block. SEO title and meta description go in Yoast. -->
+<style>/* BrickWood Mortgage blog post styles, scoped to .bw-post so the WordPress theme is untouched.
+   Brand from brickwoodmortgage.com: Merriweather headings, Roboto text, logo brick red #8B090D, button blue #0400FB.
+   Sleek editorial look: whitespace, type, soft cards. No label boxes, no gradients (VOICE.md 4). */
+.bw-post{--ink:#18181b;--text:#2d2d33;--muted:#6b6b74;--soft:#9a9aa3;--brick:#8b090d;--brick-tint:#f6eded;--blue:#0400fb;--blue-dark:#0300c4;--line:#ebe7e2;--cream:#faf8f5;--card:#ffffff;
+  font-family:Roboto,"Helvetica Neue",Arial,sans-serif;font-size:18.5px;line-height:1.75;color:var(--text);max-width:1080px;margin:0 auto;padding:8px 20px 64px;-webkit-font-smoothing:antialiased}
+.bw-post *{box-sizing:border-box}
+.bw-post h1,.bw-post h2,.bw-post h3{font-family:Merriweather,Georgia,serif;color:var(--ink);letter-spacing:-.015em}
+.bw-post p{margin:0 0 1.15em}
+.bw-post a{color:var(--brick);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.bw-post a:hover{text-decoration-thickness:2px}
+.bw-post strong{color:var(--ink);font-weight:700}
+
+/* Layout: one column; a sticky side card on wide screens */
+.bw-main{max-width:700px;margin:0 auto;min-width:0}
+.bw-rail{display:none}
+@media (min-width:1100px){
+  .bw-post{display:grid;grid-template-columns:minmax(0,700px) 280px;gap:72px;justify-content:center}
+  .bw-main{margin:0}
+  .bw-rail{display:block}
+  .bw-rail-card{position:sticky;top:32px;margin-top:180px;padding:24px;border-radius:20px;border:1px solid var(--line);background:var(--card);box-shadow:0 18px 40px -24px rgba(24,24,27,.28);text-align:left}
+  .bw-rail-card img{width:56px;height:56px;border-radius:50%;object-fit:cover;display:block;margin-bottom:14px;background:var(--cream)}
+  .bw-rail-card p{font-size:.92rem;line-height:1.55;color:var(--muted);margin:0 0 16px}
+  .bw-rail-card p.bw-rail-head{font-family:Merriweather,Georgia,serif;font-weight:800;font-size:1.08rem;color:var(--ink);margin-bottom:6px;line-height:1.35}
+  .bw-rail-card .bw-btn{width:100%}
+  .bw-rail-call{display:block;text-align:center;margin-top:12px;font-size:.88rem;color:var(--muted)!important;text-decoration:none!important}
+}
+
+/* Header */
+.bw-head{padding:40px 0 28px;margin-bottom:36px;border-bottom:1px solid var(--line)}
+.bw-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:.82rem;color:var(--muted);margin:0 0 18px;letter-spacing:.02em}
+.bw-tag{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--brick-tint);color:var(--brick);font-weight:700}
+.bw-post h1{font-weight:900;font-size:clamp(2rem,5vw,2.75rem);line-height:1.18;margin:0 0 18px}
+.bw-dek{font-size:clamp(1.08rem,2.4vw,1.25rem);line-height:1.6;color:var(--muted);margin:0 0 26px;max-width:600px}
+.bw-author{display:flex;align-items:center;gap:14px;margin:0}
+.bw-author img{width:48px;height:48px;border-radius:50%;object-fit:cover;background:var(--cream);flex:0 0 48px}
+.bw-author span{display:block;line-height:1.35;font-size:.92rem;color:var(--muted)}
+.bw-author a{color:var(--ink);font-weight:700;text-decoration:none}
+
+/* Body */
+.bw-lead{font-size:1.2rem;line-height:1.7;color:var(--ink)}
+.bw-post h2{font-weight:800;font-size:clamp(1.45rem,3.4vw,1.8rem);line-height:1.3;margin:2.4em 0 .7em}
+.bw-post h2::before{content:"";display:block;width:32px;height:3px;border-radius:3px;background:var(--brick);margin-bottom:18px}
+.bw-post h3{font-weight:700;font-size:1.15rem;line-height:1.4;margin:1.7em 0 .4em}
+.bw-post ul{list-style:none;padding:0;margin:0 0 1.3em}
+.bw-post ul li{position:relative;padding-left:26px;margin:.55em 0}
+.bw-post ul li::before{content:"";position:absolute;left:6px;top:.72em;width:7px;height:7px;border-radius:50%;background:var(--brick)}
+.bw-post ol{list-style:none;counter-reset:n;padding:0;margin:0 0 1.3em}
+.bw-post ol li{counter-increment:n;position:relative;padding-left:44px;margin:0 0 1em}
+.bw-post ol li::before{content:counter(n);position:absolute;left:0;top:.1em;width:30px;height:30px;border-radius:9px;background:var(--cream);border:1px solid var(--line);color:var(--brick);font:700 .9rem/28px Merriweather,Georgia,serif;text-align:center}
+
+/* Tables */
+.bw-table-wrap{overflow-x:auto;margin:1.4em 0 1.8em;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.bw-post table{border-collapse:collapse;width:100%;font-size:.97rem;line-height:1.5}
+.bw-post th,.bw-post td{text-align:left;vertical-align:top;padding:14px 18px;border-bottom:1px solid var(--line)}
+.bw-post thead th{background:var(--cream);color:var(--muted);font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.bw-post tbody tr:last-child td{border-bottom:0}
+.bw-post tbody td:last-child{color:var(--ink);font-weight:500}
+
+/* Example and figure */
+.bw-example{background:var(--cream);border-radius:18px;padding:24px 26px;margin:1.8em 0;border:1px solid var(--line)}
+.bw-example p:last-child{margin:0}
+.bw-figure{margin:2em 0;padding:26px 26px 18px;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.bw-figure svg{display:block;width:100%;height:auto}
+.bw-figure figcaption{font-size:.85rem;color:var(--muted);margin-top:12px;line-height:1.5}
+
+.bw-fig-title{font-family:Merriweather,Georgia,serif;font-weight:800;font-size:1.05rem;color:var(--ink);margin:0 0 18px}
+.bw-bars{display:grid;gap:16px}
+.bw-bar-row{display:grid;grid-template-columns:1fr;gap:6px}
+.bw-bar-label{font-size:.9rem;color:var(--muted)}
+.bw-bar-track{display:block;height:14px;border-radius:999px;background:#f1ede8;overflow:hidden}
+.bw-bar{display:block;height:100%;border-radius:999px;background:var(--brick)}
+.bw-bar-muted{background:#b9b2ab}
+.bw-bar-value{font-weight:700;color:var(--ink);font-size:1.05rem}
+.bw-bar-strong{color:var(--brick);font-size:1.3rem}
+.bw-split{display:flex;gap:6px;border-radius:14px;overflow:hidden}
+.bw-split-part{padding:16px 16px 18px;min-width:0}
+.bw-split-part strong{display:block;font-size:1rem;line-height:1.3}
+.bw-split-part span{display:block;font-size:.85rem;line-height:1.4;margin-top:4px}
+.bw-split-you{background:#efe9e3}
+.bw-split-you strong{color:var(--ink)}.bw-split-you span{color:var(--muted)}
+.bw-split-loan{background:var(--brick)}
+.bw-split-loan strong,.bw-split-loan span{color:#fff}
+.bw-split-loan span{opacity:.85}
+
+/* Call to action */
+.bw-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;margin:2.6em 0;padding:28px;border-radius:20px;background:var(--card);border:1px solid var(--line);box-shadow:0 18px 40px -24px rgba(24,24,27,.28)}
+.bw-cta > div{flex:1 1 300px}
+.bw-cta p{margin:0;font-size:1rem;color:var(--muted);line-height:1.6}
+.bw-cta p.bw-cta-head{font-family:Merriweather,Georgia,serif;font-weight:800;font-size:1.25rem;color:var(--ink);margin-bottom:6px;line-height:1.35}
+.bw-actions{display:flex;flex-wrap:wrap;gap:10px}
+.bw-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:10px;background:var(--blue);color:#fff!important;text-decoration:none!important;font-weight:500;font-size:1rem;letter-spacing:.01em;transition:background .15s,transform .15s}
+.bw-btn:hover{background:var(--blue-dark);transform:translateY(-1px)}
+.bw-btn-line{background:transparent;color:var(--ink)!important;border:1px solid #d6d1cb}
+.bw-btn-line:hover{background:var(--cream);transform:translateY(-1px)}
+
+/* FAQ, sources, author, legal */
+.bw-faq{margin-top:3em}
+.bw-faq-item{padding:18px 0;border-top:1px solid var(--line)}
+.bw-faq-item:last-child{border-bottom:1px solid var(--line)}
+.bw-faq-item h3{margin:0 0 .35em;font-size:1.08rem}
+.bw-faq-item p{margin:0;color:var(--text)}
+.bw-bio{display:flex;gap:18px;align-items:flex-start;margin:3em 0 0;padding:24px;border-radius:18px;background:var(--cream);border:1px solid var(--line)}
+.bw-bio img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:0 0 64px;background:#fff}
+.bw-bio p{margin:0;font-size:.95rem;line-height:1.6;color:var(--muted)}
+.bw-bio p.bw-bio-name{color:var(--ink);font-weight:700;font-size:1rem;margin-bottom:4px}
+.bw-sources{margin-top:2.4em;font-size:.88rem;color:var(--muted)}
+.bw-sources p{font-weight:700;color:var(--ink);margin:0 0 .4em}
+.bw-sources ul li{padding-left:18px;margin:.3em 0}
+.bw-sources ul li::before{width:5px;height:5px;left:2px;top:.75em;background:var(--soft)}
+.bw-sources a{color:var(--muted)}
+.bw-legal{margin-top:2em;padding:20px 22px;border-radius:14px;background:#f4f3f1;font-size:.8rem;line-height:1.6;color:var(--muted)}
+.bw-legal p{margin:0 0 .6em}
+.bw-legal p:last-child{margin:0}
+.bw-legal strong{color:var(--muted)}
+.bw-legal a{color:var(--muted)}
+.bw-ehl{display:flex;gap:12px;align-items:center}
+.bw-ehl img{width:36px;height:36px;flex:0 0 36px;opacity:.8}
+
+@media (max-width:560px){
+  .bw-post{font-size:17.5px;padding:4px 18px 48px}
+  .bw-head{padding:26px 0 22px;margin-bottom:28px}
+  .bw-cta{padding:22px}
+  .bw-actions,.bw-actions .bw-btn{width:100%}
+  .bw-figure{padding:18px 16px 14px}
+  .bw-example{padding:20px}
+  .bw-post th,.bw-post td{padding:12px 14px}
+}
+</style>
+<article class="bw-post"><div class="bw-main"><header class="bw-head">
+<p class="bw-meta"><span class="bw-tag">Loan programs</span><span>5 min read</span></p>
+<h1>Asset Depletion Loans in South Carolina: Buy on Savings, Not a Paycheck</h1>
+<p class="bw-dek">Retiring to the coast, between jobs or living off investments? Your savings can count as income.</p>
+<p class="bw-author"><img src="https://brickwoodmortgage.com/wp-content/uploads/2026/05/Paul-Hankins-CEO-300x276.png" alt="Paul Hankins" width="48" height="48" loading="lazy"><span><a href="https://brickwoodmortgage.com/loan-officers/paul-hankins/">Paul Hankins</a><br>Founder & Broker · NMLS #281393</span></p>
+</header><p class="bw-lead">An asset depletion loan lets you qualify for a mortgage with your savings instead of a paycheck. The lender adds up your accounts, sets aside what you need to buy the home, and turns the rest into a monthly income figure. That figure counts just like a salary.</p>
+
+<p>It is built for people with money in the bank but little income on paper:</p>
+<ul>
+<li>retirees living on savings;</li>
+<li>people who sold a business or a property;</li>
+<li>people between jobs or taking time off;</li>
+<li>investors who live off their accounts.</li>
+</ul>
+
+<h2>How asset depletion works</h2>
+<p>Lenders use a simple formula:</p>
+<p><strong>(Your eligible assets − down payment − closing costs − reserves) ÷ a set number of months = your monthly qualifying income</strong></p>
+<p>Reserves are the savings a lender wants you to still have after closing. Whatever is left after the purchase gets spread over the months, and that monthly amount is your income for the loan.</p>
+<p>The number of months makes a big difference. Fannie Mae's version divides by the months in the loan: 360 for a 30-year mortgage. Some of the lenders we work with divide by fewer months, as few as 60. Others land in between. That number is only used to figure your income.</p>
+
+<figure class="bw-figure">
+<p class="bw-fig-title">Same $900,000. Different lenders.</p>
+<div class="bw-bars" role="img" aria-label="Divided by 360 months: $2,500 a month. Divided by 60 months: $15,000 a month.">
+<div class="bw-bar-row"><span class="bw-bar-label">Divided by 360 months</span><span class="bw-bar-track"><span class="bw-bar bw-bar-muted" style="width:16.7%"></span></span><span class="bw-bar-value">$2,500 a month</span></div>
+<div class="bw-bar-row"><span class="bw-bar-label">Divided by 60 months</span><span class="bw-bar-track"><span class="bw-bar" style="width:100%"></span></span><span class="bw-bar-value bw-bar-strong">$15,000 a month</span></div>
+</div>
+<figcaption>Monthly qualifying income from $900,000 left after the down payment, closing costs and reserves.</figcaption>
+</figure>
+
+<div class="bw-example"><p><strong>An example.</strong> Linda is 66. She sold her business in New Jersey and wants a house in Pawleys Island. She has $1.4 million in savings and investments, but no paycheck. After her down payment, closing costs and reserves, $900,000 of eligible assets are left. A lender that divides by 360 months counts $2,500 a month as her income. A lender that divides by 60 months counts $15,000 a month. Same savings, very different buying power.</p></div>
+
+<h2>The trade-off: fewer months, tougher terms</h2>
+<p>A shorter divide factor isn't free. In general, the fewer months a lender divides by, the tougher its other terms get. The lenders we work with offer options anywhere from 360 months down to 60, and the best fit depends on how much you have in assets, the price of the home and how you want the loan set up. That's exactly what a quick call with a loan officer sorts out.</p>
+
+<h2>What counts as an asset</h2>
+<p>Lenders don't count every dollar the same way. Here is how one of our lenders counts them:</p>
+<div class="bw-table-wrap"><table>
+<thead><tr><th>Type of account</th><th>How much counts</th></tr></thead>
+<tbody>
+<tr><td>Checking, savings, money market</td><td>100%</td></tr>
+<tr><td>Money from selling real estate you owned</td><td>100%</td></tr>
+<tr><td>Stocks, bonds, mutual funds</td><td>70%</td></tr>
+<tr><td>Retirement accounts, if you are 59½ or older</td><td>70%</td></tr>
+<tr><td>Retirement accounts, if you are under 59½</td><td>60%</td></tr>
+</tbody></table></div>
+<p>Fannie Mae's version is stricter. It counts only retirement accounts and a retirement or severance payout from an employer. Money from selling a business or a house does not count under Fannie Mae's rules, but it does with lenders like the one above.</p>
+
+<h2>Asset depletion loan requirements</h2>
+<p>Every lender sets its own rules. Here are the rules at one of the lenders we work with:</p>
+<ul>
+<li><strong>Enough assets.</strong> At least $1 million, or 150% of the loan amount, whichever is lower. This minimum doesn't apply if you are using your assets to add to other income, like Social Security or a pension.</li>
+<li><strong>Seasoned money.</strong> The money has been in a U.S. account for at least 120 days. Money from selling real estate you owned doesn't need to wait.</li>
+<li><strong>Recent statements.</strong> Your 4 most recent monthly statements, recent quarterly statements, or a verification form from your bank.</li>
+<li><strong>Money you can reach.</strong> The accounts must be available to you without a penalty.</li>
+<li><strong>Everyone on the loan.</strong> Anyone named on the accounts must also sign the loan.</li>
+<li><strong>The lower credit score.</strong> If two of you apply, the lender uses the lower of your scores.</li>
+</ul>
+
+<h2>Moving to the Grand Strand after selling your home?</h2>
+<p>If you're selling a house in another state first, this helps. With the lender above, money from selling a home you owned counts in full and doesn't have to sit in your account for 120 days first. That makes the timing much easier when you sell up north and buy at the beach.</p>
+<p>South Carolina also doesn't tax Social Security, and once you've turned 65 and lived here at least a year by December 31 of the year before, the first $50,000 of your main home's value is exempt from property taxes. Both help the monthly budget once you've moved.</p>
+
+<h2>Can you combine it with Social Security or a pension?</h2>
+<p>Yes. Your asset income is added to your Social Security, pension or other income, and the lender looks at the total. With that lender, the $1 million minimum is waived when your assets are only adding to other income.</p>
+
+<h2>Do you have to sell your investments?</h2>
+<p>No. The lender only needs to see that the money is yours and that you can reach it. Your accounts can stay invested. The formula is a way to measure what you can afford, not a plan to drain your savings.</p>
+
+<h2>Asset depletion or a bank statement loan?</h2>
+<p>If you are self-employed and your business deposits are steady, a <a href="https://brickwoodmortgage.com/bank-statement-mortgage-loans-south-carolina/">bank statement loan</a> may fit better. It looks at the money flowing through your accounts each month. Asset depletion looks at the money sitting in them. If you are buying a rental, a <a href="https://brickwoodmortgage.com/dscr-lenders-south-carolina/">DSCR loan</a> qualifies you on the rent instead. For more ways to qualify without a job, see <a href="https://brickwoodmortgage.com/can-i-get-mortgage-without-a-job-and-no-income/">can I get a mortgage without a job</a>.</p>
+
+<p>We help buyers using their savings in <a href="https://brickwoodmortgage.com/mortgage-broker-company-myrtle-beach/">Myrtle Beach</a>, <a href="https://brickwoodmortgage.com/mortgage-broker-company-pawleys-island/">Pawleys Island</a>, <a href="https://brickwoodmortgage.com/mortgage-broker-company-north-myrtle-beach/">North Myrtle Beach</a> and across South Carolina.</p>
+
+<div class="bw-cta"><div><p class="bw-cta-head">See what your savings can qualify for</p><p>BrickWood is a mortgage broker, so we can compare asset programs from several lenders, from 360 months down to 60. Give us a call, and a loan officer will walk you through which one fits your accounts best.</p></div><div class="bw-actions"><a class="bw-btn" href="https://brickwoodmortgage.com/pre-qualify-your-loan/">Pre-qualify</a><a class="bw-btn bw-btn-line" href="tel:+18433144101">Call (843) 314-4101</a></div></div>
+<section class="bw-faq" id="faq"><h2>Asset depletion loan questions</h2><div class="bw-faq-item"><h3>What is an asset depletion loan?</h3><p>An asset depletion loan is a mortgage where the lender turns your savings and investments into a monthly income figure, so you can qualify without a paycheck. It suits retirees and people who sold a business.</p></div><div class="bw-faq-item"><h3>How is asset depletion income calculated?</h3><p>The lender takes your eligible assets, subtracts the down payment, closing costs and required reserves, and divides the rest by a set number of months. Fannie Mae uses the months in the loan, 360 for a 30-year mortgage. Other lenders divide by fewer, as few as 60, usually with tougher terms in return.</p></div><div class="bw-faq-item"><h3>Can I get a mortgage with no income but assets?</h3><p>Yes. With an asset depletion loan, your savings and investments can stand in for income. You'll need enough assets left after the purchase, and the money usually needs to have been in your account for a few months.</p></div><div class="bw-faq-item"><h3>Do retirement accounts count for asset depletion?</h3><p>Yes, usually at part of their value. One of our lenders counts 70% of a retirement account if you are 59½ or older and 60% if you are younger. That lender counts cash in checking or savings in full.</p></div></section><aside class="bw-bio"><img src="https://brickwoodmortgage.com/wp-content/uploads/2026/05/Paul-Hankins-CEO-300x276.png" alt="" width="64" height="64" loading="lazy"><div><p class="bw-bio-name">About Paul Hankins</p><p>Paul founded BrickWood Mortgage in 2007 and has spent more than 20 years in residential lending. In 2025 the Governor appointed him to the South Carolina Council of Advisors on Consumer Credit.</p></div></aside><section class="bw-sources"><p>Sources</p><ul><li><a href="https://selling-guide.fanniemae.com/sel/b3-3.4-06/employment-related-assets-qualifying-income" rel="nofollow">Fannie Mae Selling Guide B3-3.4-06, Employment-Related Assets as Qualifying Income</a></li><li><a href="https://www.scstatehouse.gov/code/t12c006.php" rel="nofollow">S.C. Code 12-6-1120, Social Security not included in SC income</a></li><li><a href="https://www.scstatehouse.gov/code/t12c037.php" rel="nofollow">S.C. Code 12-37-250, homestead exemption at 65</a></li></ul></section><aside class="bw-legal" aria-label="Licensing and disclosures"><p><strong>Disclaimer.</strong> This article is provided for general educational purposes only and is not an offer or commitment to lend. Not all loan programs mentioned, including down payment assistance and third-party or government programs, are offered by BrickWood Mortgage Inc. Program availability, terms and eligibility vary by lender and location and are subject to change. Please contact a licensed loan officer to find out which programs we currently offer.</p><p>This material is not provided by, endorsed by, or approved by HUD, FHA, VA, or any government agency.</p><p class="bw-ehl"><img src="https://brickwoodmortgage.com/wp-content/uploads/2026/06/Equal-Housing-Lender-150x150.png" alt="Equal Housing Lender logo" width="44" height="44" loading="lazy"><span>Equal Housing Lender. We do business in accordance with the Fair Housing Act and the Equal Credit Opportunity Act.</span></p><p>BrickWood Mortgage Inc. <a href="https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/189497" rel="nofollow">NMLS #189497</a>. 1601 Glenns Bay Rd., Surfside Beach, SC 29575. (843) 314-4101.</p></aside></div><aside class="bw-rail" aria-label="Talk to a loan officer"><div class="bw-rail-card"><img src="https://brickwoodmortgage.com/wp-content/uploads/2026/05/Paul-Hankins-CEO-300x276.png" alt="" width="56" height="56" loading="lazy"><p class="bw-rail-head">Living on savings?</p><p>Talk with a BrickWood loan officer. No pressure, just answers.</p><a class="bw-btn" href="https://brickwoodmortgage.com/pre-qualify-your-loan/">Pre-qualify</a><a class="bw-rail-call" href="tel:+18433144101">or call (843) 314-4101</a></div></aside></article>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"Asset Depletion Loans in South Carolina: Buy on Savings, Not a Paycheck","description":"Buying in Myrtle Beach or anywhere in SC on savings, not a paycheck? How asset depletion loans work, what counts, and why some lenders divide by 60.","mainEntityOfPage":"https://brickwoodmortgage.com/asset-depletion-mortgage-sc/","url":"https://brickwoodmortgage.com/asset-depletion-mortgage-sc/","author":{"@type":"Person","name":"Paul Hankins","jobTitle":"Founder & Broker","url":"https://brickwoodmortgage.com/loan-officers/paul-hankins/","identifier":"NMLS 281393"},"publisher":{"@type":"Organization","name":"BrickWood Mortgage Inc.","url":"https://brickwoodmortgage.com/","logo":{"@type":"ImageObject","url":"https://brickwoodmortgage.com/wp-content/uploads/2021/09/BrickWood-Mortgage-logo.png"},"identifier":"NMLS 189497"},"about":{"@type":"Thing","name":"Asset depletion mortgage"},"spatialCoverage":{"@type":"Place","name":"South Carolina"},"inLanguage":"en-US"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is an asset depletion loan?","acceptedAnswer":{"@type":"Answer","text":"An asset depletion loan is a mortgage where the lender turns your savings and investments into a monthly income figure, so you can qualify without a paycheck. It suits retirees and people who sold a business."}},{"@type":"Question","name":"How is asset depletion income calculated?","acceptedAnswer":{"@type":"Answer","text":"The lender takes your eligible assets, subtracts the down payment, closing costs and required reserves, and divides the rest by a set number of months. Fannie Mae uses the months in the loan, 360 for a 30-year mortgage. Other lenders divide by fewer, as few as 60, usually with tougher terms in return."}},{"@type":"Question","name":"Can I get a mortgage with no income but assets?","acceptedAnswer":{"@type":"Answer","text":"Yes. With an asset depletion loan, your savings and investments can stand in for income. You'll need enough assets left after the purchase, and the money usually needs to have been in your account for a few months."}},{"@type":"Question","name":"Do retirement accounts count for asset depletion?","acceptedAnswer":{"@type":"Answer","text":"Yes, usually at part of their value. One of our lenders counts 70% of a retirement account if you are 59½ or older and 60% if you are younger. That lender counts cash in checking or savings in full."}}]}]}</script>
