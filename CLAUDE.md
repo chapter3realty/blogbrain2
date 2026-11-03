@@ -26,6 +26,10 @@ GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 -b claude/github-account-check-wutg8b 
 6. `research/website-process-digest.md`: a summary of the website's 4,000 lines of process docs.
 7. Before writing any page: `voice/RULES.md` (the owner's corrections by class) and `stories/stories.json` (real stories; never add a detail). The reviewer answers `voice/REVIEW-PASS.md`. What the owner said about past pages, including what he praised, is in `voice/VERDICTS.md`.
 
+## BrickWood Mortgage posts
+
+Posts for brickwoodmortgage.com live in `brickwood/`. Read `brickwood/PLAYBOOK.md` first (the `brickwood-post` skill loads it). BrickWood is a different business from Chapter3: never carry a Chapter3 promise into a BrickWood post.
+
 ## Commands
 
 ```
