@@ -7,7 +7,7 @@
   "h1": "HECM for Purchase: Buying in Myrtle Beach With a Reverse Mortgage",
   "h1InTheme": false,
   "dek": "Retiring to the Grand Strand? Buy your next home at 62 or older with no monthly mortgage payment.",
-  "affiliate": false,
+  "affiliate": true,
   "reverse": true,
   "about": {
     "@type": "Thing",
@@ -42,8 +42,8 @@
       "url": "https://www.ecfr.gov/current/title-24/part-206"
     },
     {
-      "name": "HUD, 2026 Nationwide HECM Limits (Mortgagee Letter 2025-22)",
-      "url": "https://www.hud.gov/hud-partners/single-family-lender"
+      "name": "HUD Mortgagee Letter 2025-22, 2026 Nationwide HECM Limits",
+      "url": "https://www.hud.gov/sites/dfiles/hudclips/documents/2025-22hsgml.pdf"
     },
     {
       "name": "HUD, talk to a housing counselor",

@@ -6,7 +6,7 @@ What I learned making the first five posts (November 2026), written as one way o
 
 BrickWood Mortgage is a broker in Surfside Beach. It pre-qualifies people, answers their questions, takes applications and shops each loan across its lenders. It does nothing on a property before an offer. The lender does the building review, the flood certificate and the underwriting, after application. Every promise on a page has to fit that.
 
-BrickWood isn't Chapter3. They are affiliated, but they are different businesses. Chapter3 sells places and does checks before an offer. BrickWood sells loans and answers. Never carry a Chapter3 promise, tone or link across.
+BrickWood isn't Chapter3. They are affiliated, but they are different businesses. Chapter3 sells places and does checks before an offer. BrickWood sells loans and answers. Never carry a Chapter3 promise or tone across. A link to a Chapter3 page is allowed when the owner asks for one (2026-11-19): one link per post at most, on a page that answers the reader's next question, named in the sentence as "Chapter3 Realty, our affiliated real estate company", with `"affiliate": true` in post.json so the legal block carries the disclosure.
 
 Paul's buyer has some money and is close to applying: a second home buyer, someone retiring to the coast, a buyer with savings but no paycheck, a condo buyer from out of state. Choose the audience by topic. Never write anything that turns a reader away.
 
