@@ -6,12 +6,12 @@ Three posts changed. For each one, replace the whole Custom HTML block with the 
 
 - Source fixed: "Fannie Mae Selling Guide B4-2.2-01, Full Review" now links to https://selling-guide.fanniemae.com/sel/b4-2.2-01/full-review-process. Fannie Mae renumbered this section on August 5, 2026: Full Review moved from B4-2.2-02 to B4-2.2-01. The old link opens the same section, but the label and the link now match.
 - Source fixed: Lender Letter LL-2026-03 now links to Fannie Mae's own copy: https://singlefamily.fanniemae.com/media/document/pdf/lender-letter-ll-2026-03-updates-project-standards-property-insurance-requirements
-- New: one link to Chapter3 Realty's warrantable vs non-warrantable condos page, in "Tips before you make an offer". The sentence names Chapter3 as BrickWood's affiliated real estate company. The legal block at the end now carries the affiliate disclosure.
+- New: one link to Chapter3 Realty's warrantable vs non-warrantable condos page, in "Tips before you make an offer".
 
 ## HECM for Purchase (`can-you-purchase-a-home-with-a-reverse-mortgage.html`)
 
 - Source fixed: "HUD Mortgagee Letter 2025-22, 2026 Nationwide HECM Limits" now links to the letter itself: https://www.hud.gov/sites/dfiles/hudclips/documents/2025-22hsgml.pdf
-- New: one link to Chapter3 Realty's retiring to Myrtle Beach page, in the South Carolina tax section, with the same affiliate wording and disclosure.
+- New: one link to Chapter3 Realty's retiring to Myrtle Beach page, in the South Carolina tax section.
 
 ## Horry County loan limits (`horry-county-loan-limits.html`)
 

@@ -7,7 +7,7 @@
   "h1": "HECM for Purchase: Buying in Myrtle Beach With a Reverse Mortgage",
   "h1InTheme": false,
   "dek": "Retiring to the Grand Strand? Buy your next home at 62 or older with no monthly mortgage payment.",
-  "affiliate": true,
+  "affiliate": false,
   "reverse": true,
   "about": {
     "@type": "Thing",

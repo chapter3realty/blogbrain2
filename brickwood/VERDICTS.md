@@ -2,6 +2,12 @@
 
 Newest first. Each entry: his words, what the reader lost, the general cause, what changed. The general lesson lives in `CRAFT.md` section 2, "True in practice, not only on paper".
 
+## 2026-11-20, the Chapter3 links without the affiliation
+
+> "you dont need to mention that we are affiliated on the website"
+
+The two link sentences now name Chapter3 Realty only, and the affiliate disclosure is off both posts. The rule is in `PLAYBOOK.md`.
+
 ## 2026-11-19, the SEO company's source check, and a Chapter3 link
 
 The SEO company flagged three source links: the Full Review label pointed at B4-2.2-02 (Fannie Mae renumbered the section to B4-2.2-01 on 2026-08-05), LL-2026-03 pointed at a copy on tenaco.com, and Mortgagee Letter 2025-22 pointed at HUD's general lender page. Each now points at the document itself; Mortgagee Letter 2025-23 on the loan limits post had the same fault and was fixed too. Class: a source link opens the exact document named, on the publisher's own site, even when that site blocks our checker.
