@@ -13,7 +13,7 @@ BrickWood is a mortgage broker. It pre-qualifies borrowers, answers questions, t
 - Never write "we check the building", "we read the HOA papers", "we order the flood check", "we confirm", "before you offer, we...". Those are Chapter3 services, and BrickWood does not do them.
 - Say who does what. After the buyer is under contract and applies, **the lender** reviews the condo, orders the flood zone determination and underwrites the loan.
 - Offers on a page: pre-qualify online, talk to a loan officer, call, or use the site's calculators. Nothing else.
-- No Chapter3 links or Chapter3-style service promises in BrickWood posts.
+- No Chapter3-style service promises in BrickWood posts. Links to Chapter3 pages only where Paul asks for them (2026-11-20: the condo and second home posts), to Chapter3's information pages, with the affiliated business disclosure in the legal block (`"affiliate": true`).
 
 ## 2. Titles people actually search
 
